@@ -140,10 +140,6 @@
 /obj/item/reagent_containers/glass/cup/wooden,
 /turf/open/floor/cobble/alt,
 /area/under/tomb/indoors)
-"iJ" = (
-/obj/structure/trap,
-/turf/open/floor/blocks,
-/area/under/tomb/indoors)
 "jc" = (
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
@@ -427,7 +423,7 @@
 /area/under/tomb/indoors)
 "Fr" = (
 /obj/structure/spider/stickyweb,
-/obj/structure/trap,
+/obj/structure/trap/spike,
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
 "Gg" = (
@@ -491,11 +487,6 @@
 "Lh" = (
 /turf/open/floor/twig,
 /area/under/tomb)
-"Lk" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/trap,
-/turf/open/floor/blocks,
-/area/under/tomb/indoors)
 "LB" = (
 /obj/structure/rack,
 /turf/open/floor/blocks,
@@ -963,7 +954,7 @@ NE
 Mz
 Wh
 Wh
-iJ
+kX
 XR
 LV
 Wh
@@ -1005,7 +996,7 @@ Mz
 Wh
 bh
 fJ
-kX
+Bn
 kX
 LV
 kX
@@ -1114,7 +1105,7 @@ NE
 NE
 NI
 kX
-iJ
+Bn
 kX
 zV
 kX
@@ -2796,7 +2787,7 @@ cI
 Ra
 kX
 LV
-Lk
+Tj
 Wh
 LV
 kX
