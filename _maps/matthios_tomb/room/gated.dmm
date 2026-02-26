@@ -69,6 +69,11 @@
 /obj/structure/tent_wall,
 /turf/open/floor/cobble,
 /area/under/tomb/indoors)
+"es" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/carbon/human/species/skeleton/npc/warrior,
+/turf/open/floor/cobble,
+/area/under/tomb/indoors)
 "ev" = (
 /obj/structure/fluff/statue/knight,
 /turf/open/floor/churchbrick,
@@ -77,10 +82,6 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/cobble/alt,
 /area/under/tomb)
-"fC" = (
-/mob/living/simple_animal/hostile/skeleton,
-/turf/open/floor/blocks,
-/area/under/tomb/indoors)
 "fJ" = (
 /obj/effect/decal/cleanable/dirt/cobweb,
 /obj/machinery/light/fueled/torchholder/l,
@@ -113,6 +114,11 @@
 "hZ" = (
 /turf/open/floor/rooftop,
 /area/under/tomb)
+"id" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/carbon/human/species/skeleton/npc/peasant,
+/turf/open/floor/cobble,
+/area/under/tomb/indoors)
 "in" = (
 /obj/effect/decal/cleanable/dirt/cobweb{
 	dir = 1
@@ -163,7 +169,7 @@
 /area/under/tomb/indoors)
 "kU" = (
 /obj/structure/door/green,
-/turf/open/floor/cobble/alt,
+/turf/open/floor/cobble,
 /area/under/tomb/indoors)
 "kX" = (
 /turf/open/floor/blocks,
@@ -172,6 +178,11 @@
 /obj/item/ammo_casing/caseless/arrow,
 /turf/open/floor/cobble/alt,
 /area/under/tomb)
+"mk" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/carbon/human/species/skeleton/npc/warrior,
+/turf/open/floor/blocks,
+/area/under/tomb/indoors)
 "mR" = (
 /obj/structure/rack,
 /obj/item/weapon/polearm/spear/bronze,
@@ -203,6 +214,10 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/cobble,
 /area/under/tomb)
+"ox" = (
+/mob/living/carbon/human/species/skeleton/npc,
+/turf/open/floor/blocks,
+/area/under/tomb/indoors)
 "pk" = (
 /obj/structure/table/wood/plain,
 /obj/effect/spawner/map_spawner/loot/common,
@@ -227,10 +242,6 @@
 	dir = 10
 	},
 /turf/open/floor/cobble/alt,
-/area/under/tomb/indoors)
-"qa" = (
-/mob/living/simple_animal/hostile/skeleton/axe,
-/turf/open/floor/blocks,
 /area/under/tomb/indoors)
 "qA" = (
 /obj/structure/rack,
@@ -282,16 +293,12 @@
 /obj/effect/decal/cleanable/debris/stone,
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
-"vD" = (
-/obj/effect/decal/cleanable/debris/stone,
-/mob/living/simple_animal/hostile/skeleton/bow,
-/turf/open/floor/blocks,
-/area/under/tomb/indoors)
 "vZ" = (
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_x = -32;
 	pixel_y = 0
 	},
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/cobble/alt,
 /area/under/tomb/indoors)
 "wa" = (
@@ -299,13 +306,8 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
-"wd" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/skeleton,
-/turf/open/floor/cobble/alt,
-/area/under/tomb/indoors)
-"xH" = (
-/mob/living/simple_animal/hostile/skeleton/spear,
+"xl" = (
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
 "xV" = (
@@ -321,11 +323,6 @@
 /obj/structure/roguerock,
 /turf/open/floor/cobble,
 /area/under/tomb)
-"yj" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/skeleton,
-/turf/open/floor/cobble,
-/area/under/tomb/indoors)
 "yE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/fueled/wallfire/candle,
@@ -359,7 +356,7 @@
 /area/under/tomb/indoors)
 "Ay" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/skeleton/guard,
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
 "AI" = (
@@ -370,11 +367,6 @@
 "AJ" = (
 /turf/open/floor/cobble/alt,
 /area/under/tomb)
-"AK" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/skeleton/axe,
-/turf/open/floor/blocks,
-/area/under/tomb/indoors)
 "Bc" = (
 /obj/structure/table/wood/plain,
 /obj/effect/spawner/map_spawner/loot/food,
@@ -421,7 +413,7 @@
 /area/under/tomb/indoors)
 "Es" = (
 /obj/structure/door/red,
-/turf/closed/wall/mineral/decorstone,
+/turf/open/floor/cobble,
 /area/under/tomb/indoors)
 "EQ" = (
 /obj/structure/tent_wall,
@@ -488,6 +480,10 @@
 /obj/item/ammo_casing/caseless/arrow,
 /turf/open/floor/naturalstone,
 /area/under/tomb)
+"KZ" = (
+/mob/living/carbon/human/species/skeleton/npc/peasant,
+/turf/open/floor/cobble,
+/area/under/tomb/indoors)
 "La" = (
 /obj/machinery/light/fueled/campfire,
 /turf/open/floor/cobble,
@@ -514,6 +510,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
+"Mh" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/carbon/human/species/skeleton/npc,
+/turf/open/floor/blocks,
+/area/under/tomb/indoors)
 "Mk" = (
 /obj/structure/table/wood/plain,
 /obj/effect/spawner/map_spawner/loot/armor,
@@ -534,7 +536,7 @@
 "Nh" = (
 /obj/structure/door/red,
 /obj/structure/barricade/wooden/crude,
-/turf/open/floor/blocks,
+/turf/open/floor/cobble,
 /area/under/tomb/indoors)
 "Nx" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -547,17 +549,11 @@
 "NI" = (
 /obj/structure/door/red,
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage,
-/turf/closed/wall/mineral/decorstone,
+/turf/open/floor/cobble,
 /area/under/tomb/indoors)
 "NK" = (
 /obj/structure/spider/stickyweb,
 /obj/structure/trap/shock,
-/turf/open/floor/blocks,
-/area/under/tomb/indoors)
-"Oe" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/skeleton/bow,
-/obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
 "Of" = (
@@ -653,7 +649,7 @@
 /area/under/tomb)
 "TM" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/skeleton,
+/mob/living/carbon/human/species/skeleton/npc,
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
 "UX" = (
@@ -716,17 +712,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble/alt,
 /area/under/tomb/indoors)
-"XP" = (
-/mob/living/simple_animal/hostile/skeleton,
-/turf/open/floor/cobble,
-/area/under/tomb/indoors)
 "XR" = (
 /obj/structure/stairs,
 /turf/open/floor/blocks,
-/area/under/tomb/indoors)
-"Yk" = (
-/mob/living/simple_animal/hostile/skeleton/guard,
-/turf/open/floor/cobble/alt,
 /area/under/tomb/indoors)
 "Yo" = (
 /obj/structure/table/wood/large/corner{
@@ -755,7 +743,7 @@
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
 "ZQ" = (
-/mob/living/simple_animal/hostile/skeleton/guard,
+/mob/living/carbon/human/species/skeleton/npc/warrior,
 /turf/open/floor/blocks,
 /area/under/tomb/indoors)
 
@@ -1085,7 +1073,7 @@ NE
 Wh
 kX
 LV
-fC
+ox
 kX
 to
 YU
@@ -1212,7 +1200,7 @@ bh
 bh
 in
 LV
-kX
+ox
 LV
 dL
 bh
@@ -1479,7 +1467,7 @@ NE
 NE
 Wh
 Js
-Yk
+mU
 xV
 xV
 XO
@@ -1507,7 +1495,7 @@ Wh
 Rw
 Nx
 Rw
-sc
+es
 mR
 Wh
 NE
@@ -1547,7 +1535,7 @@ AJ
 AJ
 yZ
 Rw
-XP
+Of
 Wu
 sc
 qA
@@ -1605,7 +1593,7 @@ Mz
 Mz
 bh
 Of
-sc
+id
 dQ
 dQ
 Nx
@@ -1631,9 +1619,9 @@ Mz
 NE
 Wh
 pu
-Of
+KZ
 kw
-wd
+XO
 qA
 bh
 AJ
@@ -1648,7 +1636,7 @@ Mz
 bh
 Js
 Of
-yj
+sc
 Nx
 sc
 Wh
@@ -1984,8 +1972,8 @@ bh
 LV
 LV
 kX
+TM
 LV
-AK
 kX
 kX
 Wh
@@ -2740,7 +2728,7 @@ cI
 Wh
 pk
 kX
-kX
+ZQ
 kX
 kX
 QX
@@ -2784,7 +2772,7 @@ kX
 kX
 kX
 Wh
-fC
+kX
 kX
 kX
 Ra
@@ -2806,7 +2794,7 @@ cI
 cI
 cI
 Ra
-xH
+kX
 LV
 Lk
 Wh
@@ -2826,7 +2814,7 @@ de
 kX
 kX
 Tb
-kX
+xl
 kX
 LB
 Wh
@@ -3607,7 +3595,7 @@ cI
 Wh
 Wh
 LV
-vD
+vm
 Mk
 Wh
 Wh
@@ -3621,10 +3609,10 @@ cI
 cI
 Wh
 Wh
-Oe
+Cg
 LV
 kX
-qa
+kX
 LV
 Wh
 Wh
@@ -3650,7 +3638,7 @@ Wh
 hu
 zM
 bz
-LV
+mk
 LV
 Wh
 Wh
@@ -3663,10 +3651,10 @@ cI
 cI
 Wh
 RZ
-sQ
+Mh
 kX
 Wy
-LV
+mk
 LV
 kX
 Wh
