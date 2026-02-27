@@ -190,7 +190,7 @@
 "nC" = (
 /obj/structure/door/green,
 /obj/structure/barricade/wooden/crude,
-/turf/closed/wall/mineral/decorstone,
+/turf/open/floor/cobble,
 /area/under/tomb/indoors)
 "nF" = (
 /obj/structure/bars/passage/shutter{
@@ -2161,7 +2161,7 @@ WA
 LV
 bh
 bh
-Of
+NE
 NE
 Zy
 Zy
