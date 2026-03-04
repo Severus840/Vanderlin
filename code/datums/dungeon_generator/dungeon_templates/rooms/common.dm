@@ -463,3 +463,13 @@
 	north_offset = 9
 	south_offset = 9
 
+/datum/map_template/dungeon/room/TheMachine
+	mappath = "_maps/matthios_tomb/room/TheMachine.dmm"
+	id = "TheMachine"
+	width = 25
+	height = 25
+
+	west_offset = 12
+	east_offset = 12
+	north_offset = 12
+	south_offset = 12
