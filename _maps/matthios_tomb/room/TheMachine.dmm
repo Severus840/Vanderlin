@@ -11,6 +11,11 @@
 	},
 /turf/open/floor/metal,
 /area/under/tomb)
+"aB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/simple_animal/hostile/retaliate/spider/robotic,
+/turf/open/floor/metal/barograte,
+/area/under/tomb/indoors)
 "aG" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/metal,
@@ -223,6 +228,11 @@
 	},
 /turf/open/floor/metal,
 /area/under/tomb)
+"lB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/carbon/human/species/skeleton/npc/warrior,
+/turf/open/floor/metal/barograte,
+/area/under/tomb/indoors)
 "lN" = (
 /obj/effect/spawner/map_spawner/loot/coin/med,
 /turf/open/floor/metal/barograte,
@@ -332,6 +342,10 @@
 	},
 /turf/open/floor/metal/barograte,
 /area/under/tomb/indoors)
+"pO" = (
+/mob/living/carbon/human/species/skeleton/npc/warrior,
+/turf/open/floor/metal/barograte,
+/area/under/tomb)
 "qq" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/cobblerock,
@@ -501,6 +515,7 @@
 	dir = 8;
 	pixel_y = -1
 	},
+/mob/living/carbon/human/species/skeleton/npc/warrior,
 /turf/open/floor/metal/barograte,
 /area/under/tomb)
 "wl" = (
@@ -665,6 +680,12 @@
 "Dv" = (
 /obj/effect/dungeon_directional_helper/west,
 /turf/open/floor/cobblerock,
+/area/under/tomb)
+"Ee" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/turf/open/floor/metal/barograte,
 /area/under/tomb)
 "Eq" = (
 /obj/structure/fluff/walldeco/bath/wallpipes{
@@ -831,7 +852,7 @@
 /obj/structure/stairs{
 	dir = 4
 	},
-/turf/closed/basic,
+/turf/open/floor/cobblerock,
 /area/under/tomb)
 "Lh" = (
 /obj/structure/fluff/railing/wood,
@@ -859,6 +880,12 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble,
+/area/under/tomb)
+"MF" = (
+/obj/structure/fluff/big_chain{
+	pixel_y = 12
+	},
+/turf/closed/wall/mineral/pipe,
 /area/under/tomb)
 "MS" = (
 /obj/structure/chair/wood/alt{
@@ -1074,12 +1101,6 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/metal/barograte,
 /area/under/tomb/indoors)
-"Zw" = (
-/obj/structure/fluff/big_chain{
-	pixel_y = 12
-	},
-/turf/open/floor/metal/barograte,
-/area/under/tomb)
 "Zy" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/cleanshallow,
@@ -1183,7 +1204,7 @@ jl
 (4,1,1) = {"
 qG
 uR
-TC
+lB
 JN
 SH
 VE
@@ -1886,7 +1907,7 @@ jl
 (5,1,2) = {"
 qG
 Jt
-TC
+aB
 Ol
 mD
 qA
@@ -1915,7 +1936,7 @@ qG
 UO
 TC
 IT
-TC
+aB
 IT
 Os
 Jj
@@ -1958,8 +1979,8 @@ jo
 Yw
 GV
 GY
-Fs
 GV
+pO
 dm
 GV
 jl
@@ -2002,11 +2023,11 @@ aG
 jo
 jo
 jo
-Zw
 GV
 GV
 GV
-Zw
+GV
+GV
 jo
 jo
 Ve
@@ -2022,7 +2043,7 @@ jl
 jl
 jo
 jo
-jo
+CR
 lA
 lA
 ax
@@ -2054,7 +2075,7 @@ jo
 jo
 jo
 jo
-Zw
+GV
 GV
 dN
 Jj
@@ -2062,7 +2083,7 @@ iz
 Jj
 dN
 GV
-Zw
+GV
 Ve
 jo
 jo
@@ -2082,13 +2103,13 @@ jo
 jo
 jo
 GV
-GF
+MF
 Jj
 lN
 Ni
 tn
 Jj
-GF
+MF
 GY
 Ve
 jo
@@ -2115,7 +2136,7 @@ ZI
 qs
 oQ
 dN
-zn
+GV
 GV
 jo
 jo
@@ -2136,13 +2157,13 @@ jo
 jo
 jo
 GV
-GF
+MF
 Jj
 Ni
 Ni
 kB
 Jj
-GF
+MF
 GY
 Ve
 jo
@@ -2162,7 +2183,7 @@ jo
 jo
 jo
 jo
-Zw
+GV
 GV
 dN
 Jj
@@ -2170,7 +2191,7 @@ iz
 Jj
 dN
 GV
-Zw
+GV
 Ve
 jo
 jo
@@ -2218,11 +2239,11 @@ jo
 jo
 jo
 jo
-Zw
+GV
 GY
 GV
 GV
-Zw
+GV
 jo
 jo
 jo
@@ -2267,7 +2288,7 @@ GF
 yX
 GF
 RO
-KK
+Ee
 NG
 jo
 jo
