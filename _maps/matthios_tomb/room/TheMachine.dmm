@@ -43,8 +43,8 @@
 /turf/open/floor/metal/barograte,
 /area/under/tomb/indoors)
 "co" = (
-/obj/structure/fake_machine/camera/right{
-	pixel_x = -11
+/obj/structure/fake_machine/camera{
+	pixel_y = 4
 	},
 /turf/open/floor/metal,
 /area/under/tomb/indoors)
@@ -129,8 +129,8 @@
 /turf/open/floor/metal/barograte,
 /area/under/tomb/indoors)
 "gJ" = (
-/obj/structure/fake_machine/camera/right{
-	pixel_x = -11
+/obj/structure/fake_machine/camera{
+	pixel_y = 4
 	},
 /turf/open/floor/cobble,
 /area/under/tomb)
@@ -337,8 +337,8 @@
 /turf/open/floor/metal/barograte,
 /area/under/tomb)
 "pB" = (
-/obj/structure/fake_machine/camera/right{
-	pixel_x = -11
+/obj/structure/fake_machine/camera{
+	pixel_y = 4
 	},
 /turf/open/floor/metal/barograte,
 /area/under/tomb/indoors)
@@ -476,8 +476,8 @@
 /turf/open/floor/metal/barograte,
 /area/under/tomb)
 "ui" = (
-/obj/structure/fake_machine/camera/right{
-	pixel_x = -11
+/obj/structure/fake_machine/camera{
+	pixel_y = 4
 	},
 /turf/open/floor/metal/barograte,
 /area/under/tomb)
@@ -1020,6 +1020,16 @@
 /obj/structure/fluff/steamvent,
 /turf/open/floor/cobble,
 /area/under/tomb/indoors)
+"UI" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 8;
+	pixel_x = 3
+	},
+/obj/structure/fake_machine/camera{
+	pixel_y = 4
+	},
+/turf/open/floor/concrete,
+/area/under/tomb/indoors)
 "UO" = (
 /obj/machinery/artificer_table,
 /obj/item/contraption/linker,
@@ -1249,7 +1259,7 @@ GF
 qG
 qG
 Jj
-Vj
+UI
 Vj
 bJ
 qG
