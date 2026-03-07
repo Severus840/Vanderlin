@@ -473,3 +473,14 @@
 	east_offset = 12
 	north_offset = 12
 	south_offset = 12
+
+/datum/map_template/dungeon/room/gated
+	mappath = "_maps/matthios_tomb/room/gated.dmm"
+	id = "gated"
+	width = 40
+	height = 40
+
+	west_offset = 19
+	east_offset = 19
+	north_offset = 19
+	south_offset = 19
