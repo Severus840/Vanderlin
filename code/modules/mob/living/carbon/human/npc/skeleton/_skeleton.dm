@@ -56,8 +56,6 @@
 		if(headdy)
 			headdy.icon = 'icons/roguetown/mob/monster/skeletons.dmi'
 			headdy.icon_state = "skull"
-			headdy.headprice = rand(5,15)
-			headdy.sellprice = rand(5,15)
 	for(var/obj/item/bodypart/B as anything in bodyparts)
 		B.skeletonize(FALSE)
 	grant_undead_eyes()

@@ -11,6 +11,7 @@
 
 // For misc things.
 #define STATMOD_ABOM "zizo_cult_abomination"
+#define STATMOD_CURSE "curse_punishment"
 
 // Patrons
 #define STATMOD_ASTRATA_BLESSING "astrata_blessing"

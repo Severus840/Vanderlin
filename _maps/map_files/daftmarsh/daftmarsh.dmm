@@ -6568,12 +6568,6 @@
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town)
-"fuR" = (
-/obj/effect/landmark/start/veteran{
-	dir = 1
-	},
-/turf/open/floor/carpet/green,
-/area/indoors/town)
 "fuY" = (
 /obj/structure/table/wood/counter/end,
 /obj/machinery/light/fueled/oven/south,
@@ -10087,7 +10081,7 @@
 /obj/structure/door{
 	name = "Veteran's House"
 	},
-/obj/effect/mapping_helpers/access/keyset/town/veteran,
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town)
@@ -11470,7 +11464,7 @@
 /area/outdoors/town)
 "jPV" = (
 /obj/structure/door/green,
-/obj/effect/mapping_helpers/access/keyset/town/gaffer,
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/blocks/newstone/alt,
 /area/indoors/town/merc_guild)
@@ -22923,7 +22917,7 @@
 "ueN" = (
 /obj/structure/bed/inn/double,
 /obj/item/bedsheet/double_pelt,
-/obj/effect/landmark/start/gaffer,
+/obj/effect/landmark/start/tombwarden,
 /obj/structure/trophy/deer,
 /turf/open/floor/carpet/red,
 /area/indoors/town/merc_guild)
@@ -155562,7 +155556,7 @@ wwq
 nzb
 wZZ
 vsU
-fuR
+vsU
 rhj
 qGL
 vFt

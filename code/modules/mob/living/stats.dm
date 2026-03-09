@@ -103,47 +103,60 @@
 	base_speed += (prob(33) && pick(-1, 1))
 	base_fortune += (prob(33) && pick(-1, 1))
 
-	if(ishuman(src))
-		var/mob/living/carbon/human/H = src
-		if(H.dna?.species)
-			var/datum/species/species = H.dna.species
-			var/list/specstat_list = (gender == FEMALE) ? species.specstats_f : species.specstats_m
-			for(var/stat in specstat_list)
-				set_stat_modifier(STATMOD_SEX, stat, specstat_list[stat])
-
-		switch(H.age)
-			if(AGE_CHILD)
-				set_stat_modifier(STATMOD_AGE, STATKEY_STR, -2)
-				set_stat_modifier(STATMOD_AGE, STATKEY_CON, -2)
-				set_stat_modifier(STATMOD_AGE, STATKEY_PER, 1)
-				set_stat_modifier(STATMOD_AGE, STATKEY_END, 1)
-				set_stat_modifier(STATMOD_AGE, STATKEY_SPD, round(rand(1,2)))
-				H.virginity = TRUE
-			// nothing for adults/immortals,
-			if(AGE_MIDDLEAGED)
-				set_stat_modifier(STATMOD_AGE, STATKEY_END, 1)
-				set_stat_modifier(STATMOD_AGE, STATKEY_SPD, -1)
-			if(AGE_OLD)
-				set_stat_modifier(STATMOD_AGE, STATKEY_STR, -2)
-				set_stat_modifier(STATMOD_AGE, STATKEY_PER, 2)
-				set_stat_modifier(STATMOD_AGE, STATKEY_END, -1)
-				set_stat_modifier(STATMOD_AGE, STATKEY_CON, -1)
-				set_stat_modifier(STATMOD_AGE, STATKEY_INT, 2)
-				set_stat_modifier(STATMOD_AGE, STATKEY_SPD, -1)
-				set_stat_modifier(STATMOD_AGE, STATKEY_LCK, 1)
-
-		if(HAS_TRAIT(src, TRAIT_PUNISHMENT_CURSE))
-			change_stat(STATKEY_STR, -3)
-			change_stat(STATKEY_SPD, -3)
-			change_stat(STATKEY_END, -3)
-			change_stat(STATKEY_CON, -3)
-			change_stat(STATKEY_INT, -3)
-			change_stat(STATKEY_LCK, -3)
-			H.voice_color = "c71d76"
-			H.set_eye_color("#c71d76", updates_dna = TRUE) //majenta
+	set_stat_mods()
 
 	has_rolled_for_stats = TRUE
 	return TRUE
+
+/mob/living/proc/set_stat_mods()
+	return
+
+/mob/living/carbon/set_stat_mods()
+	. = ..()
+
+	if(HAS_TRAIT(src, TRAIT_PUNISHMENT_CURSE))
+		set_stat_modifier(STATMOD_CURSE, STATKEY_STR, -3)
+		set_stat_modifier(STATMOD_CURSE, STATKEY_SPD, -3)
+		set_stat_modifier(STATMOD_CURSE, STATKEY_END, -3)
+		set_stat_modifier(STATMOD_CURSE, STATKEY_CON, -3)
+		set_stat_modifier(STATMOD_CURSE, STATKEY_INT, -3)
+		set_stat_modifier(STATMOD_CURSE, STATKEY_LCK, -3)
+		set_eye_color("#c71d76", updates_dna = TRUE) //majenta
+		if(ishuman(src))
+			var/mob/living/carbon/human/H = src
+			H.voice_color = "c71d76"
+
+	remove_stat_modifier(STATMOD_SEX)
+	if(!dna?.species)
+		return
+	var/list/specstat_list = (gender == FEMALE) ? dna.species.specstats_f : dna.species.specstats_m
+	for(var/stat in specstat_list)
+		set_stat_modifier(STATMOD_SEX, stat, specstat_list[stat])
+
+/mob/living/carbon/human/set_stat_mods()
+	. = ..()
+	remove_stat_modifier(STATMOD_AGE)
+	switch(age)
+		if(AGE_CHILD)
+			set_stat_modifier(STATMOD_AGE, STATKEY_STR, -2)
+			set_stat_modifier(STATMOD_AGE, STATKEY_CON, -2)
+			set_stat_modifier(STATMOD_AGE, STATKEY_PER, 1)
+			set_stat_modifier(STATMOD_AGE, STATKEY_END, 1)
+			set_stat_modifier(STATMOD_AGE, STATKEY_SPD, round(rand(1,2)))
+			virginity = TRUE
+		// nothing for adults/immortals,
+		if(AGE_MIDDLEAGED)
+			set_stat_modifier(STATMOD_AGE, STATKEY_END, 1)
+			set_stat_modifier(STATMOD_AGE, STATKEY_SPD, -1)
+		if(AGE_OLD)
+			set_stat_modifier(STATMOD_AGE, STATKEY_STR, -2)
+			set_stat_modifier(STATMOD_AGE, STATKEY_PER, 2)
+			set_stat_modifier(STATMOD_AGE, STATKEY_END, -1)
+			set_stat_modifier(STATMOD_AGE, STATKEY_CON, -1)
+			set_stat_modifier(STATMOD_AGE, STATKEY_INT, 2)
+			set_stat_modifier(STATMOD_AGE, STATKEY_SPD, -1)
+			set_stat_modifier(STATMOD_AGE, STATKEY_LCK, 1)
+
 
 /mob/living/proc/set_stat_modifier(source, stat_key, amount)
 	if(!source || !(stat_key in MOBSTATS) || !isnum(amount))

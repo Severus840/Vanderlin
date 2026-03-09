@@ -21,7 +21,6 @@ abstract types are automatically excluded.
 		/obj/item/clothing/head/priesthat, // unattainable
 		/obj/item/clothing/head/leather/inqhat/vigilante, //Renegade Bullshit
 		/obj/item/clothing/face/phys/plaguebearer, //Plague Only
-		/obj/item/clothing/ring/gold/burden, // uncraftable
 		/obj/item/clothing/ring/feldsher_ring, // uncraftable
 		/obj/item/clothing/ring/apothecary_ring, // uncraftable
 		/obj/item/clothing/head/maniac,
@@ -41,6 +40,7 @@ abstract types are automatically excluded.
 		/obj/item/clothing/cloak/psydontabard/alt, ///same here
 		/obj/item/clothing/face/spectacles/inq, //these are powerful
 		/obj/item/clothing/armor/leather/heavy, ///abstract type
+		/obj/item/clothing/armor/leather/heavy/coat, // god I just do not feel like adding the recipe rn
 		/obj/item/clothing/head/helmet/heavy/psydonbarbute, //buyable
 		/obj/item/clothing/head/helmet/heavy/psysallet, //buyable
 		/obj/item/clothing/head/helmet/heavy/psybucket, //buyable

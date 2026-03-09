@@ -1723,7 +1723,6 @@
 /area/indoors/town/merc_guild)
 "aSK" = (
 /obj/structure/bed/hay,
-/obj/effect/landmark/start/gaffer_assistant,
 /turf/open/floor/cobble/alt,
 /area/indoors/town/merc_guild)
 "aSR" = (
@@ -2554,9 +2553,6 @@
 "bnc" = (
 /obj/structure/bed/inn/double,
 /obj/item/bedsheet/double_pelt,
-/obj/effect/landmark/start/gaffer{
-	dir = 8
-	},
 /turf/open/floor/carpet/red,
 /area/indoors/town/merc_guild)
 "bnq" = (
@@ -9235,7 +9231,7 @@
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town/merc_guild)
 "euK" = (
-/obj/effect/mapping_helpers/access/keyset/town/gaffer,
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /obj/effect/mapping_helpers/access/locker,
 /obj/structure/door/window,
 /turf/open/floor/wood/nosmooth,
@@ -13788,7 +13784,7 @@
 /obj/structure/door{
 	name = "Veteran's Room"
 	},
-/obj/effect/mapping_helpers/access/keyset/town/veteran,
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town)
@@ -16406,7 +16402,7 @@
 /area/outdoors/town)
 "hSM" = (
 /obj/structure/chair/wood/alt/chair_noble,
-/obj/effect/landmark/start/gaffer,
+/obj/effect/landmark/start/tombwarden,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/merc_guild)
 "hSR" = (
@@ -17079,10 +17075,6 @@
 /obj/structure/chair/hotspring_bench/right,
 /turf/open/floor/cobble,
 /area/outdoors/town/roofs)
-"iln" = (
-/obj/effect/landmark/start/gaffer_assistant,
-/turf/open/floor/ruinedwood/spiral,
-/area/indoors/town/merc_guild)
 "ilr" = (
 /obj/structure/table/wood/plain,
 /obj/item/natural/cloth,
@@ -30122,13 +30114,6 @@
 	},
 /turf/open/floor/ruinedwood/spiral,
 /area/under/town/basement)
-"ozf" = (
-/obj/effect/decal/shadow_floor,
-/obj/effect/landmark/start/gaffer_assistant{
-	dir = 4
-	},
-/turf/open/floor/ruinedwood/spiral,
-/area/indoors/town/merc_guild)
 "ozj" = (
 /obj/structure/stairs{
 	dir = 1
@@ -32502,7 +32487,6 @@
 	pixel_y = 46;
 	pixel_x = -4
 	},
-/obj/effect/landmark/start/veteran,
 /obj/structure/rack/shelf/notdense{
 	pixel_y = 32
 	},
@@ -33762,7 +33746,7 @@
 "qtV" = (
 /obj/structure/door/green,
 /obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/town/gaffer,
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/merc_guild)
 "quc" = (
@@ -36322,7 +36306,7 @@
 "rDM" = (
 /obj/structure/door/green,
 /obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/town/gaffer,
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /turf/open/floor/cobblerock,
 /area/indoors/town/merc_guild)
 "rEf" = (
@@ -40979,7 +40963,7 @@
 /area/under/town/basement)
 "tPX" = (
 /obj/structure/door/green,
-/obj/effect/mapping_helpers/access/keyset/town/gaffer,
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/merc_guild)
@@ -115208,7 +115192,7 @@ prz
 xTB
 ist
 iOX
-ozf
+bYw
 tRr
 frF
 tdh
@@ -116021,7 +116005,7 @@ mWh
 mWh
 mWh
 mWh
-iln
+mWh
 qkM
 oMH
 sWi

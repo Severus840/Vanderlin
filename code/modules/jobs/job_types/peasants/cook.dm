@@ -16,6 +16,7 @@
 	display_order = JDO_COOK
 	give_bank_account = 8
 	cmode_music = 'sound/music/cmode/towner/CombatInn.ogg'
+	can_be_apprentice = TRUE
 
 	job_bitflag = BITFLAG_CONSTRUCTOR
 

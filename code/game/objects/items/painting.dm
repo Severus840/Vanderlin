@@ -119,7 +119,7 @@
 
 /obj/structure/fluff/walldeco/painting/lorehead1/examine(mob/user)
 	. = ..()
-	if(is_gaffer_job(user.mind.assigned_role))
+	if(is_tomb_warden_job(user.mind.assigned_role))
 		. += "A trophy from my old days as an adventurer" //N/A change this examine text after sprites are made
 	else
 		. += "A trophy"
@@ -129,12 +129,4 @@
 	icon_state = "crownpainting"
 	desc = ""
 	sellprice = 40
-	headprice = 5
 	deployed_structure = /obj/structure/fluff/walldeco/painting/crown
-
-/obj/item/painting/lorehead/one/examine(mob/user)
-	. = ..()
-	if(is_gaffer_job(user.mind.assigned_role))
-		. += "A trophy from my old days as an adventurer" //N/A change this examine text after sprites are made
-	else
-		. += "A trophy"

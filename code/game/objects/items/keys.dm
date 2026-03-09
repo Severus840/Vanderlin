@@ -188,10 +188,10 @@
 	icon_state = "rustkey"
 	lockids = list(ACCESS_ELDER)
 
-/obj/item/key/veteran
-	name = "veteran's key"
+/obj/item/key/tombwarden
+	name = "warden's key"
 	icon_state = "rustkey"
-	lockids = list(ACCESS_VETERAN)
+	lockids = list(ACCESS_TOMBWARDEN)
 
 /obj/item/key/feldsher
 	name = "feldsher's key"
@@ -244,12 +244,6 @@
 	desc = "Why, a mercenary would not kick doors down."
 	icon_state = "greenkey"
 	lockids = list(ACCESS_MERC)
-
-/obj/item/key/gaffer
-	name = "Mercenary guild master's key"
-	desc = "\"Humble\" would be a kinder word to use for its current state..."
-	icon_state = "rustkey"
-	lockids = list(ACCESS_GAFFER)
 
 /obj/item/key/warehouse
 	name = "Warehouse key"

@@ -344,7 +344,7 @@
 	item_state = "cuirbouilli"
 
 /obj/item/clothing/armor/leather/heavy
-	name = "hardened leather armor"
+	name = "leather jacket"
 	desc = "A heavy steerhide jerkin with enough body to stand on its own. It forms a stiff, protective mantle \
 	for its wearer, shielding from blows and weather alike."
 	icon_state = "roguearmor_belt"
@@ -353,3 +353,10 @@
 	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_BLUNT, BCLASS_CHOP, BCLASS_SMASH)
 	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER
 	sellprice = 20
+
+/obj/item/clothing/armor/leather/heavy/coat
+	name = "leather coat"
+	icon_state = "roguearmor_coat"
+	item_state = "roguearmor_coat"
+	body_parts_covered = COVERAGE_ALL_BUT_ARMS
+	sellprice = 30

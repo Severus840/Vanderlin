@@ -78,6 +78,8 @@
 	dismemberable = 1
 /obj/item/bodypart/l_leg/orc
 	dismemberable = 1
+/obj/item/bodypart/head/orc
+	sellprice = 10
 
 /obj/item/bodypart/head/orc/update_icon_dropped()
 	return
@@ -88,8 +90,6 @@
 /obj/item/bodypart/head/orc/skeletonize()
 	. = ..()
 	icon_state = "orc_skel_head"
-	headprice = 2
-	sellprice = 2
 
 /mob/living/carbon/human/species/orc/update_body()
 	remove_overlay(BODY_LAYER)
@@ -152,8 +152,6 @@
 		if(headdy)
 			headdy.icon = 'icons/roguetown/mob/monster/orc.dmi'
 			headdy.icon_state = "[src.dna.species.id]_head"
-			headdy.headprice = rand(15,40)
-			headdy.sellprice = rand(15,40)
 	src.grant_language(/datum/language/common)
 	var/obj/item/organ/eyes/eyes = src.getorganslot(ORGAN_SLOT_EYES)
 	if(eyes)

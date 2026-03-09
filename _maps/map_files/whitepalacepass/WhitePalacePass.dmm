@@ -869,7 +869,7 @@
 /obj/structure/chair/wood{
 	dir = 1
 	},
-/obj/effect/landmark/start/gaffer{
+/obj/effect/landmark/start/tombwarden{
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
@@ -5897,7 +5897,6 @@
 /turf/open/floor/herringbone,
 /area/indoors/town/keep)
 "fID" = (
-/obj/item/key/gaffer,
 /obj/structure/closet/crate/drawer,
 /turf/open/floor/blocks,
 /area/indoors/town/merc_guild)
@@ -12146,11 +12145,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/indoors/villagegarrison)
-"lcA" = (
-/obj/structure/chair/stool,
-/obj/effect/landmark/start/gaffer_assistant,
-/turf/open/floor/carpet/red,
-/area/indoors/town/merc_guild)
 "ldg" = (
 /obj/effect/decal/carpet/kover_darkred,
 /turf/open/floor/church,
@@ -15482,7 +15476,7 @@
 /obj/structure/door/red{
 	name = "Gaffer's Room"
 	},
-/obj/effect/mapping_helpers/access/keyset/town/gaffer,
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/merc_guild)
@@ -19516,7 +19510,7 @@
 /obj/structure/door/red{
 	name = "Gaffer's Room"
 	},
-/obj/effect/mapping_helpers/access/keyset/town/gaffer,
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/merc_guild)
@@ -26218,7 +26212,7 @@
 /area/indoors/town/smithy)
 "ydE" = (
 /obj/structure/chair/stool,
-/obj/effect/landmark/start/veteran{
+/obj/effect/landmark/start/tombwarden{
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
@@ -93002,7 +92996,7 @@ iZs
 xMI
 nWg
 tIZ
-lcA
+rDp
 pDI
 mGI
 tcL

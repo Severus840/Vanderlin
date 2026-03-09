@@ -19,6 +19,7 @@
 	allowed_ages = list(AGE_CHILD, AGE_ADULT)
 
 	outfit = /datum/outfit/bapprentice
+	can_be_apprentice = TRUE
 
 	jobstats = list(
 		STATKEY_END = 2,

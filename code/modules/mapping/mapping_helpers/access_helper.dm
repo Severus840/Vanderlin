@@ -71,11 +71,8 @@
 /obj/effect/mapping_helpers/access/keyset/town/elder
 	accesses = list(ACCESS_ELDER)
 
-/obj/effect/mapping_helpers/access/keyset/town/veteran
-	accesses = list(ACCESS_VETERAN)
-
-/obj/effect/mapping_helpers/access/keyset/town/gaffer
-	accesses = list(ACCESS_GAFFER)
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden
+	accesses = list(ACCESS_TOMBWARDEN)
 	difficulty = 3
 
 /obj/effect/mapping_helpers/access/keyset/town/tower

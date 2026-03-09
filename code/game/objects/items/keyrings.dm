@@ -268,7 +268,7 @@
 	keys = list(/obj/item/key/manor, /obj/item/key/atarms, /obj/item/key/dungeon, /obj/item/key/courtphys)
 
 /obj/item/storage/keyring/elder
-	keys = list(/obj/item/key/veteran, /obj/item/key/walls, /obj/item/key/elder, /obj/item/key/butcher, /obj/item/key/soilson, /obj/item/key/manor)
+	keys = list(/obj/item/key/walls, /obj/item/key/elder, /obj/item/key/butcher, /obj/item/key/soilson, /obj/item/key/manor)
 
 /obj/item/storage/keyring/clinic
 	keys = list(/obj/item/key/feldsher, /obj/item/key/clinic, /obj/item/key/bathhouse, /obj/item/key/apothecary)
@@ -279,17 +279,11 @@
 /obj/item/storage/keyring/artificer
 	keys = list(/obj/item/key/artificer, /obj/item/key/blacksmith, /obj/item/key/miner)
 
-/obj/item/storage/keyring/veteran
-	keys = list(/obj/item/key/veteran, /obj/item/key/dungeon, /obj/item/key/garrison, /obj/item/key/atarms, /obj/item/key/walls, /obj/item/key/elder, /obj/item/key/butcher, /obj/item/key/soilson, /obj/item/key/manor)
-
 /obj/item/storage/keyring/stevedore
 	keys = list(/obj/item/key/warehouse, /obj/item/key/merchant)
 
-/obj/item/storage/keyring/gaffer
-	keys = list(/obj/item/key/gaffer, /obj/item/key/mercenary, /obj/item/key/mercenary, /obj/item/key/mercenary, /obj/item/key/mercenary)
+/obj/item/storage/keyring/tombwarden
+	keys = list(/obj/item/key/tombwarden, /obj/item/key/mercenary)
 
 /obj/item/storage/keyring/master_of_crafts_and_labor
 	keys = list(/obj/item/key/elder, /obj/item/key/blacksmith,/obj/item/key/tailor,/obj/item/key/tavern,/obj/item/key/apothecary, /obj/item/key/butcher, /obj/item/key/soilson,/obj/item/key/artificer,/obj/item/key/clinic)
-
-/obj/item/storage/keyring/gaffer_assistant
-	keys = list(/obj/item/key/gaffer, /obj/item/key/mercenary)
