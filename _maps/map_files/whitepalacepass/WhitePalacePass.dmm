@@ -2135,6 +2135,12 @@
 /obj/machinery/light/fueled/wallfire/candle/r,
 /turf/open/floor/tile/masonic/single,
 /area/outdoors/basin/safe)
+"cgK" = (
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/floor/hexstone,
+/area/outdoors/basin/safe)
 "chf" = (
 /obj/structure/table/wood,
 /turf/open/floor/hexstone,
@@ -17957,6 +17963,14 @@
 	},
 /turf/open/floor/churchrough,
 /area/indoors/town/church)
+"rkz" = (
+/obj/structure/window/solid,
+/obj/structure/bars,
+/turf/closed/wall/mineral/stonebrick{
+	wallclimb = 1;
+	climbdiff = 1
+	},
+/area/outdoors/basin/safe)
 "rkG" = (
 /obj/structure/door/weak{
 	name = "Bedrooms"
@@ -24884,6 +24898,12 @@
 "xTy" = (
 /turf/closed/mineral/bedrock,
 /area/under/town/basement)
+"xUl" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/turf/open/floor/hexstone,
+/area/outdoors/basin/safe)
 "xUG" = (
 /obj/machinery/light/fueledstreet/blue/wall{
 	pixel_y = -6
@@ -78601,7 +78621,7 @@ qXx
 puJ
 qXx
 puJ
-kKb
+puJ
 kKb
 pbT
 ehd
@@ -78802,8 +78822,8 @@ xtI
 jJa
 jJa
 xtI
+xUl
 puJ
-kKb
 kKb
 xBh
 reZ
@@ -79004,8 +79024,8 @@ amD
 amD
 amD
 amD
-puJ
-kKb
+cgK
+rkz
 kKb
 pbT
 puJ
@@ -79206,8 +79226,8 @@ vnz
 vnz
 vnz
 vnz
+vnz
 puJ
-kKb
 kKb
 xBh
 puJ
@@ -79408,8 +79428,8 @@ eVw
 chf
 eVw
 chf
+vnz
 puJ
-kKb
 kKb
 xBh
 puJ
@@ -79610,8 +79630,8 @@ vnz
 vnz
 vnz
 vnz
-puJ
-kKb
+vnz
+rkz
 kKb
 hRb
 puJ
@@ -79812,8 +79832,8 @@ lDi
 vnz
 vnz
 vnz
+vnz
 puJ
-kKb
 kKb
 kKb
 kKb
@@ -80015,7 +80035,7 @@ iMW
 aFq
 yeY
 puJ
-kKb
+puJ
 kKb
 kKb
 kKb
@@ -80216,8 +80236,8 @@ vnz
 vnz
 vnz
 vnz
+vnz
 puJ
-kKb
 kKb
 kKb
 kKb
@@ -80418,8 +80438,8 @@ vnz
 vnz
 axu
 vnz
+vnz
 puJ
-kKb
 kKb
 kKb
 kKb
@@ -80620,8 +80640,8 @@ hkB
 uyR
 puJ
 otd
+otd
 puJ
-kKb
 kKb
 kKb
 kKb
@@ -80822,8 +80842,8 @@ hkB
 vnz
 otd
 uvK
-kKb
-kKb
+bwY
+bwY
 kKb
 kKb
 kKb
@@ -81024,8 +81044,8 @@ vWq
 vnz
 otd
 bwY
-kKb
-kKb
+bwY
+uvK
 kKb
 kKb
 kKb
@@ -81226,8 +81246,8 @@ puJ
 sJB
 puJ
 bwY
-kKb
-kKb
+uvK
+uvK
 kKb
 kKb
 kKb
