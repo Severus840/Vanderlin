@@ -37045,6 +37045,8 @@
 /obj/structure/rack,
 /obj/item/weapon/shield/wood,
 /obj/item/weapon/shield/wood,
+/obj/item/weapon/flail/towner,
+/obj/item/weapon/flail/towner,
 /turf/open/floor/blocks/newstone/alt,
 /area/indoors/town/merc_guild)
 "rrk" = (
