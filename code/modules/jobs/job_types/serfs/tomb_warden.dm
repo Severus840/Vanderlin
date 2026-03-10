@@ -85,7 +85,6 @@
 	max_apprentices = 5
 
 	traits = list(
-		TRAIT_NOBLE_BLOOD,
 		TRAIT_SEEPRICES,
 		TRAIT_STEELHEARTED,
 		TRAIT_OLDPARTY
