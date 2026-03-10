@@ -25188,11 +25188,6 @@
 /obj/structure/closet/crate/chest/neu,
 /turf/open/floor/ruinedwood/alt,
 /area/outdoors/town)
-"lWb" = (
-/obj/structure/table/wood/reinforced_alter,
-/obj/item/flashlight/flare/torch/lantern,
-/turf/open/floor/ruinedwood/spiralfade,
-/area/indoors/town/merc_guild)
 "lWo" = (
 /obj/structure/flora/grass/bush/wall,
 /obj/structure/flora/grass,
@@ -84034,14 +84029,14 @@ bfG
 hHE
 tEK
 gYs
-lWb
+akD
 irX
 eOx
 ydL
 ydL
 eOx
 irX
-lWb
+akD
 oUd
 tEK
 hHE
@@ -85246,14 +85241,14 @@ bfG
 irX
 tEK
 cNe
-lWb
+akD
 irX
 osN
 ydL
 ydL
 osN
 irX
-lWb
+akD
 qyj
 tEK
 irX
