@@ -11,7 +11,11 @@
 	allowed_ages = list(AGE_OLD, AGE_IMMORTAL)
 	blacklisted_species = list(SPEC_ID_HALFLING)
 
-	tutorial = ""
+	tutorial = "Eat. Train. Sleep. Eat. Train. Sleep.\n\n\
+		My daes of adventuring are long past. Mine was a name that none could avoid. I built up a guild from plank and nail, but now my daes are spent raising up fools who may eclipse me, or more likely perish.\n\
+		My companions may have slayed the lich in that wretched tomb, but one dae it will return. We cannot stop it this time. There is hope to see one of these fools weave their own legend.\n\n\
+		Eat. Train. Sleep. Eat. Train. Sleep."
+	honorary = "Warden"
 
 	display_order = JDO_TOMBWARDEN
 	cmode_music = 'sound/music/cmode/towner/CombatGaffer.ogg'
@@ -78,9 +82,10 @@
 		/datum/skill/combat/wrestling = 0.3
 	)
 	apprentice_name = "Aspiring Warrior"
-	max_apprentices = 6
+	max_apprentices = 5
 
 	traits = list(
+		TRAIT_NOBLE_BLOOD,
 		TRAIT_SEEPRICES,
 		TRAIT_STEELHEARTED,
 		TRAIT_OLDPARTY
@@ -105,7 +110,7 @@
 	backpack_contents = list(
 		/obj/item/merctoken = 2,
 		/obj/item/natural/feather,
-		/obj/item/paper = 1,
+		/obj/item/paper,
 	)
 	beltr = /obj/item/storage/belt/pouch/coins/rich
 	belt = /obj/item/storage/belt/leather/plaquesilver
@@ -119,5 +124,5 @@
 	shoes = /obj/item/clothing/shoes/boots
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak
 	head = /obj/item/clothing/head/roguehood/leather
-	l_hand = /obj/item/weapon/mace/cane
+	r_hand = /obj/item/weapon/mace/cane
 	scabbards = list(/obj/item/weapon/scabbard/sword)

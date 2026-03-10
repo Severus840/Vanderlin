@@ -1417,6 +1417,7 @@
 
 /obj/structure/fluff/statue/gaffer
 	name = "Subdued Statue"
+	desc = "It sleeps eternally."
 	icon_state = "subduedstatue"
 
 /obj/structure/fluff/statue/knight/interior/gen/update_icon_state()

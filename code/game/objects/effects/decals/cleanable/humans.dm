@@ -68,7 +68,8 @@
 		return
 	qdel(reagents)
 	name = "dry [initial(name)]"
-	color = "#967c69"
+	//this sure does suck
+	color = color_matrix2color_hex(color_matrix_multiply(color_hex2color_matrix(color), color_hex2color_matrix("#967c69")))
 	bloodiness = 0
 
 /obj/effect/decal/cleanable/blood/lazy_init_reagents()
