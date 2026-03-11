@@ -6182,6 +6182,9 @@
 /area/indoors/town/shop)
 "gdi" = (
 /obj/machinery/light/fueled/wallfire/candle,
+/obj/structure/fake_machine/mail/l{
+	mailtag = "Matron"
+	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/basin/safe)
 "gdk" = (
@@ -7190,6 +7193,13 @@
 "gZU" = (
 /turf/open/floor/carpet/lord/left,
 /area/indoors/town/keep/throne)
+"hab" = (
+/obj/structure/fake_machine/scomm{
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/basin/safe)
 "haI" = (
 /obj/structure/chair/bench/coucha/r,
 /obj/effect/landmark/start/captain,
@@ -8095,6 +8105,10 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/snow,
 /area/outdoors/basin)
+"ibP" = (
+/obj/structure/fake_machine/scomm,
+/turf/open/floor/ruinedwood,
+/area/outdoors/basin/safe)
 "icj" = (
 /obj/effect/falling_leaves,
 /turf/open/floor/dirt,
@@ -10107,6 +10121,14 @@
 /obj/structure/door/weak,
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/basin)
+"keZ" = (
+/obj/structure/flora/grass/herb/rosa,
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/open/floor/grass/cold,
+/area/outdoors/basin/safe)
 "kfS" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -14946,6 +14968,13 @@
 "oJs" = (
 /turf/closed/wall/mineral/wooddark,
 /area/indoors/town/clinic_large/apothecary)
+"oJZ" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/open/floor/grass/cold,
+/area/outdoors/basin/safe)
 "oKc" = (
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/tile/diamond/blue,
@@ -15513,6 +15542,10 @@
 "plc" = (
 /turf/closed/wall/mineral/wooddark/vertical,
 /area/indoors/town/tavern)
+"plf" = (
+/obj/structure/fake_machine/scomm,
+/turf/open/floor/ruinedwood/darker,
+/area/outdoors/basin/safe)
 "plX" = (
 /obj/structure/fluff/walldeco/sign/weaponsmithsign/left{
 	pixel_x = -1;
@@ -22289,6 +22322,7 @@
 /obj/structure/door/iron/bars{
 	name = "Blacksmith"
 	},
+/obj/effect/mapping_helpers/access/keyset/town/matron,
 /turf/open/floor/grass/cold,
 /area/outdoors/basin/safe)
 "wuU" = (
@@ -22590,6 +22624,13 @@
 /obj/item/reagent_containers/food/snacks/produce/grain/wheat,
 /turf/open/floor/tile/kitchen,
 /area/indoors/town/tavern)
+"wOv" = (
+/obj/structure/fake_machine/scomm{
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/turf/open/floor/tile/diamond,
+/area/outdoors/basin/safe)
 "wOC" = (
 /obj/structure/rack/shelf/biggest,
 /obj/structure/fake_machine/scomm/r,
@@ -75991,7 +76032,7 @@ mLu
 puJ
 puJ
 cpc
-mMP
+wOv
 mMP
 mMP
 mMP
@@ -77001,7 +77042,7 @@ tEM
 hnb
 aGM
 puJ
-tEM
+ibP
 ehd
 eXG
 ehd
@@ -77209,7 +77250,7 @@ ehd
 muF
 xWV
 puJ
-ehd
+plf
 ehd
 ehd
 tEM
@@ -78011,15 +78052,15 @@ kKb
 kKb
 kKb
 ldn
+jFt
+oJZ
+fIk
+jFt
+gSR
+jFt
+keZ
 kKb
-kKb
-kKb
-kKb
-kKb
-kKb
-kKb
-kKb
-kKb
+fIk
 ldn
 kKb
 kKb
@@ -78213,7 +78254,7 @@ kKb
 kKb
 kKb
 ldn
-kKb
+gSR
 kKb
 kKb
 kKb
@@ -78415,14 +78456,14 @@ kKb
 kKb
 kKb
 ldn
+gSR
 kKb
+gSR
+fIk
+jFt
 kKb
-kKb
-kKb
-kKb
-kKb
-kKb
-kKb
+jFt
+jFt
 kKb
 ldn
 kKb
@@ -118818,7 +118859,7 @@ eTY
 aiF
 sAE
 lHt
-tEM
+hab
 ehd
 jIi
 aiF
