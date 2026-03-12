@@ -4386,8 +4386,7 @@
 /area/indoors/lich)
 "zF" = (
 /obj/structure/winch{
-	redstone_id = "Marshgate";
-	gid = "Marshgate"
+	redstone_id = "Marshgate"
 	},
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32;

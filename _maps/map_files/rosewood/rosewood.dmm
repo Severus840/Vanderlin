@@ -2456,7 +2456,6 @@
 /area/indoors/town/keep)
 "bks" = (
 /obj/structure/winch{
-	gid = "keepgatenorth";
 	redstone_id = "keepgatenorth";
 	name = "winch (north)"
 	},
@@ -5187,7 +5186,6 @@
 /area/under/town/sewer)
 "cws" = (
 /obj/structure/winch{
-	gid = "RosewoodCheck2";
 	redstone_id = "RosewoodCheck2";
 	name = "Outer Gate Winch"
 	},
@@ -21611,7 +21609,6 @@
 "kAb" = (
 /obj/structure/winch{
 	dir = 4;
-	gid = "RosewoodManor3";
 	redstone_id = "RosewoodManor3";
 	pixel_x = -6
 	},
@@ -23022,7 +23019,6 @@
 /area/indoors/town/theatre)
 "lfX" = (
 /obj/structure/winch{
-	gid = "keepgatesouth";
 	redstone_id = "keepgatesouth";
 	name = "winch (south)"
 	},
@@ -30454,7 +30450,6 @@
 "oIq" = (
 /obj/structure/winch{
 	redstone_id = "RosewoodCheck1";
-	gid = "RosewoodCheck1";
 	name = "Inner Gate Winch"
 	},
 /turf/open/floor/ruinedwood/spiral,

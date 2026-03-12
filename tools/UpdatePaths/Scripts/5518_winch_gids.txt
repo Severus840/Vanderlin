@@ -1,0 +1,1 @@
+/obj/structure/winch : /obj/structure/winch{@OLD;gid=@SKIP}

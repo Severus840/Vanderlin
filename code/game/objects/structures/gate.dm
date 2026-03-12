@@ -94,9 +94,6 @@ GLOBAL_LIST_EMPTY(biggates)
 		QDEL_NULL(A)
 	blockers.Cut()
 	turfsy.Cut()
-	if(attached_to)
-		var/obj/structure/winch/W = attached_to
-		W.attached_gate = null
 	return ..()
 
 /obj/structure/gate/update_icon_state()
@@ -175,39 +172,25 @@ GLOBAL_LIST_EMPTY(biggates)
 	density = TRUE
 	anchored = TRUE
 	resistance_flags = INDESTRUCTIBLE
-	var/gid
-	var/obj/structure/gate/attached_gate
-
-/obj/structure/winch/Initialize()
-	. = ..()
-	return INITIALIZE_HINT_LATELOAD
-
-/obj/structure/winch/LateInitialize()
-	for(var/obj/structure/gate/G in GLOB.biggates)
-		if(G.gid == gid)
-			GLOB.biggates -= G
-			attached_gate = G
-			G.attached_to = src
-
-/obj/structure/winch/Destroy()
-	if(attached_gate)
-		var/obj/structure/gate/W = attached_gate
-		W.attached_to = null
-	return ..()
+	COOLDOWN_DECLARE(winch_cooldown)
 
 /obj/structure/winch/attack_hand(mob/user)
 	. = ..()
-	if(!attached_gate)
-		to_chat(user, "<span class='warning'>The chain is not attached to anything.</span>")
+	if(!redstone_attached)
+		to_chat(user, span_warning("The chain is not attached to anything."))
 		return
-	if(attached_gate.isSwitchingStates)
+	if(!isliving(user))
 		return
-	if(isliving(user))
-		var/mob/living/L = user
-		L.changeNext_move(CLICK_CD_MELEE)
-		var/used_time = 10.5 SECONDS - (L.STASTR * 10)
-		user.visible_message("<span class='warning'>[user] cranks the winch.</span>")
-		playsound(src, 'sound/foley/winch.ogg', 100, extrarange = 3)
-		if(do_after(user, used_time))
-			attached_gate.toggle()
-
+	if(!COOLDOWN_FINISHED(src, winch_cooldown))
+		return
+	var/mob/living/L = user
+	L.changeNext_move(CLICK_CD_MELEE)
+	var/used_time = 10.5 SECONDS - (L.STASTR * 10)
+	if(!do_after(user, used_time))
+		return
+	COOLDOWN_START(src, winch_cooldown, 3 SECONDS)
+	for(var/obj/structure/structure in redstone_attached)
+		INVOKE_ASYNC(structure, PROC_REF(redstone_triggered), user)
+	trigger_wire_network(user)
+	user.visible_message(span_warning("[user] cranks [src]."), span_warning("I crank [src]."))
+	playsound(src, 'sound/foley/winch.ogg', 100, extrarange = 3)

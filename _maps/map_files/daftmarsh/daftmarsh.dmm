@@ -418,7 +418,6 @@
 /area)
 "auW" = (
 /obj/structure/winch{
-	gid = "keepgatenorth";
 	redstone_id = "keepgatenorth";
 	name = "winch (north)"
 	},
@@ -9244,7 +9243,6 @@
 /area/indoors/town/keep/squire)
 "hSR" = (
 /obj/structure/winch{
-	gid = "keepgatesouth";
 	redstone_id = "keepgatesouth";
 	name = "winch (south)"
 	},
@@ -16364,7 +16362,6 @@
 /obj/machinery/light/fueled/wallfire/candle,
 /obj/structure/winch{
 	dir = 4;
-	gid = "smelting";
 	redstone_id = "smelting";
 	pixel_x = -6
 	},
@@ -19045,7 +19042,6 @@
 "qCW" = (
 /obj/structure/winch{
 	dir = 4;
-	gid = "gatemanor3";
 	redstone_id = "gatemanor3";
 	pixel_x = -6
 	},
@@ -26957,7 +26953,6 @@
 "xLp" = (
 /obj/structure/winch{
 	dir = 4;
-	gid = "gatemanorout";
 	redstone_id = "gatemanorout";
 	pixel_x = -6
 	},

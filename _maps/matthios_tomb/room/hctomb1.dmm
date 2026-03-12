@@ -506,7 +506,6 @@
 /area/under/tomb/cave)
 "Co" = (
 /obj/structure/winch{
-	gid = "hctomb01";
 	redstone_id = "hctomb01"
 	},
 /turf/open/floor/metal/barograte,

@@ -1374,8 +1374,7 @@
 "bna" = (
 /obj/structure/winch{
 	name = "North Gate";
-	redstone_id = "NG1";
-	gid = "NG1"
+	redstone_id = "NG1"
 	},
 /turf/open/floor/cobblerock,
 /area/indoors/town/keep/gate)
@@ -1906,7 +1905,6 @@
 /area/indoors/town/church)
 "bKF" = (
 /obj/structure/winch{
-	gid = "GG2";
 	redstone_id = "GG2";
 	name = "South Grenzelhoft Winch"
 	},
@@ -12152,7 +12150,6 @@
 "ldl" = (
 /obj/structure/winch{
 	name = "South Gate";
-	gid = "NG2";
 	redstone_id = "NG2"
 	},
 /obj/machinery/light/fueled/wallfire/candle,
@@ -14780,8 +14777,7 @@
 "nKr" = (
 /obj/structure/winch{
 	name = "Grenzelhoft Gate Winch";
-	redstone_id = "GW1";
-	gid = "GW1"
+	redstone_id = "GW1"
 	},
 /obj/structure/fake_machine/scomm,
 /turf/open/floor/blocks,
@@ -16051,8 +16047,7 @@
 "oPm" = (
 /obj/structure/winch{
 	name = "White Palace Pass Gate Winch";
-	redstone_id = "RW1";
-	gid = "RW1"
+	redstone_id = "RW1"
 	},
 /turf/open/floor/concrete,
 /area/indoors/villagegarrison)
@@ -16062,8 +16057,7 @@
 "oQm" = (
 /obj/structure/winch{
 	name = "EVENT WINCH";
-	redstone_id = "Event1";
-	gid = "Event1"
+	redstone_id = "Event1"
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/basin/safe)
@@ -16340,8 +16334,7 @@
 /area/indoors/town/garrison)
 "pbG" = (
 /obj/structure/winch{
-	redstone_id = "BFG1";
-	gid = "BFG1"
+	redstone_id = "BFG1"
 	},
 /obj/structure/fluff/walldeco/painting/seraphina{
 	pixel_x = -32
@@ -25540,7 +25533,6 @@
 "xAP" = (
 /obj/structure/winch{
 	redstone_id = "GG1";
-	gid = "GG1";
 	name = "North Grenzelhoft Winch"
 	},
 /turf/open/floor/hexstone,

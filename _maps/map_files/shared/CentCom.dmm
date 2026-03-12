@@ -1671,7 +1671,6 @@
 /area/outdoors/bog/inhumen_camp)
 "hJ" = (
 /obj/structure/winch{
-	gid = "vamplordthrone";
 	redstone_id = "vamplordthrone"
 	},
 /turf/open/floor/carpet,
@@ -1770,7 +1769,6 @@
 /area)
 "ik" = (
 /obj/structure/winch{
-	gid = "vamplordmanor";
 	redstone_id = "vamplordmanor"
 	},
 /turf/open/floor/blocks,
@@ -5359,7 +5357,6 @@
 /area/indoors/vampire_manor)
 "GC" = (
 /obj/structure/winch{
-	gid = "vamplordthrone";
 	redstone_id = "vamplordthrone"
 	},
 /turf/open/floor/churchbrick,
