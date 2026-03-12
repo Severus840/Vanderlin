@@ -48,6 +48,7 @@
 
 	visible_message(span_notice("[src] consumes [I], spitting out a reward!"), vision_distance = COMBAT_MESSAGE_RANGE)
 	playsound(src, 'sound/gore/flesh_eat_03.ogg', 100,)
-	budget2change(round(I.sellprice * 1.25), user)
-	record_round_statistic(STATS_HEADEATER_EXPORTS, I.sellprice * 1.25)
+	var/reward = round(I.sellprice * 1.25)
+	budget2change(reward, user)
+	record_round_statistic(STATS_HEADEATER_EXPORTS, reward)
 	qdel(I)
