@@ -68,6 +68,9 @@
 /obj/effect/mapping_helpers/access/keyset/town/mercenary
 	accesses = list(ACCESS_MERC)
 
+/obj/effect/mapping_helpers/access/keyset/town/tomb
+	accesses = list(ACCESS_TOMB)
+
 /obj/effect/mapping_helpers/access/keyset/town/elder
 	accesses = list(ACCESS_ELDER)
 

@@ -235,7 +235,7 @@
 	keys = list(/obj/item/key/manor, /obj/item/key/tower)
 
 /obj/item/storage/keyring/innkeep
-	keys = list(/obj/item/key/tavern, /obj/item/key/roomhunt, /obj/item/key/medroomiv, /obj/item/key/medroomiii, /obj/item/key/medroomii, /obj/item/key/medroomi, /obj/item/key/luxroomiv, /obj/item/key/luxroomiii, /obj/item/key/luxroomii, /obj/item/key/luxroomi)
+	keys = list(/obj/item/key/tavern, /obj/item/key/mercenary)
 
 /obj/item/storage/keyring/priest
 	keys = list(/obj/item/key/priest, /obj/item/key/church, /obj/item/key/graveyard)
@@ -283,7 +283,10 @@
 	keys = list(/obj/item/key/warehouse, /obj/item/key/merchant)
 
 /obj/item/storage/keyring/tombwarden
-	keys = list(/obj/item/key/tombwarden, /obj/item/key/mercenary)
+	keys = list(/obj/item/key/tombwarden, /obj/item/key/mercenary, /obj/item/key/tomb)
+
+/obj/item/storage/keyring/mercenary
+	keys = list(/obj/item/key/mercenary, /obj/item/key/tomb)
 
 /obj/item/storage/keyring/master_of_crafts_and_labor
 	keys = list(/obj/item/key/elder, /obj/item/key/blacksmith,/obj/item/key/tailor,/obj/item/key/tavern,/obj/item/key/apothecary, /obj/item/key/butcher, /obj/item/key/soilson,/obj/item/key/artificer,/obj/item/key/clinic)

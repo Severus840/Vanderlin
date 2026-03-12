@@ -12,6 +12,7 @@
 #define ACCESS_ELDER "elder"
 #define ACCESS_MERC "mercenary"
 #define ACCESS_TOMBWARDEN "tombwarden"
+#define ACCESS_TOMB "tomb"
 #define ACCESS_TOWER "tower"
 #define ACCESS_WAREHOUSE "warehouse"
 #define ACCESS_ARTIFICER "artificer"

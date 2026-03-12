@@ -56,6 +56,20 @@
 	. = ..()
 	set_holdable(list(/obj/item/key))
 
+/datum/component/storage/concrete/grid/keyrack
+	screen_max_rows = 4
+	screen_max_columns = 4
+	max_w_class = WEIGHT_CLASS_SMALL
+	//attack_hand_interact = FALSE
+	collection_mode = COLLECT_ONE
+	insert_verb = "slide"
+	insert_preposition = "on"
+	rustle_sound = 'sound/items/gems (1).ogg'
+
+/datum/component/storage/concrete/grid/keyrack/New(datum/P, ...)
+	. = ..()
+	set_holdable(list(/obj/item/key))
+
 /datum/component/storage/concrete/grid/belt/knife_belt
 	screen_max_rows = 4
 	screen_max_columns = 4

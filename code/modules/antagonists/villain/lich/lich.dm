@@ -264,7 +264,7 @@
 	visible_message(span_warning("[src] begins to glow and shake violently!"))
 
 /obj/item/broken_phylactery
-	name = "old phylactery"
+	name = "exhausted phylactery"
 	desc = "A memento from a victory long past."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "purified_soulstone"

@@ -1875,6 +1875,7 @@
 #include "code\game\objects\structures\hole.dm"
 #include "code\game\objects\structures\innocent.dm"
 #include "code\game\objects\structures\irrigation_channel.dm"
+#include "code\game\objects\structures\keyrack.dm"
 #include "code\game\objects\structures\ladders.dm"
 #include "code\game\objects\structures\life_candle.dm"
 #include "code\game\objects\structures\lottery.dm"
