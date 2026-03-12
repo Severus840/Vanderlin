@@ -14643,11 +14643,11 @@
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/bath)
 "haa" = (
-/obj/structure/door/iron/bars{
-	name = "training storage"
-	},
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/town/tombwarden,
+/obj/structure/door/iron/bars{
+	name = "equipment storage"
+	},
 /turf/open/floor/blocks/newstone/alt,
 /area/indoors/town/merc_guild)
 "had" = (
