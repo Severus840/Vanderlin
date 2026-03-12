@@ -23547,9 +23547,9 @@
 /obj/item/needle/thorn,
 /obj/item/reagent_containers/food/snacks/hardtack,
 /obj/item/reagent_containers/food/snacks/meat/salami,
+/obj/structure/closet/crate/chest/wicker,
 /obj/item/reagent_containers/food/snacks/hardtack,
 /obj/item/reagent_containers/food/snacks/meat/salami,
-/obj/structure/closet/crate/chest/wicker,
 /turf/open/floor/tile/brownbrick,
 /area/indoors/town/merc_guild)
 "lhy" = (
@@ -25478,6 +25478,7 @@
 	pixel_y = 5
 	},
 /obj/item/sleepingbag,
+/obj/item/storage/backpack/backpack,
 /turf/open/floor/blocks/newstone/alt,
 /area/indoors/town/merc_guild)
 "mbQ" = (
@@ -122974,9 +122975,9 @@ ssf
 nQx
 vkG
 czz
-pTm
-pTm
-pTm
+irX
+irX
+irX
 irX
 fgR
 rSO
