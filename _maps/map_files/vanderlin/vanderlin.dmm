@@ -10604,6 +10604,10 @@
 "eYY" = (
 /turf/open/openspace,
 /area/indoors/town/keep/halls/w)
+"eYZ" = (
+/obj/structure/chair/hotspring_bench/left,
+/turf/open/floor/cobble/mossy,
+/area/under/cavewet)
 "eZo" = (
 /obj/structure/rack/shelf/biggest,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -10911,6 +10915,12 @@
 /obj/structure/closet/crate/chest/neu_fancy,
 /turf/open/floor/tile,
 /area/indoors/town/vault)
+"ffU" = (
+/obj/structure/bed/wool,
+/obj/item/bedsheet/pelt,
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/carpet/green,
+/area/indoors/town/merc_guild)
 "ffV" = (
 /obj/effect/mapping_helpers/secret_door_creator/keep{
 	floor_turf = /turf/open/floor/ruinedwood/spiral;
@@ -13955,6 +13965,11 @@
 /obj/structure/flora/grass,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods_safe)
+"gHJ" = (
+/obj/structure/window/solid,
+/obj/structure/curtain/bounty/dir,
+/turf/open/floor/ruinedwood,
+/area/outdoors/mountains)
 "gHN" = (
 /obj/effect/spawner/map_spawner/tallgrass,
 /turf/open/floor/grass,
@@ -17249,6 +17264,9 @@
 /area/under/cavewet)
 "iqa" = (
 /obj/structure/window/solid,
+/obj/structure/curtain/bounty/dir{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/outdoors/mountains)
 "iqb" = (
@@ -17335,6 +17353,13 @@
 /obj/structure/fluff/walldeco/med5,
 /turf/closed/wall/mineral/craftstone,
 /area/indoors/town/clinic_large/apothecary)
+"irx" = (
+/obj/structure/window/solid,
+/obj/structure/curtain/bounty/dir{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/mountains)
 "irM" = (
 /obj/machinery/light/fueled/torchholder{
 	pixel_y = 26
@@ -26847,6 +26872,10 @@
 "mKC" = (
 /turf/open/water/bath,
 /area/under/town/basement)
+"mKD" = (
+/obj/structure/chair/hotspring_bench,
+/turf/open/floor/cobble/mossy,
+/area/under/cavewet)
 "mKE" = (
 /obj/machinery/light/fueledstreet{
 	dir = 1
@@ -38037,12 +38066,22 @@
 	},
 /turf/open/floor/greenstone/glyph3,
 /area/indoors/town/vault)
+"rQx" = (
+/obj/structure/chair/hotspring_bench/right,
+/turf/open/floor/cobble/mossy,
+/area/under/cavewet)
 "rQy" = (
 /obj/structure/lever/hidden/keep{
 	redstone_id = "ArchiveTunnel2"
 	},
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep/library)
+"rQz" = (
+/obj/structure/bed/wool,
+/obj/item/bedsheet/pelt,
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/open/floor/carpet/green,
+/area/indoors/town/merc_guild)
 "rQA" = (
 /obj/structure/table/wood/large/corner{
 	dir = 10
@@ -49765,6 +49804,11 @@
 	},
 /turf/open/floor/wood,
 /area/outdoors/beach/boat)
+"wTz" = (
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/carpet/green,
+/area/indoors/town/merc_guild)
 "wTU" = (
 /turf/open/floor/concrete,
 /area/under/town/basement)
@@ -50928,6 +50972,13 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/town/roofs)
+"xuf" = (
+/obj/structure/window/solid,
+/obj/structure/curtain/bounty/dir{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/mountains)
 "xug" = (
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/natural/cloth,
@@ -83588,7 +83639,7 @@ xOx
 vbN
 qFx
 irX
-tEK
+wTz
 lkz
 akD
 irX
@@ -83597,7 +83648,7 @@ deb
 irX
 akD
 ubI
-tEK
+wTz
 irX
 qvf
 qvf
@@ -84395,7 +84446,7 @@ kFt
 kFt
 vbN
 irX
-mwa
+ffU
 hFK
 ydL
 irX
@@ -84406,7 +84457,7 @@ deb
 irX
 ydL
 hFK
-mwa
+ffU
 irX
 qFx
 qFx
@@ -84799,7 +84850,7 @@ nSd
 nSd
 bfG
 hHE
-mwa
+rQz
 hFK
 ydL
 irX
@@ -84810,7 +84861,7 @@ deb
 hHE
 ydL
 hFK
-mwa
+rQz
 irX
 qFx
 qFx
@@ -85618,7 +85669,7 @@ qyr
 ejT
 irX
 fVn
-deb
+eOx
 sIE
 irX
 dLs
@@ -101575,7 +101626,7 @@ qFx
 qFx
 qFx
 qFx
-xso
+rQx
 xso
 xso
 rsx
@@ -101777,7 +101828,7 @@ qFx
 qFx
 qFx
 qFx
-xso
+mKD
 okz
 xso
 tDy
@@ -101979,7 +102030,7 @@ qFx
 qFx
 qFx
 qFx
-xso
+eYZ
 okz
 okz
 xso
@@ -237110,7 +237161,7 @@ oEP
 oEP
 kyV
 kyV
-uZk
+irx
 kyV
 kyV
 kyV
@@ -237914,7 +237965,7 @@ nRI
 nRI
 nRI
 lsd
-uZk
+gHJ
 sbv
 dkq
 dkq
@@ -238116,7 +238167,7 @@ nRI
 nRI
 nRI
 lsd
-uZk
+gHJ
 bdc
 jVn
 nmC
@@ -239935,7 +239986,7 @@ nRI
 nRI
 nRI
 lsd
-uZk
+gHJ
 mVi
 kuV
 bvt
@@ -240137,7 +240188,7 @@ nRI
 nRI
 nRI
 lsd
-uZk
+gHJ
 ecy
 pBY
 bvt
@@ -240541,7 +240592,7 @@ nRI
 nRI
 nRI
 lsd
-uZk
+gHJ
 dkq
 dkq
 dkq
@@ -240743,7 +240794,7 @@ nRI
 nRI
 lsd
 lsd
-uZk
+gHJ
 ahf
 rYX
 kXU
@@ -241550,7 +241601,7 @@ nRI
 nRI
 nRI
 lsd
-uZk
+gHJ
 xio
 dkq
 dkq
@@ -241760,7 +241811,7 @@ eTH
 kyV
 kyV
 kyV
-uZk
+xuf
 kyV
 kyV
 kyV
@@ -241956,8 +242007,8 @@ nRI
 lsd
 kyV
 kyV
-uZk
-uZk
+xuf
+xuf
 kyV
 kyV
 kCS
