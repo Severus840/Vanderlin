@@ -56,7 +56,6 @@
 /area/outdoors/town)
 "abq" = (
 /obj/structure/winch{
-	gid = "keepgatesouth";
 	name = "winch (south)";
 	redstone_id = "keepgatesouth"
 	},
@@ -9522,7 +9521,6 @@
 "exL" = (
 /obj/structure/winch{
 	dir = 1;
-	gid = "towngatenorth";
 	name = "winch (north)";
 	redstone_id = "towngatenorth"
 	},
@@ -14430,6 +14428,7 @@
 "gVg" = (
 /obj/structure/fake_machine/hailer,
 /obj/machinery/light/fueled/wallfire/candle/l,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/carpet/green,
 /area/indoors/town/merc_guild)
 "gVk" = (
@@ -19203,7 +19202,6 @@
 "jgl" = (
 /obj/structure/winch{
 	dir = 4;
-	gid = "gatemanor2";
 	pixel_x = -6;
 	redstone_id = "gatemanor3"
 	},
@@ -23531,7 +23529,6 @@
 	dir = 5
 	},
 /obj/structure/winch{
-	gid = "keepgatenorth";
 	name = "winch (north)";
 	redstone_id = "keepgatenorth"
 	},
@@ -43991,7 +43988,6 @@
 /area/indoors/town/shop)
 "uBi" = (
 /obj/structure/winch{
-	gid = "keepgatenorth";
 	name = "winch (north)";
 	redstone_id = "keepgatenorth"
 	},
@@ -48800,7 +48796,6 @@
 /obj/structure/fluff/wallclock,
 /obj/structure/winch{
 	dir = 1;
-	gid = "towngatesouth";
 	name = "winch (south)";
 	redstone_id = "towngatesouth"
 	},
@@ -49564,8 +49559,8 @@
 /area/outdoors/mountains)
 "wPr" = (
 /obj/structure/door/iron/bars,
-/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/tomb,
 /turf/open/floor/cobble/mossy,
 /area/under/town/basement)
 "wPI" = (
@@ -50608,6 +50603,7 @@
 	icon_state = "longtable_mid"
 	},
 /obj/structure/fake_machine/headeater/r,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/merc_guild)
 "xmy" = (

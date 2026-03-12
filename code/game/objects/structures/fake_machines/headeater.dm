@@ -42,7 +42,7 @@
 	if(locked())
 		to_chat(user, span_warning("It's locked. Of course."))
 		return
-	if(sellprice <= 0)
+	if(I.sellprice <= 0)
 		to_chat(user, span_warning("[src] isn't worth selling."))
 		return
 
