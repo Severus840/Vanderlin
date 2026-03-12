@@ -14428,7 +14428,6 @@
 "gVg" = (
 /obj/structure/fake_machine/hailer,
 /obj/machinery/light/fueled/wallfire/candle/l,
-/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/carpet/green,
 /area/indoors/town/merc_guild)
 "gVk" = (
@@ -50604,7 +50603,6 @@
 	icon_state = "longtable_mid"
 	},
 /obj/structure/fake_machine/headeater/r,
-/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/merc_guild)
 "xmy" = (
