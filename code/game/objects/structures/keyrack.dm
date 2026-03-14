@@ -23,7 +23,6 @@
 		LAZYREMOVE(keys, X)
 	update_appearance(UPDATE_ICON_STATE | UPDATE_DESC)
 
-
 /obj/structure/keyrack/mercenary
 	keys = list(/obj/item/key/mercenary = 8)
 

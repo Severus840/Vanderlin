@@ -60,7 +60,7 @@
 /datum/outfit/job/human/species/human/northern/mad_touched_treasure_hunter/pre_equip(mob/living/carbon/human/H)
 	wrists = /obj/item/clothing/wrists/bracers
 	mask = /obj/item/clothing/face/facemask/steel/mad_touched
-	armor = /obj/item/clothing/armor/leather/heavy
+	armor = /obj/item/clothing/armor/leather/jerkin
 	shirt = /obj/item/clothing/armor/gambeson
 	if(prob(20))
 		shirt = /obj/item/clothing/armor/gambeson/light

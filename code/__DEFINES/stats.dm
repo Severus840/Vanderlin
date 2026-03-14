@@ -21,7 +21,6 @@
 #define STATMOD_ORPHANAGE "Orphanage"
 
 // For misc things.
-#define STATMOD_CURSE "Admin Curse"
 #define STATMOD_ABOM "Abomination"
 #define STATMOD_SIGIL "Arcane Sigal"
 #define STATMOD_RITUAL "Ritual"
