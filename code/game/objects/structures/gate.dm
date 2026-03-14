@@ -185,7 +185,7 @@ GLOBAL_LIST_EMPTY(biggates)
 		return
 	var/mob/living/L = user
 	L.changeNext_move(CLICK_CD_MELEE)
-	var/used_time = 10.5 SECONDS - (L.STASTR * 10)
+	var/used_time = 10.5 SECONDS - (GET_MOB_ATTRIBUTE_VALUE(L, STAT_STRENGTH) * 10)
 	if(!do_after(user, used_time))
 		return
 	COOLDOWN_START(src, winch_cooldown, 3 SECONDS)
