@@ -38735,11 +38735,6 @@
 /obj/machinery/light/fueled/firebowl/standing,
 /turf/open/floor/blocks,
 /area/outdoors/town)
-"rZB" = (
-/obj/structure/window/solid,
-/obj/structure/curtain/bounty/dir,
-/turf/open/floor/woodturned,
-/area/indoors/town/tavern)
 "rZI" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
 /turf/open/floor/tile/kitchen,
@@ -157893,7 +157888,7 @@ biy
 biy
 biy
 xhZ
-rZB
+ceF
 bHV
 bHV
 bHV
