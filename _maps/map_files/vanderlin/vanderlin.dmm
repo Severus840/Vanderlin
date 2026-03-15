@@ -46857,30 +46857,6 @@
 "vGY" = (
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/broom,
-/obj/item/paper{
-	pixel_x = -7;
-	pixel_y = 1
-	},
-/obj/item/paper{
-	pixel_x = -7;
-	pixel_y = 1
-	},
-/obj/item/paper{
-	pixel_x = -7;
-	pixel_y = 1
-	},
-/obj/item/paper{
-	pixel_x = -7;
-	pixel_y = 1
-	},
-/obj/item/paper{
-	pixel_x = -7;
-	pixel_y = 1
-	},
-/obj/item/paper{
-	pixel_x = -7;
-	pixel_y = 1
-	},
 /obj/item/natural/cloth,
 /obj/item/reagent_containers/glass/bucket/wooden{
 	pixel_x = -10;
