@@ -6938,10 +6938,6 @@
 	},
 /turf/open/floor/concrete,
 /area/indoors/town/clocktower)
-"dml" = (
-/obj/effect/mapping_helpers/access/locker,
-/turf/closed/wall/mineral/craftstone,
-/area/indoors/town/merc_guild)
 "dmx" = (
 /obj/item/gear,
 /obj/item/reagent_containers/food/snacks/crow,
@@ -21274,7 +21270,7 @@
 /obj/structure/lever/wall{
 	dir = 4;
 	name = "Side Entrance Lockdown";
-	redstone_id = "keepgatekybraxor";
+	redstone_id = "gate_shutter";
 	pixel_x = 0;
 	pixel_y = 7
 	},
@@ -84355,7 +84351,7 @@ kkB
 ydL
 deb
 iif
-dml
+irX
 qFx
 qFx
 qFx
