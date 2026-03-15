@@ -20,6 +20,30 @@
 		/obj/item/key/miner = 1,
 	)
 
+/obj/effect/spawner/guaranteed_map_spawner/listed/inn_keys
+	spawned = list(
+		/obj/item/key/roomi = 1,
+		/obj/item/key/roomii = 1,
+		/obj/item/key/roomiii = 1,
+		/obj/item/key/roomiv = 1,
+		/obj/item/key/roomv = 1,
+		/obj/item/key/roomvi = 1,
+		/obj/item/key/medroomi = 1,
+		/obj/item/key/medroomii = 1,
+		/obj/item/key/medroomiii = 1,
+		/obj/item/key/medroomiv = 1,
+		/obj/item/key/medroomv = 1,
+		/obj/item/key/medroomvi = 1,
+		/obj/item/key/luxroomi = 1,
+		/obj/item/key/luxroomii = 1,
+		/obj/item/key/luxroomiii = 1,
+		/obj/item/key/luxroomiv = 1,
+		/obj/item/key/luxroomv = 1,
+		/obj/item/key/luxroomvi = 1,
+		/obj/item/key/roomhunt = 1,
+	)
+
+
 /obj/effect/spawner/guaranteed_map_spawner/listed/cutlery
 	spawned = list(
 		/obj/item/reagent_containers/glass/bowl = 6,
