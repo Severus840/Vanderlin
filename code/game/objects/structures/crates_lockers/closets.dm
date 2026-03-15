@@ -130,8 +130,6 @@
 		return
 	for(var/atom/movable/AM in location)
 		if(AM != src && insert(AM, mapload) == LOCKER_FULL) // limit reached
-			if(mapload) // Yea, it's a mapping issue. Blame mappers.
-				log_mapping("Closet storage capacity of [type] exceeded on mapload at [AREACOORD(src)]")
 			break
 
 /obj/structure/closet/proc/open(mob/living/user)
