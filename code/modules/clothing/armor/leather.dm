@@ -364,5 +364,5 @@
 /obj/item/clothing/armor/leather/jerkin/belted/long
 	icon_state = "roguearmor_coat"
 	item_state = "roguearmor_coat"
-	body_parts_covered = VALUE_LEATHER_ARMOR_LORD
-	sellprice = 30
+	body_parts_covered = COVERAGE_ALL_BUT_ARMS
+	sellprice = VALUE_LEATHER_ARMOR_LORD
