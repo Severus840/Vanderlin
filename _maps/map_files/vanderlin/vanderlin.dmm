@@ -6938,6 +6938,10 @@
 	},
 /turf/open/floor/concrete,
 /area/indoors/town/clocktower)
+"dml" = (
+/obj/effect/mapping_helpers/access/locker,
+/turf/closed/wall/mineral/craftstone,
+/area/indoors/town/merc_guild)
 "dmx" = (
 /obj/item/gear,
 /obj/item/reagent_containers/food/snacks/crow,
@@ -19062,6 +19066,8 @@
 /obj/structure/door/viewport{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/access/keyset/town/mercenary,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/dirt,
 /area/indoors/town/merc_guild)
 "jbm" = (
@@ -84349,7 +84355,7 @@ kkB
 ydL
 deb
 iif
-irX
+dml
 qFx
 qFx
 qFx
