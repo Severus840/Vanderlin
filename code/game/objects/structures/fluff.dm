@@ -333,6 +333,11 @@
 	smeltresult = /obj/item/ingot/bronze
 	var/togg = FALSE
 
+/obj/structure/bars/pipe/Initialize()
+	. = ..()
+	AddComponent(/datum/component/squeak, list('sound/foley/footsteps/FTMET_A1.ogg','sound/foley/footsteps/FTMET_A2.ogg','sound/foley/footsteps/FTMET_A3.ogg','sound/foley/footsteps/FTMET_A4.ogg'), 40, extrarange = SHORT_RANGE_SOUND_EXTRARANGE)
+
+
 /obj/structure/bars/pipe/left
 	name = "bronze pipe"
 	desc = ""
