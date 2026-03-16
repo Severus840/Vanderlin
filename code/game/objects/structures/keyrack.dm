@@ -57,7 +57,7 @@
 
 //clear these out so it stops acting like a proper closet
 /obj/structure/closet/keyrack/insertion_allowed(atom/movable/AM)
-	if(!istype(AM, /obj/item/key))
+	if(!is_type_in_list(AM, /obj/item/key, /obj/item/storage/keyring, /obj/item/lockpick, /obj/item/lockpickring))
 		return FALSE
 	return ..()
 
