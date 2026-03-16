@@ -106,6 +106,10 @@ GLOBAL_LIST_EMPTY(biggates)
 		return
 	. += mutable_appearance(icon, "[base_state][density]_part", ABOVE_MOB_LAYER)
 
+/obj/structure/gate/redstone_triggered(mob/user)
+	if(!isSwitchingStates)
+		toggle()
+
 /obj/structure/gate/proc/toggle()
 	if(density)
 		open()
@@ -119,7 +123,9 @@ GLOBAL_LIST_EMPTY(biggates)
 	playsound(src, 'sound/misc/gate.ogg', 100, extrarange = 5)
 	flick("[base_state]_opening",src)
 	layer = initial(layer)
-	sleep(15)
+	addtimer(CALLBACK(src, PROC_REF(finish_open)), 1.5 SECONDS)
+
+/obj/structure/gate/proc/finish_open()
 	density = FALSE
 	set_opacity(FALSE)
 	for(var/obj/gblock/B in blockers)
@@ -135,7 +141,9 @@ GLOBAL_LIST_EMPTY(biggates)
 	layer = ABOVE_MOB_LAYER
 	playsound(src, 'sound/misc/gate.ogg', 100, extrarange = 5)
 	flick("[base_state]_closing",src)
-	sleep(10)
+	addtimer(CALLBACK(src, PROC_REF(finish_close)), 1 SECONDS)
+
+/obj/structure/gate/proc/finish_close()
 	for(var/turf/T in turfsy)
 		for(var/mob/living/M in T)
 			M.log_message("has been crushed by the [src]!", LOG_ATTACK)
@@ -188,7 +196,7 @@ GLOBAL_LIST_EMPTY(biggates)
 	var/used_time = 10.5 SECONDS - (GET_MOB_ATTRIBUTE_VALUE(L, STAT_STRENGTH) * 10)
 	if(!do_after(user, used_time))
 		return
-	COOLDOWN_START(src, winch_cooldown, 3 SECONDS)
+	COOLDOWN_START(src, winch_cooldown, 1.5 SECONDS)
 	for(var/obj/structure/structure in redstone_attached)
 		INVOKE_ASYNC(structure, PROC_REF(redstone_triggered), user)
 	trigger_wire_network(user)

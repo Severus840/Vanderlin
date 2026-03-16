@@ -189,9 +189,9 @@
 
 /datum/component/storage/concrete/keyrack
 	screen_max_rows = 2
-	screen_max_columns = 8
+	screen_max_columns = 10
 	display_numerical_stacking = TRUE
-	max_items = 16
+	max_items = 20
 	max_w_class = WEIGHT_CLASS_SMALL
 	collection_mode = COLLECT_ONE
 	insert_verb = "slide"
@@ -201,4 +201,4 @@
 
 /datum/component/storage/concrete/keyrack/New(datum/P, ...)
 	. = ..()
-	set_holdable(list(/obj/item/key))
+	set_holdable(list(/obj/item/key, /obj/item/storage/keyring, /obj/item/lockpick, /obj/item/lockpickring))

@@ -2,7 +2,7 @@
 //Doesn't actually function as a closet for contents,
 /obj/structure/closet/keyrack
 	name = "key rack"
-	desc = "A rack for holding up to 16 keys."
+	desc = "A rack for holding up to 20 keys."
 	icon = 'icons/roguetown/misc/structure.dmi'
 	icon_state = "keyrack"
 	base_icon_state = "keyrack"

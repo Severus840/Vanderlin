@@ -4521,7 +4521,6 @@
 /area/outdoors/town/roofs)
 "ciw" = (
 /obj/structure/gate/bars/preopen{
-	gid = "keepgatesouth";
 	redstone_id = "keepgatesouth"
 	},
 /obj/structure/fluff/railing/border{
@@ -4540,6 +4539,16 @@
 /obj/item/weapon/knife/stone,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town)
+"cjz" = (
+/obj/effect/mapping_helpers/access/keyset/manor/dungeon,
+/obj/item/clothing/shirt/rags,
+/obj/structure/closet/crate/chest/neu_iron{
+	name = "prisoner chest";
+	desc = "used to store a prisoners belongings."
+	},
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/open/floor/wood,
+/area/indoors/town/cell)
 "cjA" = (
 /obj/structure/table/wood/crafted,
 /obj/structure/mirror{
@@ -5422,7 +5431,6 @@
 /area/indoors/town/clocktower)
 "cEj" = (
 /obj/structure/gate/bars/preopen{
-	gid = "towngatesouth";
 	redstone_id = "towngatesouth"
 	},
 /turf/open/floor/metal/barograte,
@@ -5957,7 +5965,6 @@
 /area/indoors/town/keep/lord_appt)
 "cOB" = (
 /obj/structure/gate/bars{
-	gid = "keepgatenorth";
 	redstone_id = "keepgatenorth"
 	},
 /turf/open/floor/metal/alt,
@@ -18291,9 +18298,15 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/guest/guest2)
 "iLt" = (
-/obj/machinery/light/fueled/wallfire/candle{
+/obj/structure/closet/keyrack{
 	pixel_y = -32
 	},
+/obj/item/key/dungeon,
+/obj/item/key/dungeon,
+/obj/item/key/dungeon,
+/obj/item/key/dungeon,
+/obj/effect/mapping_helpers/access/keyset/manor/dungeon,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/blocks,
 /area/indoors/town/cell)
 "iLy" = (
@@ -21192,7 +21205,8 @@
 	name = "Kybraxor's mouth lever";
 	redstone_id = "keepgatekybraxor";
 	pixel_x = 0;
-	pixel_y = -10
+	pixel_y = -10;
+	pulltime = 160
 	},
 /obj/structure/lever/wall{
 	dir = 4;
@@ -24118,7 +24132,6 @@
 /area/indoors/town/church/inquisition)
 "lws" = (
 /obj/structure/gate/bars/preopen{
-	gid = "towngatenorth";
 	redstone_id = "towngatenorth"
 	},
 /turf/open/floor/metal/barograte,
@@ -30149,15 +30162,6 @@
 "opb" = (
 /obj/structure/closet/keyrack,
 /obj/effect/mapping_helpers/access/keyset/manor/steward,
-/obj/item/key/mnoble2_yellow,
-/obj/item/key/mnoble2_yellow{
-	pixel_x = -5;
-	pixel_y = 1
-	},
-/obj/item/key/mnoble2_yellow{
-	pixel_x = -11;
-	pixel_y = 2
-	},
 /obj/item/key/shops/shop2{
 	pixel_x = -3;
 	pixel_y = -3
@@ -42807,7 +42811,6 @@
 /area/indoors/town/keep/magician)
 "tXN" = (
 /obj/structure/gate{
-	gid = "gatemanor2";
 	name = "Throne Room Gate";
 	redstone_id = "gatemanor3"
 	},
@@ -68599,7 +68602,7 @@ iqo
 qzt
 vvX
 rIc
-rIc
+cjz
 kxM
 oPZ
 vCO

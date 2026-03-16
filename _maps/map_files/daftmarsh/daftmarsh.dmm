@@ -1710,7 +1710,6 @@
 /area/indoors/butchershop)
 "brm" = (
 /obj/structure/gate{
-	gid = "gatemanor3";
 	redstone_id = "gatemanor3";
 	name = "Throne Room Gate"
 	},
@@ -8737,8 +8736,7 @@
 /area/indoors/town/smithy)
 "hwS" = (
 /obj/structure/gate/bars{
-	redstone_id = "keepgatenorth";
-	gid = "keepgatenorth"
+	redstone_id = "keepgatenorth"
 	},
 /turf/open/floor/metal/alt,
 /area/outdoors/town)
@@ -10956,7 +10954,6 @@
 /area/indoors/town/bath)
 "jtd" = (
 /obj/structure/gate{
-	gid = "gatemanorout";
 	redstone_id = "gatemanorout";
 	name = "Throne Room Gate"
 	},
@@ -14388,7 +14385,6 @@
 /area/outdoors/town)
 "mqy" = (
 /obj/structure/gate/bars/preopen{
-	gid = "keepgatesouth";
 	redstone_id = "keepgatesouth"
 	},
 /obj/structure/fluff/railing/border{
@@ -25077,7 +25073,6 @@
 /area/indoors/town/keep/servanthead)
 "whw" = (
 /obj/structure/gate{
-	gid = "smelting";
 	redstone_id = "smelting";
 	name = "Throne Room Gate"
 	},

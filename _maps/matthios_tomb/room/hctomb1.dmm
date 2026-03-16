@@ -924,7 +924,6 @@
 /area/under/tomb/indoors)
 "YA" = (
 /obj/structure/gate/bars{
-	gid = "hctomb01";
 	redstone_id = "hctomb01"
 	},
 /turf/open/floor/naturalstone,

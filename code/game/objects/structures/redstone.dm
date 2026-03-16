@@ -77,6 +77,8 @@ GLOBAL_LIST_EMPTY(redstone_objs)
 	density = FALSE
 	anchored = TRUE
 	max_integrity = 3000
+	// reduced by 1 second for each strength point
+	var/pulltime = 10 SECONDS
 	redstone_structure = TRUE
 	var/toggled = FALSE
 
@@ -84,7 +86,7 @@ GLOBAL_LIST_EMPTY(redstone_objs)
 	if(isliving(user))
 		var/mob/living/L = user
 		L.changeNext_move(CLICK_CD_MELEE)
-		var/used_time = 10 SECONDS - (GET_MOB_ATTRIBUTE_VALUE(L, STAT_STRENGTH) * 1 SECONDS)
+		var/used_time = pulltime - (GET_MOB_ATTRIBUTE_VALUE(L, STAT_STRENGTH) * 1 SECONDS)
 		user.visible_message("<span class='warning'>[user] pulls the lever.</span>")
 		user.log_message("pulled the lever with redstone id \"[redstone_id]\"", LOG_GAME)
 		if(do_after(user, used_time))

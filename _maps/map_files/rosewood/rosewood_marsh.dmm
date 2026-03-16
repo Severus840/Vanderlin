@@ -27,7 +27,6 @@
 /area/indoors/mountains)
 "ae" = (
 /obj/structure/gate/bars/preopen{
-	gid = "Marshgate";
 	redstone_id = "Marshgate"
 	},
 /turf/open/floor/grass/cold,

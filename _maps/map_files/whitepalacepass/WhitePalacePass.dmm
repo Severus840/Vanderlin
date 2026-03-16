@@ -520,8 +520,7 @@
 "aCl" = (
 /obj/structure/gate/bars/preopen{
 	name = "Grenzelhoft Gate";
-	redstone_id = "GW1";
-	gid = "GW1"
+	redstone_id = "GW1"
 	},
 /turf/open/floor/cobblerock,
 /area/indoors/villagegarrison)
@@ -3523,7 +3522,6 @@
 "dwX" = (
 /obj/structure/gate/bars/preopen{
 	name = "South Gate";
-	gid = "NG2";
 	redstone_id = "NG2"
 	},
 /turf/open/floor/cobble,
@@ -3653,8 +3651,7 @@
 /area/indoors/town/merc_guild)
 "dAJ" = (
 /obj/structure/gate{
-	redstone_id = "BFG1";
-	gid = "BFG1"
+	redstone_id = "BFG1"
 	},
 /turf/open/floor/carpet/lord/left,
 /area/indoors/town/keep/throne)
@@ -4518,8 +4515,7 @@
 "etz" = (
 /obj/structure/gate/bars{
 	name = "North Gate";
-	redstone_id = "NG1";
-	gid = "NG1"
+	redstone_id = "NG1"
 	},
 /turf/open/floor/cobble,
 /area/outdoors/basin/safe)
@@ -6970,7 +6966,6 @@
 /area/indoors/soilsons)
 "gCl" = (
 /obj/structure/gate{
-	gid = "GG2";
 	redstone_id = "GG2";
 	name = "South Grenzelhoft Gate"
 	},
@@ -12097,7 +12092,6 @@
 "laW" = (
 /obj/structure/gate{
 	redstone_id = "GG1";
-	gid = "GG1";
 	name = "North Grenzelhoft Gate"
 	},
 /obj/structure/bars/passage/shutter{
@@ -14804,7 +14798,6 @@
 "nLy" = (
 /obj/structure/gate{
 	name = "Gate To Rosewood";
-	gid = "Event1";
 	redstone_id = "Event1"
 	},
 /turf/open/floor/cobblerock,
@@ -25171,8 +25164,7 @@
 "xhD" = (
 /obj/structure/gate/bars/preopen{
 	name = "White Palace Pass Gate";
-	redstone_id = "RW1";
-	gid = "RW1"
+	redstone_id = "RW1"
 	},
 /turf/open/floor/cobblerock,
 /area/indoors/villagegarrison)

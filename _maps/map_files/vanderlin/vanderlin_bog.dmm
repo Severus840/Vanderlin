@@ -8066,7 +8066,6 @@
 /obj/structure/gate{
 	color = "#547285";
 	redstone_id = "boggate";
-	gid = "boggate";
 	name = "Jaws of the Coral Palace"
 	},
 /turf/open/floor/abyss_tile/three{

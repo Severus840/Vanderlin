@@ -1932,7 +1932,6 @@
 /area/under/tomb/indoors)
 "wI" = (
 /obj/structure/gate{
-	gid = "FireGate3";
 	redstone_id = "FireGate3"
 	},
 /turf/open/floor/cobble,
@@ -2719,7 +2718,6 @@
 /area/under/tomb/indoors)
 "DY" = (
 /obj/structure/gate{
-	gid = "FireGate1";
 	redstone_id = "FireGate1";
 	name = "Hell Gate"
 	},
@@ -4735,7 +4733,6 @@
 "Zx" = (
 /obj/structure/gate{
 	redstone_id = "FireGate2";
-	gid = "FireGate2";
 	name = "Hearth Gate"
 	},
 /turf/open/floor/cobble,

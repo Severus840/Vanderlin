@@ -2,22 +2,20 @@
 	spawned = list(
 		/obj/item/key/blacksmith = 1,
 		/obj/item/key/steward = 1,
-		/obj/item/key/church = 1,
 		/obj/item/key/dungeon = 1,
-		/obj/item/key/graveyard = 1,
 		/obj/item/key/garrison = 1,
 		/obj/item/key/artificer = 1,
-		/obj/item/key/mercenary = 1,
 		/obj/item/key/tavern = 1,
 		/obj/item/key/feldsher = 1,
 		/obj/item/key/tailor = 1,
-		/obj/item/key/steward = 1,
 		/obj/item/key/steward = 1,
 		/obj/item/key/walls = 1,
 		/obj/item/key/mnoble1_blue = 1,
 		/obj/item/key/mnoble2_yellow = 1,
 		/obj/item/key/mnoble3_red = 1,
 		/obj/item/key/miner = 1,
+		/obj/item/key/mercenary = 1,
+		/obj/item/key/tomb = 1,
 	)
 
 /obj/effect/spawner/guaranteed_map_spawner/listed/inn_keys
