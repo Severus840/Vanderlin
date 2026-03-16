@@ -39,6 +39,8 @@
 		/datum/job/advclass/combat/assassin,
 		/datum/job/magician,
 		/datum/job/archivist,
+		/datum/job/bogwitch,
+		/datum/job/bog_apprentice,,
 		/datum/job/tomb_warden,
 	)
 

@@ -102,6 +102,9 @@
 	var/meat_to_give = /obj/item/reagent_containers/food/snacks/meat/steak
 	var/rotten = FALSE
 
+	/// The amount of blood this can restore when used with Hunter's Will
+	var/blood_value = 0
+
 //quality from butchering, 0 is bad, 1 is normal, 2 is good, -1 means its rotten and useless
 /obj/item/natural/head/proc/ButcheringResults(butchering_quality)
 	switch(butchering_quality)
@@ -144,12 +147,14 @@
 	desc = "The severed head of a fearsome volf."
 	icon_state = "volfhead"
 	sellprice = 5
+	blood_value = BLOOD_VOLUME_SURVIVE
 
 /obj/item/natural/head/saiga
 	name = "saiga head"
 	desc = "The severed head of a proud saiga."
 	icon_state = "saigahead"
 	sellprice = 3
+	blood_value = BLOOD_VOLUME_BAD
 
 /obj/item/natural/head/troll
 	name = "troll head"
@@ -159,6 +164,7 @@
 	grid_width = 96
 	w_class = WEIGHT_CLASS_BULKY
 	sellprice = 25
+	blood_value = BLOOD_VOLUME_OKAY
 
 /obj/item/natural/head/troll/apply_components()
 	AddComponent(/datum/component/two_handed, require_twohands=TRUE)
@@ -187,6 +193,7 @@
 	icon_state = "direbearhead"
 	layer = 3.1
 	sellprice = 20
+	blood_value = BLOOD_VOLUME_SAFE
 
 /obj/item/natural/head/fox
 	name = "venard head"
@@ -195,6 +202,7 @@
 	layer = 3.1
 	grid_height = 32
 	sellprice = 10 // fur trade
+	blood_value = BLOOD_VOLUME_SURVIVE
 
 /obj/item/natural/head/spider
 	name = "beespider head"
@@ -217,6 +225,7 @@
 	grid_height = 96
 	grid_width = 96
 	sellprice = 8
+	blood_value = BLOOD_VOLUME_SURVIVE
 
 /obj/item/natural/head/mole/apply_components()
 	AddComponent(/datum/component/two_handed, require_twohands=TRUE)
@@ -226,6 +235,7 @@
 	desc = "The severed head of a fiery gote."
 	icon_state = "gotehead"
 	sellprice = 2
+	blood_value = BLOOD_VOLUME_SURVIVE / 2
 
 //RTD make this a storage item and make clickign on animals with things put it in storage
 /obj/item/natural/saddle
