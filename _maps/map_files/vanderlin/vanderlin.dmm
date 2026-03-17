@@ -6991,6 +6991,13 @@
 /obj/structure/carpet/purple,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/shop)
+"dnq" = (
+/obj/effect/waterfall{
+	dir = 1;
+	pixel_y = -32
+	},
+/turf/open/dungeon_trap,
+/area/under/town/basement)
 "dnR" = (
 /obj/machinery/light/fueled/wallfire/candle,
 /obj/structure/chair/bench/couch/lord_secondary,
@@ -23686,6 +23693,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/town)
+"llQ" = (
+/turf/open/water/river{
+	dir = 1
+	},
+/area/under/cave)
 "llV" = (
 /obj/effect/decal/cobblerockedge{
 	dir = 1
@@ -71871,7 +71883,7 @@ ozq
 ozq
 ozq
 ozq
-ozq
+cyz
 qFx
 qFx
 dLs
@@ -72074,8 +72086,8 @@ ozq
 ozq
 ozq
 ozq
-ozq
-qFx
+cyz
+llQ
 dLs
 dLs
 dLs
@@ -72681,7 +72693,7 @@ ozq
 qFx
 ozq
 ozq
-ozq
+cyz
 qFx
 qFx
 qFx
@@ -75293,9 +75305,9 @@ djQ
 dHC
 jLW
 jLW
-jLW
-jEQ
-ozq
+dnq
+cyz
+cyz
 nZm
 nZm
 ozq
@@ -75495,9 +75507,9 @@ fGZ
 czw
 jLW
 jLW
-jLW
-cLd
-ozq
+dnq
+cyz
+cyz
 ozq
 nZm
 ozq
@@ -75697,9 +75709,9 @@ iBe
 dHC
 jLW
 jLW
-jLW
-jEQ
-ozq
+dnq
+cyz
+cyz
 sNy
 ozq
 ozq
@@ -75709,7 +75721,7 @@ ozq
 ozq
 cyz
 unl
-ozq
+lWB
 ozq
 ozq
 unl
@@ -75902,7 +75914,7 @@ jEQ
 jEQ
 grz
 ozq
-cyz
+ozq
 ozq
 iZs
 ozq
@@ -75910,7 +75922,7 @@ unJ
 iZs
 ozq
 ozq
-ozq
+lWB
 ozq
 ozq
 ozq
@@ -76102,7 +76114,7 @@ dHC
 jEQ
 jEQ
 grz
-rSV
+ido
 ozq
 ozq
 ozq
@@ -76304,7 +76316,7 @@ ido
 jEQ
 jEQ
 jEQ
-nZm
+ido
 ozq
 ozq
 ozq
@@ -76506,7 +76518,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 iZs
 ozq
 ozq
@@ -76708,7 +76720,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 ozq
@@ -76910,7 +76922,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 unJ
@@ -77112,7 +77124,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 nZm
 iZs
 cyz
@@ -77314,7 +77326,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 gBg
 nZm
 ozq
@@ -77516,7 +77528,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 gBg
 nZm
@@ -77718,7 +77730,7 @@ ido
 jEQ
 jEQ
 jEQ
-nZm
+ido
 ozq
 gBg
 sNy
@@ -77920,7 +77932,7 @@ ido
 jEQ
 jEQ
 jEQ
-nZm
+ido
 ozq
 gBg
 ozq
@@ -78122,7 +78134,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 iZs
 gBg
 unJ
@@ -78324,7 +78336,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 nZm
 cyz
@@ -78526,7 +78538,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -78728,7 +78740,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -78930,7 +78942,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 unJ
 ozq
@@ -79132,7 +79144,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 gOS
 ozq
@@ -79334,7 +79346,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 ozq
@@ -79536,7 +79548,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -79738,7 +79750,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 ozq
@@ -79940,7 +79952,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 iZs
 nZm
@@ -80142,7 +80154,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 nZm
@@ -80344,7 +80356,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 sNy
 nZm
 dHG
@@ -80546,7 +80558,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 nZm
 gBg
 nZm
@@ -80748,7 +80760,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 nZm
 ozq
@@ -80950,7 +80962,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 nZm
 ozq
@@ -81152,7 +81164,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 ozq
@@ -81354,7 +81366,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 ozq
@@ -81556,7 +81568,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 iZs
 ozq
@@ -81758,7 +81770,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 ozq
@@ -81960,7 +81972,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 iZs
 ozq
 ozq
@@ -82162,7 +82174,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 nZm
 ozq
@@ -82364,7 +82376,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 pOV
 ozq
@@ -82566,7 +82578,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 nZm
 ozq
@@ -82768,7 +82780,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 nZm
 gBg
 ozq
@@ -82970,7 +82982,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 gBg
 iZs
@@ -83172,7 +83184,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 gBg
 nZm
@@ -83374,7 +83386,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 nZm
 gBg
@@ -83576,7 +83588,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 gBg
@@ -83778,7 +83790,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 nZm
@@ -83980,7 +83992,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 iZs
 ozq
@@ -84182,7 +84194,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -84384,7 +84396,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 iZs
 ozq
 ozq
@@ -84586,7 +84598,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -84788,7 +84800,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -84990,7 +85002,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -85192,7 +85204,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 ozq
@@ -85394,7 +85406,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 iZs
 nZm
@@ -85596,7 +85608,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 gBg
@@ -85798,7 +85810,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 gBg
 tNo
@@ -86000,7 +86012,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 nZm
 nZm
@@ -86202,7 +86214,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 nZm
 nZm
 ozq
@@ -86404,7 +86416,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 nZm
 nZm
 ozq
@@ -86606,7 +86618,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 nZm
 ozq
@@ -86808,7 +86820,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 iZs
 ozq
 ozq
@@ -87010,7 +87022,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 iZs
 ozq
 ozq
@@ -87212,7 +87224,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -87414,7 +87426,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 iZs
@@ -87616,7 +87628,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 gBg
@@ -87818,7 +87830,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 gBg
 gBg
@@ -88020,7 +88032,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 iZs
 nZm
 nZm
@@ -88222,7 +88234,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -88424,7 +88436,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -88626,7 +88638,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 ozq
@@ -88828,7 +88840,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 ozq
@@ -89030,7 +89042,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 nZm
 ozq
 ozq
@@ -89232,7 +89244,7 @@ ido
 jEQ
 jEQ
 grz
-nZm
+ido
 gBg
 ozq
 ozq
@@ -89434,7 +89446,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 nZm
 ozq
 ozq
@@ -89636,7 +89648,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 iZs
 ozq
@@ -89838,7 +89850,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 iZs
 ozq
@@ -90040,7 +90052,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 iZs
 ozq
@@ -90242,7 +90254,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 iZs
 ozq
@@ -90444,7 +90456,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 iZs
 ozq
 iZs
@@ -90646,7 +90658,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 wSL
 wSL
@@ -90848,7 +90860,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 wSL
 wSL
@@ -91050,7 +91062,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 wSL
 wSL
@@ -91252,7 +91264,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 iZs
 ozq
 wSL
@@ -91454,7 +91466,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 ozq
 ozq
 nYy
@@ -91656,7 +91668,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 ozq
 ozq
 jSj
@@ -91858,7 +91870,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 nZm
 ozq
 jSj
@@ -92060,7 +92072,7 @@ ido
 jEQ
 jEQ
 jEQ
-ozq
+ido
 nZm
 ozq
 cyz
@@ -92262,7 +92274,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 gBg
 ozq
 ozq
@@ -92464,7 +92476,7 @@ ido
 jEQ
 jEQ
 grz
-ozq
+ido
 nZm
 ozq
 ozq
@@ -92666,7 +92678,7 @@ ido
 jEQ
 jEQ
 grz
-nZm
+ido
 ozq
 iZs
 ozq
@@ -92868,7 +92880,7 @@ ido
 jEQ
 jEQ
 grz
-nZm
+ido
 nZm
 ozq
 ozq
@@ -93070,7 +93082,7 @@ ido
 jEQ
 jEQ
 jEQ
-nZm
+ido
 gBg
 ozq
 iZs
