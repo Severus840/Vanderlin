@@ -68,14 +68,14 @@
 /obj/effect/mapping_helpers/access/keyset/town/mercenary
 	accesses = list(ACCESS_MERC)
 
+/obj/effect/mapping_helpers/access/keyset/town/tomb
+	accesses = list(ACCESS_TOMB)
+
 /obj/effect/mapping_helpers/access/keyset/town/elder
 	accesses = list(ACCESS_ELDER)
 
-/obj/effect/mapping_helpers/access/keyset/town/veteran
-	accesses = list(ACCESS_VETERAN)
-
-/obj/effect/mapping_helpers/access/keyset/town/gaffer
-	accesses = list(ACCESS_GAFFER)
+/obj/effect/mapping_helpers/access/keyset/town/tombwarden
+	accesses = list(ACCESS_TOMBWARDEN)
 	difficulty = 3
 
 /obj/effect/mapping_helpers/access/keyset/town/tower
@@ -205,3 +205,11 @@
 
 /obj/effect/mapping_helpers/access/keyset/thatchwood/smith
 	accesses = list("oldsmith")
+
+
+/obj/effect/mapping_helpers/access/keyset/other
+	color = "#3eed64"
+
+/obj/effect/mapping_helpers/access/keyset/other/bogwitch
+	accesses = list(ACCESS_BOGWITCH)
+	difficulty = 2
