@@ -1326,9 +1326,6 @@
 "bcU" = (
 /turf/closed/mineral/cold,
 /area/under/cavewet)
-"bcY" = (
-/turf/open/floor/rooftop,
-/area/outdoors/basin/safe)
 "bdg" = (
 /turf/closed/mineral,
 /area/outdoors/basin/safe)
@@ -2587,14 +2584,6 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/clinic_large/apothecary)
-"cbT" = (
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/closet/crate/drawer,
-/turf/open/floor/snow/patchy,
-/area/outdoors/basin/safe)
 "cbY" = (
 /obj/machinery/light/fueled/firebowl/standing,
 /turf/open/floor/cobble,
@@ -5267,22 +5256,6 @@
 /obj/machinery/light/fueled/wallfire/candle/r,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/tavern)
-"dXf" = (
-/obj/machinery/light/fueled/wallfire/candle{
-	pixel_x = -32;
-	pixel_y = 0
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/door/red{
-	name = "Gaffer's Room"
-	},
-/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
-/obj/effect/mapping_helpers/access/locker,
-/turf/open/floor/ruinedwood,
-/area/indoors/town)
 "dXj" = (
 /obj/structure/rotation_piece,
 /turf/open/floor/grass/cold,
@@ -7384,18 +7357,6 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/naturalstone,
 /area/under/cave)
-"fxu" = (
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/door/red{
-	name = "Gaffer's Room"
-	},
-/obj/effect/mapping_helpers/access/keyset/town/tombwarden,
-/obj/effect/mapping_helpers/access/locker,
-/turf/closed/wall/mineral/decowood,
-/area/indoors/town)
 "fxx" = (
 /obj/structure/table/wood/large/corner{
 	dir = 4
@@ -7865,11 +7826,6 @@
 /obj/structure/stairs,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/smithy)
-"fMf" = (
-/turf/open/floor/rooftop{
-	dir = 1
-	},
-/area/outdoors/basin/safe)
 "fMv" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -16286,10 +16242,6 @@
 	},
 /turf/open/floor/blocks,
 /area/indoors/town/keep/garrison)
-"lTX" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/turf/closed/wall/mineral/decowood,
-/area/indoors/town)
 "lUe" = (
 /turf/open/floor/carpet/red,
 /area/indoors/town/keep/halls/w)
@@ -22178,14 +22130,6 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/orphanage)
-"qeQ" = (
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/chair/stool,
-/turf/open/floor/cobble,
-/area/outdoors/basin/safe)
 "qfd" = (
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32
@@ -27622,18 +27566,6 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/indoors/town/keep/magician)
-"uvc" = (
-/obj/machinery/light/fueled/wallfire/candle,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/chair/stool,
-/obj/effect/landmark/start/tombwarden{
-	dir = 1
-	},
-/turf/open/floor/ruinedwood/chevron,
-/area/indoors/town/shop)
 "uvK" = (
 /turf/open/floor/cobble,
 /area/outdoors/basin/safe)
@@ -30268,10 +30200,6 @@
 /obj/structure/table/wood/fancy/royalblack,
 /turf/open/floor/tile/masonic/spiral,
 /area/indoors/town/keep/throne)
-"wki" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/turf/open/floor/ruinedwood,
-/area/indoors/town)
 "wkv" = (
 /obj/structure/ladder,
 /turf/open/floor/cobble,
@@ -30953,19 +30881,6 @@
 	},
 /turf/closed/mineral,
 /area/under/cave)
-"wMe" = (
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/chair/wood{
-	dir = 1
-	},
-/obj/effect/landmark/start/tombwarden{
-	dir = 1
-	},
-/turf/closed/wall/mineral/wooddark,
-/area/indoors/town)
 "wMj" = (
 /obj/structure/fluff/walldeco/customflag{
 	name = "White Palace Pass flag"
@@ -94992,7 +94907,7 @@ kKb
 rjc
 iAN
 lqD
-uvc
+ePF
 fOt
 vZA
 cfu
@@ -99055,7 +98970,7 @@ pXj
 pXj
 bLH
 pXj
-fxu
+pXj
 tNf
 emF
 hvK
@@ -99458,7 +99373,7 @@ uvK
 uvK
 uvK
 uvK
-qeQ
+uvK
 uvK
 uvK
 uvK
@@ -99662,7 +99577,7 @@ pXj
 geg
 pXj
 pXj
-wMe
+tNf
 emF
 bwY
 aDg
@@ -99860,7 +99775,7 @@ bEf
 qON
 pXj
 qON
-dXf
+qaM
 bEf
 bEf
 bEf
@@ -100061,7 +99976,7 @@ bEf
 bEf
 bEf
 pXj
-wki
+bEf
 bEf
 bEf
 bEf
@@ -100262,8 +100177,8 @@ bEf
 bEf
 bEf
 bEf
-lTX
-wki
+pXj
+bEf
 bEf
 bEf
 bEf
@@ -100672,7 +100587,7 @@ czy
 pXj
 tNf
 kKb
-cbT
+rjc
 rjc
 bwY
 hvK
@@ -164677,15 +164592,15 @@ eTY
 eTY
 eTY
 eTY
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
 eTY
 eTY
 eTY
@@ -164878,17 +164793,17 @@ eTY
 eTY
 eTY
 eTY
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
 eTY
 eTY
 eTY
@@ -165080,17 +164995,17 @@ eTY
 eTY
 eTY
 eTY
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
 eTY
 eTY
 eTY
@@ -165282,17 +165197,17 @@ eTY
 eTY
 eTY
 eTY
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
 eTY
 eTY
 eTY
@@ -165484,17 +165399,17 @@ eTY
 eTY
 eTY
 eTY
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
 eTY
 eTY
 eTY
@@ -165683,23 +165598,23 @@ eTY
 eTY
 eTY
 eTY
-fMf
-fMf
-fMf
-fMf
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-bcY
-bcY
-bcY
-bcY
+wDP
+wDP
+wDP
+wDP
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+iMf
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -165884,25 +165799,25 @@ eTY
 eTY
 eTY
 eTY
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-mlw
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+fum
+fum
+fum
+fum
+fum
+fum
+fum
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -166086,25 +166001,25 @@ eTY
 eTY
 eTY
 eTY
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-mlw
-mlw
-mlw
-mlw
-mlw
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+fum
+fum
+fum
+fum
+fum
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -166288,25 +166203,25 @@ eTY
 eTY
 eTY
 eTY
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-mlw
-mlw
-mlw
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+fum
+fum
+fum
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -166490,25 +166405,25 @@ eTY
 eTY
 eTY
 eTY
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-mlw
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+fum
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -166692,25 +166607,25 @@ eTY
 eTY
 eTY
 eTY
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -166894,25 +166809,25 @@ eTY
 eTY
 eTY
 eTY
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -167096,25 +167011,25 @@ eTY
 eTY
 eTY
 eTY
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-eEI
-eEI
-eEI
-eEI
-eEI
-bcY
-bcY
-bcY
-bcY
-bcY
-bcY
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+ghT
+ghT
+ghT
+ghT
+ghT
+iMf
+iMf
+iMf
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -167299,23 +167214,23 @@ eTY
 eTY
 eTY
 eTY
-fMf
-fMf
-fMf
-fMf
-fMf
-fMf
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-bcY
-bcY
-bcY
-bcY
+wDP
+wDP
+wDP
+wDP
+wDP
+wDP
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+iMf
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -167506,18 +167421,18 @@ eTY
 eTY
 eTY
 eTY
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-bcY
-bcY
-bcY
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+iMf
+iMf
+iMf
 eTY
 eTY
 eTY
@@ -167708,17 +167623,17 @@ eTY
 eTY
 eTY
 eTY
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-bcY
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+iMf
 eTY
 eTY
 eTY
@@ -167910,17 +167825,17 @@ eTY
 eTY
 eTY
 eTY
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
 eTY
 eTY
 eTY
@@ -168112,17 +168027,17 @@ eTY
 eTY
 eTY
 eTY
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
 eTY
 eTY
 eTY
@@ -168314,17 +168229,17 @@ eTY
 eTY
 eTY
 eTY
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
-eEI
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
+ghT
 eTY
 eTY
 eTY
