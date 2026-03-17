@@ -37991,6 +37991,10 @@
 /obj/item/clothing/head/helmet/medium/decorated/skullmet,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/villagegarrison)
+"rLn" = (
+/obj/structure/fake_machine/scomm/r,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/tavern)
 "rLU" = (
 /obj/structure/fluff/walldeco/church/line,
 /obj/structure/fluff/walldeco/church/line{
@@ -118764,7 +118768,7 @@ wrm
 oLy
 flF
 gXZ
-gXZ
+rLn
 gXZ
 sAG
 pyp
