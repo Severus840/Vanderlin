@@ -114,7 +114,7 @@
 		var/choice = browser_alert(user, "Offer [src] apprenticeship?", "NOC'S WISDOM", DEFAULT_INPUT_CONFIRMATIONS, timeout = 10 SECONDS)
 		if(choice != CHOICE_CONFIRM)
 			return
-		if(!QDELETED(user) || QDELETED(src) || !Adjacent(user))
+		if(QDELETED(user) || QDELETED(src) || !Adjacent(user))
 			return
 		to_chat(user, span_notice("You offer apprenticeship to [src]."))
 		user.make_apprentice(src)
