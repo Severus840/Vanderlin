@@ -1545,9 +1545,8 @@
 /area/indoors/town/keep/hand)
 "bna" = (
 /obj/structure/winch{
-	name = "North Gate";
-	redstone_id = "NG1";
-	gid = "NG1"
+	redstone_id = "GATEN";
+	name = "Gate North"
 	},
 /turf/open/floor/cobblerock,
 /area/indoors/town/keep/gate)
@@ -6438,7 +6437,6 @@
 /area/outdoors/river)
 "eNv" = (
 /obj/structure/winch{
-	name = "EVENT WINCH";
 	redstone_id = "Event1"
 	},
 /turf/open/floor/cobblerock,
@@ -15080,12 +15078,11 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/clinic_large/apothecary)
 "ldl" = (
-/obj/structure/winch{
-	name = "South Gate";
-	gid = "NG2";
-	redstone_id = "NG2"
-	},
 /obj/machinery/light/fueled/wallfire/candle,
+/obj/structure/winch{
+	redstone_id = "GATES";
+	name = "Gate South"
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/keep/gate)
 "ldo" = (
@@ -15489,9 +15486,7 @@
 /area/outdoors/basin/safe)
 "lsv" = (
 /obj/structure/gate/bars/preopen{
-	name = "South Gate";
-	gid = "NG2";
-	redstone_id = "NG2"
+	redstone_id = "GATES"
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/basin/safe)
@@ -17000,8 +16995,7 @@
 /area/outdoors/basin)
 "mto" = (
 /obj/structure/winch{
-	redstone_id = "GG1";
-	name = "North Grenzelhoft Winch"
+	redstone_id = "GG1"
 	},
 /turf/open/floor/hexstone,
 /area/indoors/lich)
@@ -18890,7 +18884,7 @@
 /obj/structure/fake_machine/scomm,
 /obj/structure/winch{
 	redstone_id = "RW2";
-	name = "Gate South"
+	name = "Gate North"
 	},
 /turf/open/floor/blocks,
 /area/indoors/villagegarrison)
@@ -19897,8 +19891,7 @@
 /area/indoors/town/church)
 "ovo" = (
 /obj/structure/winch{
-	redstone_id = "GG2";
-	name = "South Grenzelhoft Winch"
+	redstone_id = "GG2"
 	},
 /turf/open/floor/hexstone,
 /area/indoors/lich)
@@ -28552,7 +28545,7 @@
 "vhL" = (
 /obj/structure/gate/bars{
 	name = "North Gate";
-	redstone_id = "NG1";
+	redstone_id = "GATEN";
 	gid = "NG1"
 	},
 /turf/open/floor/cobblerock,
