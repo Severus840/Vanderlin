@@ -280,6 +280,5 @@
 	layer = HIGH_OBJ_LAYER
 	w_class = WEIGHT_CLASS_TINY
 	light_system = MOVABLE_LIGHT
-	light_outer_range = 0.5
 	light_color = "#7f84b4"
 	resistance_flags = INDESTRUCTIBLE
