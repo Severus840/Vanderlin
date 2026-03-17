@@ -216,10 +216,10 @@
 	name = "candle lamp"
 	icon_state = "candle"
 	base_state = "candle"
+	plane = GAME_PLANE_UPPER
 	layer = WALL_OBJ_LAYER+0.1
 	light_power = 0.9
 	light_outer_range =  6
-	plane = GAME_PLANE_UPPER
 
 /obj/machinery/light/fueled/torchholder
 	name = "sconce"
