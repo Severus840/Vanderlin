@@ -9608,7 +9608,9 @@
 /turf/open/floor/greenstone,
 /area/under/town/sewer)
 "eCh" = (
-/obj/structure/door/fancy,
+/obj/structure/door/fancy{
+	name = "steward's apartment"
+	},
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/manor/steward,
 /turf/open/floor/tile,
@@ -20228,6 +20230,12 @@
 "jDj" = (
 /turf/open/openspace,
 /area/indoors/town/clocktower)
+"jDo" = (
+/obj/machinery/light/fueled/torchholder{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/outdoors/town/keep)
 "jDu" = (
 /obj/structure/bridge_stakes{
 	dir = 8
@@ -27436,6 +27444,12 @@
 /obj/structure/door/violet,
 /turf/open/floor/carpet/green,
 /area/indoors/town)
+"mZm" = (
+/obj/machinery/light/fueled/torchholder{
+	dir = 1
+	},
+/turf/open/floor/dirt/road,
+/area/outdoors/town/keep)
 "mZn" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/effect/decal/cleanable/dirt/cobweb{
@@ -36521,6 +36535,12 @@
 	},
 /turf/open/floor/tile,
 /area/indoors/town/keep/knight)
+"red" = (
+/obj/machinery/light/fueled/torchholder{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/outdoors/town/keep)
 "ref" = (
 /obj/machinery/light/fueled/wallfire/candle/lamp{
 	pixel_y = 0;
@@ -44539,6 +44559,12 @@
 	},
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town)
+"uKS" = (
+/obj/machinery/light/fueled/torchholder{
+	dir = 1
+	},
+/turf/open/floor/cobblerock,
+/area/outdoors/town/keep)
 "uKY" = (
 /obj/machinery/tanningrack,
 /turf/open/floor/ruinedwood/spiral,
@@ -112032,8 +112058,8 @@ qFx
 ido
 ido
 ido
-ido
-ido
+jEQ
+jEQ
 luJ
 luJ
 luJ
@@ -112235,7 +112261,7 @@ ido
 wTU
 wTU
 wTU
-ido
+wqf
 luJ
 luJ
 luJ
@@ -112437,7 +112463,7 @@ ido
 cgD
 ucu
 hkq
-ido
+wqf
 luJ
 luJ
 luJ
@@ -112639,7 +112665,7 @@ ido
 pfh
 gou
 hkq
-ido
+wqf
 luJ
 luJ
 luJ
@@ -112841,7 +112867,7 @@ qPR
 pfh
 gou
 hkq
-ido
+wqf
 luJ
 luJ
 luJ
@@ -113038,12 +113064,12 @@ oho
 sSi
 oho
 oho
-sSi
-jEQ
-jEQ
-jEQ
-jEQ
+red
 ido
+jEQ
+jEQ
+jEQ
+jEQ
 luJ
 luJ
 luJ
@@ -113241,11 +113267,11 @@ qXY
 sSi
 sSi
 rCT
-jEQ
-jEQ
-jEQ
-jEQ
 ido
+jEQ
+jEQ
+jEQ
+jEQ
 luJ
 luJ
 luJ
@@ -114654,7 +114680,7 @@ aNf
 xTl
 xTl
 dBZ
-aNf
+jDo
 hHM
 hHM
 xjh
@@ -117279,7 +117305,7 @@ nHm
 fep
 fep
 aNf
-fep
+uKS
 mGE
 uiL
 bFk
@@ -118087,7 +118113,7 @@ kso
 eqL
 xTl
 xTl
-xTl
+mZm
 mGE
 qJw
 iUo
