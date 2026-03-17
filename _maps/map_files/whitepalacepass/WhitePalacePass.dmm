@@ -4605,8 +4605,7 @@
 /area/indoors/town/merc_guild)
 "dAJ" = (
 /obj/structure/gate{
-	redstone_id = "BFG1";
-	gid = "BFG1"
+	redstone_id = "THRONEG"
 	},
 /turf/open/floor/carpet/lord/left,
 /area/indoors/town/keep/throne)
@@ -18704,8 +18703,7 @@
 /area/indoors/town/merc_guild)
 "nCX" = (
 /obj/structure/winch{
-	redstone_id = "BFG1";
-	gid = "BFG1"
+	redstone_id = "THRONEG"
 	},
 /turf/open/floor/tile/masonic/single,
 /area/indoors/town/keep/throne)
