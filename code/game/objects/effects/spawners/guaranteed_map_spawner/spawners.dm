@@ -1,21 +1,26 @@
 /obj/effect/spawner/guaranteed_map_spawner/listed/steward_keys
 	spawned = list(
-		/obj/item/key/blacksmith = 1,
 		/obj/item/key/steward = 1,
-		/obj/item/key/dungeon = 1,
+		/obj/item/key/atarms = 1,
+		/obj/item/key/walls = 1,
 		/obj/item/key/garrison = 1,
+		/obj/item/key/forrestgarrison = 1,
+		/obj/item/key/manor = 1,
+		/obj/item/key/blacksmith = 1,
 		/obj/item/key/artificer = 1,
 		/obj/item/key/tavern = 1,
+		/obj/item/key/matron = 1,
+		/obj/item/key/miner = 1,
 		/obj/item/key/feldsher = 1,
 		/obj/item/key/tailor = 1,
-		/obj/item/key/steward = 1,
-		/obj/item/key/walls = 1,
 		/obj/item/key/mnoble1_blue = 1,
 		/obj/item/key/mnoble2_yellow = 1,
 		/obj/item/key/mnoble3_red = 1,
-		/obj/item/key/miner = 1,
+		/obj/item/key/soilson = 1,
+		/obj/item/key/butcher = 1,
 		/obj/item/key/mercenary = 1,
 		/obj/item/key/tomb = 1,
+		/obj/item/key/tower = 1,
 	)
 
 /obj/effect/spawner/guaranteed_map_spawner/listed/inn_keys
