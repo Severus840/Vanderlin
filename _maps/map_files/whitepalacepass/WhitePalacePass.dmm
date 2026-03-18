@@ -833,6 +833,15 @@
 /area/indoors/town/church)
 "aFU" = (
 /obj/structure/closet/crate/crafted_closet,
+/obj/item/clothing/shirt/robe/colored/mage,
+/obj/item/clothing/shirt/robe/colored/mage,
+/obj/item/clothing/shirt/robe/colored/mage,
+/obj/item/clothing/shirt/robe/newmage/sorcerer,
+/obj/item/clothing/shirt/robe/newmage/sorcerer,
+/obj/item/clothing/shirt/robe/newmage/warlock,
+/obj/item/clothing/shirt/robe/newmage/warlock,
+/obj/item/clothing/shirt/robe/newmage/adept,
+/obj/item/clothing/shirt/robe/newmage/adept,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/keep/magician)
 "aFX" = (
@@ -1055,6 +1064,11 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/naturalstone,
 /area/under/cave)
+"aPn" = (
+/obj/structure/table/wood/plain_alt,
+/obj/machinery/essence/harvester,
+/turf/open/floor/cobblerock,
+/area/indoors/town/keep/magician)
 "aPr" = (
 /obj/structure/window/openclose{
 	dir = 8
@@ -1210,6 +1224,8 @@
 /area/indoors/town/noble_manor/yellow)
 "aVV" = (
 /obj/structure/table/wood/plain,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/keep/magician)
 "aWN" = (
@@ -1931,6 +1947,9 @@
 	pixel_x = -32;
 	pixel_y = 0
 	},
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/keep/magician)
 "bvi" = (
@@ -2281,6 +2300,10 @@
 /obj/effect/landmark/start/villager,
 /turf/open/floor/carpet/red,
 /area/indoors/town/smithy)
+"bGJ" = (
+/obj/structure/fluff/telescope,
+/turf/open/floor/wood,
+/area/outdoors/basin/safe)
 "bGN" = (
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep/hand)
@@ -3051,7 +3074,9 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/clinic_large/apothecary)
 "crc" = (
-/turf/closed/basic,
+/obj/structure/fluff/railing/wood,
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/dirt/road,
 /area/indoors/town/keep)
 "cre" = (
 /obj/structure/fluff/psycross,
@@ -3701,10 +3726,6 @@
 /obj/structure/fluff/statue/knight/interior,
 /turf/open/floor/herringbone,
 /area/indoors/town/keep/halls/w)
-"cQV" = (
-/obj/structure/door/swing,
-/turf/open/floor/dirt/road,
-/area/outdoors/town/keep)
 "cQX" = (
 /obj/structure/door/violet{
 	name = "GateKeeper Tower"
@@ -3876,6 +3897,7 @@
 /obj/effect/mapping_helpers/secret_door_creator/keep{
 	redstone_id = "K1"
 	},
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep)
 "cVN" = (
@@ -4230,6 +4252,9 @@
 	pixel_x = -4;
 	pixel_y = 8
 	},
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
 /turf/open/floor/cobble,
 /area/indoors/town/keep/magician)
 "djr" = (
@@ -6558,6 +6583,13 @@
 	climbdiff = 1
 	},
 /area/indoors/town/church)
+"eMo" = (
+/obj/structure/window/openclose{
+	dir = 4
+	},
+/obj/structure/bars,
+/turf/open/floor/cobble,
+/area/indoors/town/keep/magician)
 "eMp" = (
 /obj/structure/fake_machine/scomm,
 /turf/open/floor/ruinedwood/spiralfade,
@@ -7902,8 +7934,24 @@
 /turf/open/floor/tile,
 /area/indoors/town/shop)
 "fKm" = (
-/obj/structure/bookcase/random,
 /obj/machinery/light/fueled/wallfire/candle,
+/obj/item/chalk,
+/obj/item/chalk,
+/obj/item/chalk,
+/obj/item/storage/magebag{
+	pixel_x = -3;
+	pixel_y = -5
+	},
+/obj/item/storage/magebag{
+	pixel_x = -3;
+	pixel_y = -5
+	},
+/obj/item/storage/magebag{
+	pixel_x = -3;
+	pixel_y = -5
+	},
+/obj/structure/rack/shelf/biggest,
+/obj/item/broom,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/keep/magician)
 "fKy" = (
@@ -9899,11 +9947,6 @@
 /obj/item/reagent_containers/food/snacks/produce/dry_westleach,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/clinic_large/apothecary)
-"hfN" = (
-/obj/machinery/light/fueled/wallfire/candle/blue/r,
-/obj/item/reagent_containers/food/snacks/smallrat,
-/turf/open/floor/cobble,
-/area/indoors/town/keep)
 "hfR" = (
 /obj/structure/hotspring,
 /obj/effect/lily_petal/three,
@@ -10818,6 +10861,10 @@
 /obj/item/natural/bundle/cloth/full,
 /turf/open/floor/naturalstone,
 /area/indoors/town/church/inquisition)
+"hNS" = (
+/obj/structure/door/swing,
+/turf/open/floor/dirt/road,
+/area/indoors/town/keep)
 "hOb" = (
 /obj/machinery/loom{
 	pixel_x = 0;
@@ -12484,6 +12531,7 @@
 	pixel_x = -2;
 	pixel_y = 4
 	},
+/obj/item/paper/scroll,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/keep/magician)
 "jbG" = (
@@ -15222,6 +15270,7 @@
 /obj/effect/landmark/hammer/dev_text{
 	name = "Saiga's Pen"
 	},
+/obj/structure/fluff/railing/wood,
 /turf/open/floor/dirt/road,
 /area/indoors/town/keep)
 "kXs" = (
@@ -19470,7 +19519,10 @@
 /turf/open/floor/tile/diamond,
 /area/indoors/town/dwarfin)
 "nVx" = (
-/turf/closed/basic,
+/obj/structure/fluff/walldeco/mageguild{
+	pixel_x = 32
+	},
+/turf/open/floor/dirt/road,
 /area/outdoors/town/keep)
 "nVM" = (
 /obj/structure/chair/wood/alt/chair_noble/red{
@@ -21745,7 +21797,10 @@
 /turf/open/floor/cobble,
 /area/indoors/town/church)
 "pDo" = (
-/turf/closed/mineral,
+/obj/structure/lever/hidden/keep{
+	redstone_id = "K1"
+	},
+/turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep)
 "pDy" = (
 /obj/structure/chair/wood/alt/chair_noble/red,
@@ -24748,6 +24803,15 @@
 /area/outdoors/basin/safe)
 "rZS" = (
 /obj/structure/closet/crate/crafted_closet,
+/obj/item/clothing/shirt/robe/colored/mage,
+/obj/item/clothing/shirt/robe/colored/mage,
+/obj/item/clothing/shirt/robe/colored/mage,
+/obj/item/clothing/shirt/robe/newmage/sorcerer,
+/obj/item/clothing/shirt/robe/newmage/sorcerer,
+/obj/item/clothing/shirt/robe/newmage/warlock,
+/obj/item/clothing/shirt/robe/newmage/warlock,
+/obj/item/clothing/shirt/robe/newmage/adept,
+/obj/item/clothing/shirt/robe/newmage/adept,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/keep/magician)
 "sad" = (
@@ -25659,13 +25723,6 @@
 /obj/structure/stairs/stone,
 /turf/open/floor/herringbone,
 /area/indoors/town/keep/halls/e)
-"sJs" = (
-/obj/structure/flora/grass/herb/rosa,
-/obj/structure/fluff/walldeco/mageguild{
-	pixel_x = 32
-	},
-/turf/open/floor/grass/cold,
-/area/outdoors/town/keep)
 "sJw" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/concrete,
@@ -29665,6 +29722,7 @@
 	pixel_x = -3;
 	pixel_y = 4
 	},
+/obj/item/paper/scroll,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/keep/magician)
 "vGj" = (
@@ -32446,6 +32504,11 @@
 /obj/item/clothing/gloves/angle/grenzel,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/soilsons)
+"xEJ" = (
+/obj/structure/table/wood/plain_alt,
+/obj/machinery/essence/infuser,
+/turf/open/floor/cobble,
+/area/indoors/town/keep/magician)
 "xEV" = (
 /turf/closed/wall/mineral/wooddark/vertical,
 /area/indoors/town/smithy)
@@ -33148,11 +33211,6 @@
 	},
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/keep/hand)
-"ygN" = (
-/obj/structure/fluff/railing/wood,
-/obj/machinery/light/fueled/wallfire/candle/r,
-/turf/open/floor/dirt/road,
-/area/outdoors/town/keep)
 "ygR" = (
 /obj/structure/table/wood/plain_alt,
 /turf/open/floor/tile/diamond/blue,
@@ -142617,8 +142675,8 @@ jqg
 mHv
 iMj
 lYn
-xry
-jNJ
+xEJ
+aPn
 jNJ
 xry
 jNJ
@@ -179563,7 +179621,7 @@ nJJ
 qbL
 cAQ
 seF
-hfN
+vft
 cVE
 ouV
 ouV
@@ -179760,24 +179818,18 @@ odL
 (126,1,4) = {"
 odL
 uus
-odL
 nJJ
 nJJ
-nJJ
-nJJ
-nJJ
+qbL
+oWl
+oWl
+oWl
 pDo
-pso
+ouV
 kjd
 ouV
 kXf
-cQV
-gLm
 tck
-gLm
-tck
-gLm
-gLm
 gLm
 tck
 gLm
@@ -179785,6 +179837,12 @@ tck
 gLm
 gLm
 gLm
+tck
+gLm
+tck
+tck
+gLm
+tck
 tck
 tck
 gLm
@@ -179962,38 +180020,38 @@ odL
 (127,1,4) = {"
 odL
 uus
-odL
 nJJ
 nJJ
-nJJ
-nJJ
-nJJ
-pDo
+qbL
+qbL
+qbL
+qbL
 pso
 ouV
 ouV
 ouV
-ygN
-tck
+hNS
+gLm
+gLm
 tck
 tck
 gLm
 tck
 gLm
+gLm
+gLm
+gLm
+tck
+gLm
+gLm
+gLm
 tck
 tck
 tck
 tck
 gLm
 tck
-tck
-tck
-bxT
-tck
-tck
-gLm
-sJs
-wdW
+bnR
 tpw
 duz
 duz
@@ -180164,46 +180222,46 @@ odL
 (128,1,4) = {"
 odL
 uus
-odL
-odL
-odL
-odL
-odL
-odL
+nJJ
+nJJ
+qbL
+nJJ
+nJJ
+nJJ
+pso
+ouV
+ouV
+ouV
 crc
-crc
-crc
-crc
-crc
+tck
+tck
+gLm
+tck
+tck
+tck
+tck
+tck
+gLm
+gLm
+gLm
+gLm
+tck
+gLm
 nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-nVx
-odL
-odL
-odL
-odL
-odL
-eNN
-eNN
-eNN
+tck
+tck
+tck
+bxT
+tck
+wdW
+qbL
+qbL
+nJJ
+nJJ
+nJJ
+sXJ
+jjM
+jjM
 nqe
 nqe
 nqe
@@ -180368,7 +180426,7 @@ odL
 uus
 nJJ
 nJJ
-nJJ
+qbL
 nJJ
 nJJ
 nJJ
@@ -181803,7 +181861,7 @@ tck
 tck
 tck
 tck
-tck
+sJD
 iMj
 gxf
 jNJ
@@ -182005,7 +182063,7 @@ tck
 tck
 sJD
 tck
-tck
+tXP
 iMj
 mBC
 jNJ
@@ -182202,12 +182260,12 @@ qbL
 nJJ
 nJJ
 qbL
-tck
 aCN
 tck
 tck
 tck
-sJD
+tck
+qqI
 iMj
 iMj
 nYi
@@ -182407,8 +182465,8 @@ qbL
 nBC
 tck
 tck
-tXP
-qqI
+tck
+tck
 azr
 iMj
 guq
@@ -182606,10 +182664,10 @@ iMj
 iMj
 iMj
 iMj
+eMo
 iMj
-iMj
-iMj
-iMj
+eMo
+ioy
 iMj
 iMj
 kHg
@@ -209479,7 +209537,7 @@ hwt
 hwt
 hwt
 hwt
-jTx
+hwt
 qbL
 nJJ
 nJJ
@@ -210893,7 +210951,7 @@ hwt
 hwt
 hwt
 hwt
-jTx
+hwt
 tLh
 qbL
 nJJ
@@ -211095,7 +211153,7 @@ hwt
 hwt
 hwt
 hwt
-jTx
+hwt
 hwt
 duz
 duz
@@ -219995,7 +220053,7 @@ hwt
 kpx
 qbL
 nJJ
-qbL
+nJJ
 aKz
 eTY
 eTY
@@ -220197,8 +220255,8 @@ hwt
 qbL
 qbL
 nJJ
-qbL
-eTY
+nJJ
+aKz
 eTY
 eTY
 eTY
@@ -220399,8 +220457,8 @@ hwt
 qbL
 nJJ
 nJJ
-qbL
-eTY
+nJJ
+aKz
 eTY
 eTY
 eTY
@@ -220602,7 +220660,7 @@ qbL
 nJJ
 nJJ
 qbL
-eTY
+aKz
 eTY
 eTY
 eTY
@@ -224213,7 +224271,7 @@ eTY
 eTY
 xIy
 eBr
-dim
+bGJ
 dim
 iMj
 dVq
