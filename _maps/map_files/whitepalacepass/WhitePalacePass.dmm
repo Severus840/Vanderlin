@@ -458,6 +458,9 @@
 /obj/effect/falling_sakura,
 /turf/open/floor/cobblerock/alt,
 /area/outdoors/basin)
+"asN" = (
+/turf/open/floor/blocks,
+/area/outdoors/basin/safe)
 "asQ" = (
 /turf/open/floor/grass,
 /area/outdoors/basin/safe)
@@ -1141,6 +1144,10 @@
 "aRE" = (
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/keep/heir/heir2)
+"aRQ" = (
+/obj/structure/table/wood/fancy/royalblack,
+/turf/open/floor/carpet/lord/left,
+/area/indoors/town/keep/throne)
 "aRV" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/fluff/railing/border{
@@ -3141,10 +3148,10 @@
 /area/outdoors/basin/safe)
 "ctz" = (
 /obj/structure/well/fountain{
-	pixel_x = -14;
+	pixel_x = -16;
 	pixel_y = 0
 	},
-/turf/open/floor/tile,
+/turf/open/floor/blocks,
 /area/outdoors/basin/safe)
 "ctG" = (
 /obj/structure/fluff/clock,
@@ -4558,27 +4565,6 @@
 /turf/closed/wall/mineral/decorstone,
 /area/under/cave)
 "duC" = (
-/obj/item/key/medroomi{
-	pixel_x = 0;
-	pixel_y = -1
-	},
-/obj/item/key/medroomii{
-	pixel_x = 7;
-	pixel_y = -3
-	},
-/obj/item/key/medroomiii{
-	pixel_x = -6;
-	pixel_y = -4
-	},
-/obj/item/key/medroomiv{
-	pixel_x = 7;
-	pixel_y = 3
-	},
-/obj/item/key/medroomv{
-	pixel_x = -8;
-	pixel_y = 5
-	},
-/obj/item/key/luxroomi,
 /obj/structure/closet/keyrack,
 /obj/effect/spawner/guaranteed_map_spawner/listed/inn_keys,
 /turf/open/floor/blocks,
@@ -10758,7 +10744,7 @@
 /obj/item/rope/chain,
 /obj/item/rope/chain,
 /obj/item/rope/chain,
-/turf/open/floor/ruinedwood/darker,
+/turf/open/floor/cobblerock,
 /area/indoors/town/keep/gate)
 "hLb" = (
 /obj/machinery/light/fueled/wallfire/candle{
@@ -12270,6 +12256,7 @@
 "iPn" = (
 /obj/effect/mapping_helpers/access/keyset/town/tomb,
 /obj/structure/door/iron/bars,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/cobblerock,
 /area/under/cave)
 "iPK" = (
@@ -13794,6 +13781,16 @@
 	},
 /turf/open/floor/churchrough,
 /area/indoors/town/church)
+"jRY" = (
+/obj/structure/table/wood/counter{
+	dir = 1
+	},
+/obj/structure/bars/passage/shutter/open{
+	redstone_id = "bar_shutter"
+	},
+/obj/structure/fake_machine/vendor/inn,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors/town/tavern)
 "jSf" = (
 /obj/structure/closet/crate/chest/old_crate,
 /turf/open/floor/tile/diamond/blue,
@@ -16822,6 +16819,10 @@
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/naturalstone,
 /area/under/cave)
+"mcG" = (
+/obj/structure/table/wood/fancy/royalblack,
+/turf/open/floor/carpet/lord/right,
+/area/indoors/town/keep/throne)
 "mdn" = (
 /obj/effect/decal/remains/human,
 /turf/open/water/swamp,
@@ -23040,9 +23041,6 @@
 "qHt" = (
 /turf/open/openspace,
 /area/indoors/town/garrison)
-"qHF" = (
-/turf/open/floor/dirt/road,
-/area/under/cave)
 "qHG" = (
 /obj/effect/landmark/start/gmtemplar,
 /turf/open/floor/churchrough/purple,
@@ -25993,9 +25991,6 @@
 /obj/item/storage/backpack/satchel/cloth,
 /turf/open/floor/naturalstone,
 /area/under/cave)
-"sXJ" = (
-/turf/closed/wall/mineral/decorstone,
-/area/outdoors/town/roofs)
 "sYa" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/broom,
@@ -26155,7 +26150,7 @@
 "tek" = (
 /obj/machinery/light/fueled/firebowl/standing,
 /turf/open/floor/dirt/road,
-/area/under/cave)
+/area/outdoors/town/keep)
 "teT" = (
 /obj/structure/table/map{
 	dir = 6
@@ -26239,7 +26234,7 @@
 "tkb" = (
 /obj/structure/fermentation_keg/water,
 /turf/open/floor/grass/cold,
-/area/under/cave)
+/area/outdoors/town/keep)
 "tko" = (
 /obj/structure/table/wood/fancy,
 /obj/item/paint_brush{
@@ -96479,7 +96474,7 @@ cSl
 cSl
 cSl
 cSl
-xgE
+jRY
 pGe
 vTy
 jqt
@@ -103922,9 +103917,9 @@ lRz
 lRz
 cmk
 vYl
-vYl
-vYl
-vYl
+asN
+asN
+asN
 vYl
 bwY
 uvK
@@ -104124,9 +104119,9 @@ lRz
 dAk
 cmk
 vYl
-vYl
+asN
 ctz
-vYl
+asN
 vYl
 bwY
 hvK
@@ -104326,9 +104321,9 @@ lRz
 lRz
 cmk
 vYl
-vYl
-vYl
-vYl
+asN
+asN
+asN
 vYl
 uvK
 uvK
@@ -118238,7 +118233,7 @@ qNi
 wTi
 wTi
 qTf
-uPc
+oha
 uPc
 fHb
 uvK
@@ -120662,7 +120657,7 @@ gUY
 wTi
 wTi
 qTf
-uPc
+uiV
 uPc
 fHb
 lPa
@@ -169555,8 +169550,8 @@ tck
 qbL
 nJJ
 nJJ
-dBZ
-cGQ
+tLh
+kKb
 kKb
 kKb
 kKb
@@ -173373,7 +173368,7 @@ siO
 aHu
 aHu
 aHu
-aHu
+gKw
 aHu
 aHu
 jcY
@@ -173770,7 +173765,7 @@ rOP
 odL
 uus
 gKw
-gZU
+aRQ
 gZU
 gZU
 mfq
@@ -173793,7 +173788,7 @@ xlt
 xlt
 xlt
 kGR
-tck
+gLm
 gLm
 gLm
 gLm
@@ -173995,7 +173990,7 @@ lWb
 lWb
 lWb
 vVV
-tck
+gLm
 gLm
 gLm
 eAU
@@ -174174,7 +174169,7 @@ odL
 odL
 uus
 gKw
-wcr
+mcG
 wcr
 wcr
 wiN
@@ -174197,7 +174192,7 @@ yhs
 yhs
 yhs
 brT
-tck
+gLm
 gLm
 gLm
 hhC
@@ -174400,7 +174395,7 @@ mZc
 gXJ
 jbG
 tck
-tck
+gLm
 gLm
 tck
 bDU
@@ -174585,7 +174580,7 @@ siO
 aHu
 aHu
 aHu
-aHu
+gKw
 aHu
 jcY
 aHu
@@ -176423,13 +176418,13 @@ tck
 gLm
 tck
 tck
-wIp
+wdW
 qbL
 nJJ
 nJJ
 nJJ
-aKz
-aKz
+qbL
+qbL
 hOj
 kKb
 kKb
@@ -176625,14 +176620,14 @@ tck
 gLm
 gLm
 tck
-oaz
+szG
 qbL
 qbL
 nJJ
 nJJ
 nJJ
-aKz
-aKz
+qbL
+qbL
 jFt
 kKb
 gGi
@@ -176827,15 +176822,15 @@ tck
 tck
 tck
 tck
-cGQ
-ewY
+tck
+dNo
 tLh
 qbL
 nJJ
 nJJ
 nJJ
-aKz
-aKz
+qbL
+qbL
 fIk
 kKb
 eTY
@@ -177030,15 +177025,15 @@ gLm
 tck
 tck
 dNo
-ewY
+dNo
 tkb
 tLh
 qbL
 qbL
 nJJ
 nJJ
-aKz
-aKz
+qbL
+qbL
 kKb
 eTY
 eTY
@@ -177233,14 +177228,14 @@ tck
 dNo
 dNo
 iop
-cGQ
-cGQ
+tck
+tck
 tek
 qbL
 qbL
 nJJ
 nJJ
-aKz
+qbL
 kKb
 eTY
 eTY
@@ -177437,12 +177432,12 @@ hgy
 gLm
 tck
 tck
-qHF
-qHF
+gLm
+gLm
 qbL
 nJJ
 nJJ
-aKz
+qbL
 kKb
 kKb
 eTY
@@ -177640,11 +177635,11 @@ tck
 tck
 szG
 tck
-qHF
+gLm
 qbL
 nJJ
 nJJ
-aKz
+qbL
 rjc
 iAN
 eTY
@@ -177842,11 +177837,11 @@ tck
 gLm
 tck
 tck
-cGQ
+tck
 tLh
 nJJ
 nJJ
-aKz
+qbL
 rjc
 kKb
 eTY
@@ -178044,11 +178039,11 @@ gLm
 gLm
 gKO
 tck
-cGQ
+tck
 duz
 nJJ
 nJJ
-aKz
+qbL
 kKb
 rjc
 eTY
@@ -178246,11 +178241,11 @@ gLm
 tck
 gLm
 gLm
-cGQ
+tck
 tLh
 nJJ
 nJJ
-aKz
+qbL
 rjc
 kKb
 eTY
@@ -178448,11 +178443,11 @@ tck
 gLm
 gLm
 gLm
-qHF
+gLm
 oFc
 nJJ
 nJJ
-aKz
+qbL
 hxj
 rjc
 eTY
@@ -178650,11 +178645,11 @@ tck
 hij
 tck
 hij
-qHF
+gLm
 tLh
 nJJ
 nJJ
-aKz
+qbL
 rjc
 rjc
 eTY
@@ -178856,7 +178851,7 @@ tek
 tLh
 nJJ
 nJJ
-aKz
+qbL
 rjc
 eTY
 eTY
@@ -179054,11 +179049,11 @@ dNo
 dNo
 dNo
 dNo
-ewY
+dNo
 qbL
 nJJ
 nJJ
-aKz
+qbL
 kKb
 eTY
 eTY
@@ -179256,11 +179251,11 @@ wdW
 szG
 tpw
 wdW
-qAr
+tpw
 qbL
 nJJ
 nJJ
-aKz
+qbL
 vbL
 vbL
 vbL
@@ -179458,11 +179453,11 @@ tck
 tck
 tck
 tpw
-wIp
+wdW
 qbL
 nJJ
 nJJ
-sXJ
+qbL
 jjM
 jjM
 jjM
@@ -179630,8 +179625,8 @@ uus
 nJJ
 nJJ
 qbL
-cAQ
 seF
+cAQ
 vft
 cVE
 ouV
@@ -179660,11 +179655,11 @@ tck
 tck
 tck
 tck
-oaz
+szG
 qbL
 nJJ
 nJJ
-sXJ
+qbL
 jjM
 jjM
 jjM
@@ -179832,8 +179827,8 @@ uus
 nJJ
 nJJ
 qbL
-oWl
-oWl
+qbL
+qbL
 oWl
 pDo
 ouV
@@ -179862,11 +179857,11 @@ tck
 gLm
 kyJ
 wdW
-qAr
+tpw
 duz
 nJJ
 nJJ
-sXJ
+qbL
 jjM
 jjM
 jjM
@@ -180068,7 +180063,7 @@ duz
 duz
 nJJ
 nJJ
-sXJ
+qbL
 jjM
 jjM
 nqe
@@ -180270,7 +180265,7 @@ qbL
 nJJ
 nJJ
 nJJ
-sXJ
+qbL
 jjM
 jjM
 nqe
