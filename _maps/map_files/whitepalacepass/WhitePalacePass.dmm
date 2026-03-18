@@ -1552,10 +1552,6 @@
 /obj/item/lockpick,
 /turf/open/floor/carpet/red,
 /area/indoors/town/orphanage)
-"bjA" = (
-/obj/structure/train/carriage/not_train,
-/turf/open/floor/snow/patchy,
-/area/outdoors/basin)
 "bjY" = (
 /obj/structure/closet/crate/chest/neu_fancy,
 /obj/item/key/apothecary,
@@ -12087,6 +12083,12 @@
 /obj/structure/bars,
 /turf/open/floor/hexstone,
 /area/indoors/town/smithy)
+"iJA" = (
+/obj/structure/train/carriage/not_train{
+	pixel_x = -64
+	},
+/turf/open/floor/dirt/road,
+/area/outdoors/basin)
 "iJO" = (
 /obj/machinery/light/fueled/firebowl/stumpb,
 /turf/open/floor/cobble,
@@ -93276,7 +93278,7 @@ bqP
 bqP
 rGJ
 bqP
-bjA
+tsO
 rGJ
 uMr
 uMr
@@ -93478,7 +93480,7 @@ tsO
 gvO
 gvO
 tsO
-qJy
+iJA
 qJy
 rGJ
 uMr
