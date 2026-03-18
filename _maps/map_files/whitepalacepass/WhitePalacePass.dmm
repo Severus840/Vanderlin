@@ -10754,7 +10754,6 @@
 /area/indoors/town)
 "hKi" = (
 /obj/structure/rack/shelf/biggest,
-/obj/structure/fake_machine/scomm/r,
 /obj/item/rope/chain,
 /obj/item/rope/chain,
 /obj/item/rope/chain,
@@ -14776,6 +14775,14 @@
 "kFS" = (
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town)
+"kGb" = (
+/obj/structure/door/red{
+	name = "Gatehouse"
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/atarms,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/cobblerock,
+/area/indoors/town/keep/gate)
 "kGd" = (
 /obj/effect/mapping_helpers/secret_door_creator/keep{
 	redstone_id = "K10"
@@ -24029,6 +24036,10 @@
 	},
 /turf/open/floor/church,
 /area/indoors/town/church)
+"rtR" = (
+/obj/structure/fake_machine/scomm/r,
+/turf/open/floor/cobblerock,
+/area/indoors/town/keep/gate)
 "rtZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -175000,7 +175011,7 @@ tck
 gLm
 bDU
 hKi
-wvM
+iAp
 iAp
 qbc
 kKb
@@ -175200,10 +175211,10 @@ tck
 tck
 gLm
 tck
-bDU
-bDU
-bDU
-kBq
+kGb
+rtR
+wvM
+iAp
 bDU
 kKb
 gTB
@@ -175403,9 +175414,9 @@ tck
 gLm
 gLm
 bDU
-iAp
-iAp
-iAp
+bDU
+bDU
+kBq
 bDU
 kKb
 hOj
