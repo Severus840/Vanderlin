@@ -22,6 +22,10 @@
 /obj/item/lockpick,
 /turf/open/floor/carpet/red,
 /area/indoors/town/keep/hand)
+"aaQ" = (
+/obj/structure/fluff/statue/knight,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
 "aaW" = (
 /obj/machinery/light/fueled/wallfire/candle,
 /obj/structure/chair/wood/alt/chair3{
@@ -2684,6 +2688,13 @@
 /obj/structure/fermentation_keg,
 /turf/open/floor/concrete,
 /area/indoors/soilsons)
+"bQR" = (
+/obj/machinery/light/fueled/wallfire/candle/blue{
+	pixel_x = 31;
+	pixel_y = 0
+	},
+/turf/open/floor/naturalstone,
+/area/indoors/town/church/inquisition)
 "bQT" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/weapon/sword,
@@ -2756,6 +2767,10 @@
 /obj/structure/fluff/walldeco/vinez/blue,
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep/garrison)
+"bUs" = (
+/obj/structure/fluff/psycross,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
 "bUz" = (
 /obj/effect/landmark/start/vagrant,
 /turf/open/floor/naturalstone,
@@ -3333,6 +3348,11 @@
 	},
 /turf/open/floor/wood,
 /area/indoors/town/noble_manor/blue)
+"coO" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/obj/structure/lever/hidden/inquisition,
+/turf/closed/mineral,
+/area/under/cave)
 "coT" = (
 /obj/structure/fluff/clock,
 /turf/open/floor/ruinedwood,
@@ -6215,6 +6235,10 @@
 	},
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/villagegarrison)
+"etA" = (
+/obj/structure/fluff/statue/knight/r,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
 "etB" = (
 /obj/structure/fluff/walldeco/customflag{
 	name = "White Palace Pass flag"
@@ -9299,10 +9323,6 @@
 	},
 /turf/open/floor/wood,
 /area/indoors/town/noble_manor/red)
-"gxc" = (
-/obj/effect/landmark/latejoin,
-/turf/open/floor/dirt/road,
-/area/outdoors/basin)
 "gxh" = (
 /obj/structure/fluff/statue/gargoyle,
 /turf/open/floor/blocks,
@@ -11708,6 +11728,11 @@
 	},
 /turf/open/floor/tile,
 /area/outdoors/basin/safe)
+"hYh" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/obj/structure/window/solid,
+/turf/open/floor/herringbone,
+/area/indoors/town/keep/halls/w)
 "hYr" = (
 /obj/effect/landmark/hammer/dev_text{
 	name = "Royal Knights"
@@ -13352,6 +13377,7 @@
 /area/indoors/town/clinic_large/apothecary)
 "jiF" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
+/obj/structure/fluff/statue/knight/interior,
 /turf/open/floor/grass/cold,
 /area/outdoors/basin/safe)
 "jiQ" = (
@@ -17986,6 +18012,10 @@
 	pixel_x = 24;
 	pixel_y = 23
 	},
+/obj/structure/fluff/statue/gargoyle{
+	pixel_x = -5;
+	pixel_y = 0
+	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/church)
 "mow" = (
@@ -19158,6 +19188,7 @@
 	dir = 9
 	},
 /obj/machinery/light/fueled/wallfire/candle,
+/obj/machinery/essence/combiner,
 /turf/open/floor/hexstone,
 /area/indoors/town/clinic_large/apothecary)
 "ndy" = (
@@ -21218,6 +21249,15 @@
 "ouV" = (
 /turf/open/floor/dirt/road,
 /area/indoors/town/keep)
+"ovz" = (
+/obj/structure/fluff/signage{
+	dir = 1;
+	name = "Church";
+	pixel_x = -1;
+	pixel_y = 5
+	},
+/turf/open/floor/grass/cold,
+/area/outdoors/basin/safe)
 "ovA" = (
 /obj/machinery/light/fueled/wallfire/candle/blue{
 	pixel_y = -32
@@ -23513,10 +23553,6 @@
 "qhZ" = (
 /turf/open/floor/ruinedwood,
 /area/indoors/town/clinic_large)
-"qie" = (
-/obj/effect/landmark/latejoin,
-/turf/open/floor/grass/cold,
-/area/outdoors/basin)
 "qif" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass/yel,
@@ -24036,10 +24072,6 @@
 	pixel_x = 32;
 	pixel_y = 0
 	},
-/obj/item/broken_phylactery{
-	pixel_x = -1;
-	pixel_y = 7
-	},
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/merc_guild)
 "qHt" = (
@@ -24283,7 +24315,8 @@
 /obj/structure/fluff/walldeco/vinez/blue{
 	dir = 5
 	},
-/turf/closed/wall/mineral/decorstone,
+/obj/structure/window/solid,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/halls/w)
 "qOz" = (
 /obj/structure/bookcase/random,
@@ -25538,6 +25571,10 @@
 	dir = 6;
 	pixel_y = 24;
 	pixel_x = -24
+	},
+/obj/structure/fluff/statue/gargoyle{
+	pixel_x = 5;
+	pixel_y = 0
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/church)
@@ -26820,6 +26857,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
+"sMt" = (
+/obj/machinery/light/fueled/wallfire/candle/blue{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/open/floor/grass/cold,
+/area/under/cave)
 "sMD" = (
 /obj/structure/window,
 /obj/structure/bars,
@@ -26992,6 +27036,10 @@
 /obj/structure/fluff/psycross,
 /turf/open/floor/cobblerock,
 /area/outdoors/basin/safe)
+"sTe" = (
+/obj/structure/fluff/statue/knight/r,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "sTB" = (
 /turf/closed/mineral/bedrock,
 /area/under/tomb/indoors/church)
@@ -30268,6 +30316,10 @@
 /obj/structure/carpet/green,
 /turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
+"vrY" = (
+/obj/structure/window/stained/yellow,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
 "vsh" = (
 /obj/structure/mirror{
 	pixel_x = -32;
@@ -32365,9 +32417,9 @@
 /turf/open/floor/tile/diamond/blue,
 /area/indoors/town/keep/feast)
 "wWi" = (
-/obj/structure/roguetent,
 /obj/structure/fluff/walldeco/vinez/blue,
-/turf/open/floor/naturalstone,
+/obj/effect/mapping_helpers/secret_door_creator/inquisition,
+/turf/closed/mineral,
 /area/indoors/town/church/inquisition)
 "wWp" = (
 /obj/machinery/light/fueled/wallfire/candle{
@@ -80595,7 +80647,7 @@ cnU
 cnU
 nJJ
 nJJ
-cnU
+bQR
 poM
 nJJ
 uuw
@@ -80797,7 +80849,7 @@ poM
 nJJ
 nJJ
 nJJ
-dBZ
+coO
 wWi
 dBZ
 afJ
@@ -80999,7 +81051,7 @@ cnU
 eTX
 nJJ
 nJJ
-nAW
+sMt
 rGJ
 kny
 nOP
@@ -83996,9 +84048,9 @@ gTB
 kKb
 rjc
 rjc
-kKb
-kKb
-kKb
+rjc
+aZv
+aZv
 aZv
 nJJ
 nJJ
@@ -84198,9 +84250,9 @@ umL
 iuO
 umL
 rjc
-kKb
-kKb
-kKb
+rjc
+rjc
+aZv
 aZv
 rjc
 nJJ
@@ -84400,9 +84452,9 @@ vPk
 giV
 umL
 kKb
-kKb
-kKb
-kKb
+rjc
+rjc
+rjc
 rjc
 aZv
 nJJ
@@ -84604,7 +84656,7 @@ yez
 dcc
 kKb
 kKb
-kKb
+rjc
 rjc
 rjc
 rjc
@@ -84803,7 +84855,7 @@ alY
 alY
 mzr
 yez
-kKb
+rjc
 kKb
 kKb
 kKb
@@ -85006,7 +85058,7 @@ sBm
 sBm
 yez
 rjc
-kKb
+rjc
 kKb
 kKb
 rjc
@@ -85208,10 +85260,10 @@ sBm
 psO
 yez
 rjc
+rjc
 kKb
 kKb
-kKb
-kKb
+rjc
 nJJ
 nJJ
 nJJ
@@ -85567,7 +85619,7 @@ rjc
 kKb
 cVN
 rjc
-kKb
+ovz
 uvK
 hvK
 uvK
@@ -85611,7 +85663,7 @@ wSc
 xiH
 uzE
 yez
-kKb
+rjc
 kKb
 kKb
 rjc
@@ -86012,9 +86064,9 @@ yez
 yez
 yez
 yez
-jFt
-kKb
-gSR
+hOj
+rjc
+gTB
 gTB
 kKb
 kKb
@@ -86212,12 +86264,12 @@ kKb
 rjc
 rjc
 rjc
-rjc
-wBD
+kKb
+gGi
 gSR
 fIk
 jFt
-rjc
+kKb
 kKb
 kKb
 rjc
@@ -86415,8 +86467,8 @@ wBD
 rjc
 rjc
 rjc
-rjc
-rjc
+kKb
+kKb
 gSR
 jFt
 gSR
@@ -94130,7 +94182,7 @@ bqP
 rGJ
 bqP
 tsO
-qie
+rGJ
 uMr
 uMr
 uMr
@@ -94534,7 +94586,7 @@ rGJ
 rGJ
 rGJ
 qJy
-gxc
+qJy
 qJy
 uMr
 rGJ
@@ -105980,10 +106032,10 @@ qVl
 lRz
 aQD
 lRz
-lRz
-lRz
+xoX
+xoX
 aQD
-lRz
+xoX
 lRz
 oTL
 bwY
@@ -106179,14 +106231,14 @@ lqD
 lqD
 lqD
 qVl
+xoX
+xoX
 lRz
 lRz
 lRz
-lRz
-lRz
-lRz
-lRz
-lRz
+xoX
+xoX
+xoX
 oTL
 bwY
 hvK
@@ -123734,7 +123786,7 @@ fHb
 fHb
 fHb
 fHb
-fHb
+rYC
 fHb
 fHb
 rjc
@@ -124139,7 +124191,7 @@ nJJ
 nJJ
 aZv
 aZv
-rjc
+ppa
 rjc
 aZv
 aZv
@@ -157259,7 +157311,7 @@ bGm
 uPc
 lti
 fHb
-uPc
+aaQ
 uPc
 sRq
 uPc
@@ -158885,7 +158937,7 @@ bGm
 bGm
 uPc
 uPc
-uPc
+aaQ
 fHb
 eTY
 eTY
@@ -159279,12 +159331,12 @@ fHb
 fHb
 fHb
 fHb
-fHb
+vrY
 fHb
 vyE
 fHb
-fHb
-fHb
+vrY
+vrY
 fHb
 fHb
 fHb
@@ -159301,7 +159353,7 @@ eTY
 eTY
 eTY
 eTY
-eTY
+puJ
 eTY
 eTY
 eTY
@@ -159691,7 +159743,7 @@ lkr
 wzh
 lPH
 phw
-fHb
+vrY
 uPc
 uPc
 urP
@@ -160095,7 +160147,7 @@ ieQ
 ieQ
 uHZ
 phw
-fHb
+vrY
 bGm
 uPc
 fHb
@@ -160688,11 +160740,11 @@ fHb
 ieQ
 ieQ
 ieQ
+xnk
 ieQ
 ieQ
 ieQ
 xnk
-ieQ
 ieQ
 ieQ
 ieQ
@@ -161307,7 +161359,7 @@ ieQ
 ieQ
 uHZ
 phw
-fHb
+vrY
 uPc
 bGm
 fHb
@@ -161711,7 +161763,7 @@ wOM
 rsg
 twC
 phw
-fHb
+vrY
 bGm
 bGm
 urP
@@ -162107,12 +162159,12 @@ fHb
 fHb
 fHb
 fHb
-fHb
+vrY
 fHb
 vyE
 fHb
-fHb
-fHb
+vrY
+vrY
 fHb
 fHb
 fHb
@@ -162307,7 +162359,7 @@ fHb
 cgd
 pAp
 fHb
-uPc
+aaQ
 yaV
 bGm
 uPc
@@ -162521,7 +162573,7 @@ uPc
 bGm
 uPc
 bGm
-uPc
+etA
 fHb
 eTY
 eTY
@@ -162720,9 +162772,9 @@ fHb
 fHb
 fHb
 fHb
-fHb
+dHm
 vyE
-fHb
+dHm
 fHb
 fHb
 eTY
@@ -163527,7 +163579,7 @@ fHb
 fHb
 fHb
 fHb
-phw
+bUs
 phw
 phw
 phw
@@ -163923,7 +163975,7 @@ gdx
 gxV
 ppv
 fHb
-bGm
+sTe
 uPc
 ndy
 ieQ
@@ -172412,7 +172464,7 @@ qQA
 lBe
 lBe
 iUD
-nvT
+hYh
 krm
 tck
 gLm
