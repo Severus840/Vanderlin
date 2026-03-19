@@ -7,16 +7,14 @@
 /datum/map_adjustment/whitepalacepass
 	map_file_name = "WhitePalacePass.dmm"
 	blacklist = list(
-		/datum/job/shophand, //Unneeded honestly.
 		/datum/job/forestguard,
 		/datum/job/forestwarden,
-		/datum/job/dungeoneer,
-		/datum/job/prisoner,
 		/datum/job/jailor,
+		/datum/job/adept,
 	)
 	// Limited positions to ensure core roles are filled.
 	slot_adjust = list(
-		/datum/job/feldsher = 2,
+		/datum/job/feldsher = 1,
 		/datum/job/tapster = 2,
 		/datum/job/cook = 2,
 		/datum/job/servant = 3,
@@ -28,11 +26,11 @@
 		/datum/job/fisher = 2,
 		/datum/job/farmer = 3,
 		/datum/job/orphan = 6,
-		/datum/job/men_at_arms = 4,
+		/datum/job/men_at_arms = 6,
 		/datum/job/guardsman = 6,
-		/datum/job/mercenary = 3,
+		/datum/job/mercenary = 4,
 		/datum/job/artificer = 2,
-		/datum/job/adept = 4
+		/datum/job/orthodoxist = 1,
 	)
 	ages_adjust = list(
 		/datum/job/forestguard = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
