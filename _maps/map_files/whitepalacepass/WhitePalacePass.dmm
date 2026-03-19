@@ -4258,11 +4258,6 @@
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/metal/barograte,
 /area/indoors/town/dwarfin)
-"daR" = (
-/obj/structure/chair/stool,
-/obj/effect/landmark/start/orphan,
-/turf/open/floor/ruinedwood,
-/area/indoors/town/orphanage)
 "dbI" = (
 /obj/structure/flora/grass/bush_meagre/tundra{
 	pixel_x = -8;
@@ -5111,13 +5106,6 @@
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/cobble,
 /area/under/town/basement)
-"dGY" = (
-/obj/structure/chair/stool,
-/obj/effect/landmark/start/orphan{
-	dir = 1
-	},
-/turf/open/floor/ruinedwood,
-/area/indoors/town/orphanage)
 "dHd" = (
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage,
 /turf/open/floor/grass/cold,
@@ -9311,6 +9299,10 @@
 	},
 /turf/open/floor/wood,
 /area/indoors/town/noble_manor/red)
+"gxc" = (
+/obj/effect/landmark/latejoin,
+/turf/open/floor/dirt/road,
+/area/outdoors/basin)
 "gxh" = (
 /obj/structure/fluff/statue/gargoyle,
 /turf/open/floor/blocks,
@@ -17788,13 +17780,6 @@
 "mhT" = (
 /turf/open/floor/carpet/red,
 /area/indoors/town/clinic_large)
-"miG" = (
-/obj/structure/chair/stool,
-/obj/effect/landmark/start/orphan{
-	dir = 1
-	},
-/turf/open/floor/ruinedwood/darker,
-/area/indoors/town/orphanage)
 "miL" = (
 /obj/structure/fluff/walldeco/chains{
 	alpha = 220;
@@ -23528,6 +23513,10 @@
 "qhZ" = (
 /turf/open/floor/ruinedwood,
 /area/indoors/town/clinic_large)
+"qie" = (
+/obj/effect/landmark/latejoin,
+/turf/open/floor/grass/cold,
+/area/outdoors/basin)
 "qif" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass/yel,
@@ -23941,11 +23930,6 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/basin)
-"qCB" = (
-/obj/structure/chair/stool,
-/obj/effect/landmark/start/orphan,
-/turf/open/floor/ruinedwood/darker,
-/area/indoors/town/orphanage)
 "qCK" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobblerock,
@@ -94146,7 +94130,7 @@ bqP
 rGJ
 bqP
 tsO
-rGJ
+qie
 uMr
 uMr
 uMr
@@ -94550,7 +94534,7 @@ rGJ
 rGJ
 rGJ
 qJy
-qJy
+gxc
 qJy
 uMr
 rGJ
@@ -126803,9 +126787,9 @@ nio
 jmN
 jmN
 lUx
-daR
+bYJ
 jpv
-miG
+auY
 dVA
 jmN
 jmN
@@ -127005,9 +126989,9 @@ lUx
 aix
 jmN
 hYd
-qCB
+auY
 jpv
-miG
+auY
 dVA
 jmN
 hIl
@@ -127207,9 +127191,9 @@ dVA
 oUd
 jmN
 dVA
-qCB
+auY
 jpv
-dGY
+bYJ
 dVA
 jmN
 dYO
