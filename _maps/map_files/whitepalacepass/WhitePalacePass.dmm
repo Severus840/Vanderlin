@@ -235,15 +235,6 @@
 /obj/structure/closet/crate/chest,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/orphanage)
-"ajh" = (
-/obj/structure/door/fancy{
-	name = "Tailor"
-	},
-/obj/effect/mapping_helpers/access/keyset/town/tailor,
-/obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/locker,
-/turf/open/floor/ruinedwood/chevron,
-/area/indoors/town/shop)
 "ajA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fluff/railing/border{
@@ -97068,7 +97059,7 @@ vZA
 guU
 vZA
 bXt
-ajh
+lGq
 xBa
 xBa
 kMG
