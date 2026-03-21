@@ -3131,6 +3131,12 @@
 /obj/effect/landmark/start/servant,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/keep/servant)
+"cgj" = (
+/obj/structure/bars/passage/shutter/open{
+	redstone_id = "Keep Lockdown"
+	},
+/turf/closed/wall/mineral/stone/window,
+/area/indoors/town/keep/gate)
 "cgl" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass/cold,
@@ -9240,19 +9246,12 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/basin)
-"grD" = (
-/obj/structure/table/wood/reinforced,
-/obj/machinery/light/fueled/wallfire/candle/r,
-/obj/item/weapon/knife/villager,
-/turf/open/floor/blocks,
-/area/indoors/villagegarrison)
 "grS" = (
 /obj/structure/flora/grass/bush_meagre/tundra,
 /turf/open/floor/dirt/road,
 /area/outdoors/basin)
 "grW" = (
 /obj/structure/closet/crate/chest,
-/obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/blocks,
 /area/indoors/villagegarrison)
 "grY" = (
@@ -11571,11 +11570,6 @@
 /obj/structure/carpet/blue,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/noble_manor/blue)
-"hOe" = (
-/obj/machinery/light/fueled/hearth,
-/obj/item/reagent_containers/glass/bucket/pot,
-/turf/open/floor/blocks,
-/area/indoors/villagegarrison)
 "hOj" = (
 /obj/structure/flora/grass/bush/tundra,
 /turf/open/floor/snow/patchy,
@@ -11857,6 +11851,11 @@
 "iac" = (
 /turf/closed/mineral,
 /area/under/town/basement)
+"iaA" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/blocks,
+/area/indoors/villagegarrison)
 "iaO" = (
 /obj/structure/flora/newtree,
 /obj/effect/falling_leaves,
@@ -12463,6 +12462,13 @@
 /obj/effect/mapping_helpers/access/keyset/town/bathhouse,
 /turf/open/floor/cobblerock,
 /area/indoors/town/bath)
+"ivu" = (
+/obj/structure/bed/sleepingbag,
+/obj/effect/landmark/start/absolver{
+	dir = 8
+	},
+/turf/open/floor/naturalstone,
+/area/indoors/town/church/inquisition)
 "ivy" = (
 /obj/structure/table/wood/counter{
 	dir = 4
@@ -13585,6 +13591,13 @@
 "jme" = (
 /turf/closed/wall/mineral/wooddark/vertical,
 /area/outdoors/river)
+"jmE" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/open/floor/blocks,
+/area/indoors/villagegarrison)
 "jmN" = (
 /turf/closed/wall/mineral/decowood,
 /area/indoors/town/orphanage)
@@ -14474,6 +14487,9 @@
 /obj/structure/door/iron,
 /obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/effect/mapping_helpers/access/locker,
+/obj/structure/bars/passage/shutter/open{
+	redstone_id = "Keep Lockdown"
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/keep/gate)
 "jNJ" = (
@@ -18231,11 +18247,11 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/garrison)
 "mnN" = (
-/obj/effect/mapping_helpers/access/keyset/garrison/gate,
 /obj/effect/mapping_helpers/access/locker,
 /obj/structure/door/violet{
 	name = "GateKeeper"
 	},
+/obj/effect/mapping_helpers/access/keyset/manor/gate,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/villagegarrison)
 "mnS" = (
@@ -19164,6 +19180,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobblerock,
 /area/under/town/basement)
+"mRN" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/blocks,
+/area/indoors/villagegarrison)
 "mRW" = (
 /obj/structure/table/wood/plain_alt,
 /turf/open/floor/cobblerock,
@@ -19226,7 +19246,6 @@
 /turf/open/floor/hexstone,
 /area/indoors/town/clinic_large/apothecary)
 "mTu" = (
-/obj/structure/fake_machine/scomm,
 /obj/structure/winch{
 	redstone_id = "RW2";
 	name = "Gate South"
@@ -19969,10 +19988,6 @@
 	climbdiff = 1
 	},
 /area/under/town/basement)
-"ntv" = (
-/obj/effect/landmark/start/villagerlate,
-/turf/open/floor/cobblerock,
-/area/outdoors/basin/safe)
 "ntA" = (
 /obj/structure/table/wood{
 	dir = 9;
@@ -20729,6 +20744,10 @@
 	},
 /turf/open/floor/cobble,
 /area/outdoors/basin)
+"nSf" = (
+/obj/structure/fake_machine/scomm,
+/turf/open/floor/blocks,
+/area/indoors/villagegarrison)
 "nSg" = (
 /obj/structure/closet/crate/chest/neu,
 /obj/item/natural/bundle/stick,
@@ -22518,6 +22537,10 @@
 /obj/structure/fermentation_keg/random/beer,
 /turf/open/floor/blocks,
 /area/under/town/basement)
+"pfe" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/concrete,
+/area/indoors/villagegarrison)
 "pfk" = (
 /obj/structure/warningbell,
 /turf/open/floor/ruinedwood,
@@ -27735,6 +27758,10 @@
 	},
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/tavern)
+"tfL" = (
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/carpet/red,
+/area/indoors/villagegarrison)
 "tgJ" = (
 /obj/structure/bed/wool,
 /obj/item/bedsheet/cloth,
@@ -28317,10 +28344,6 @@
 /obj/structure/window,
 /turf/open/floor/tile/checker,
 /area/indoors/town/keep/kitchen)
-"tyA" = (
-/obj/effect/landmark/start/villagerlate,
-/turf/open/floor/cobble,
-/area/outdoors/basin/safe)
 "tyJ" = (
 /obj/structure/fluff/statue/knight/interior/r,
 /turf/open/floor/cobblerock,
@@ -31708,9 +31731,6 @@
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
 "vZZ" = (
-/obj/structure/closet/crate/chest/wicker,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/meat/steak,
 /obj/structure/fluff/walldeco/wantedposter/l,
 /turf/open/floor/blocks,
 /area/indoors/villagegarrison)
@@ -32194,7 +32214,14 @@
 /obj/structure/lever/wall{
 	pixel_x = 18;
 	redstone_id = "WPPG";
-	name = "Kybraxor's mouth lever"
+	name = "Kybraxor's mouth lever";
+	pixel_y = 7
+	},
+/obj/structure/lever/wall{
+	pixel_x = 18;
+	pixel_y = -8;
+	name = "Gate Lockdown";
+	redstone_id = "Keep Lockdown"
 	},
 /turf/open/floor/cobblerock,
 /area/indoors/town/keep/gate)
@@ -32256,6 +32283,7 @@
 /area/outdoors/basin)
 "wye" = (
 /obj/structure/table/wood/plain_alt,
+/obj/item/key/garrison,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/villagegarrison)
 "wyu" = (
@@ -82366,7 +82394,7 @@ nJJ
 nJJ
 nJJ
 nJJ
-vOD
+ivu
 vOD
 nJJ
 nJJ
@@ -86524,7 +86552,7 @@ bwY
 bwY
 nLy
 kkv
-ntv
+bwY
 bwY
 uvK
 bwY
@@ -86726,7 +86754,7 @@ bwY
 uvK
 srA
 iBP
-ntv
+bwY
 bwY
 uvK
 uvK
@@ -86928,7 +86956,7 @@ bwY
 uvK
 uvK
 iBP
-tyA
+uvK
 bwY
 bwY
 bwY
@@ -92456,7 +92484,7 @@ kKb
 kKb
 jBB
 dEz
-dma
+mRN
 vFO
 vFO
 dma
@@ -92860,7 +92888,7 @@ tjT
 kKb
 kKb
 dEz
-mfI
+iaA
 meg
 dma
 vFO
@@ -93264,7 +93292,7 @@ eXV
 kKb
 bwY
 dEz
-hOe
+dma
 vZZ
 lHW
 ukB
@@ -93466,8 +93494,8 @@ kKb
 bwY
 bwY
 not
-vFO
-vFO
+pfe
+myv
 dma
 vFO
 gYc
@@ -93668,10 +93696,10 @@ kKb
 bwY
 ekI
 dEz
-grD
-myv
-vFO
-dma
+huX
+huX
+kAk
+huX
 gYc
 tsO
 gvO
@@ -93870,12 +93898,12 @@ kKb
 bwY
 xfI
 dEz
-huX
-gYc
-kAk
-huX
+nSf
+jmE
+vFO
+ukB
 dEz
-bqP
+oTv
 rGJ
 gvO
 gvO
@@ -94071,12 +94099,12 @@ iAN
 kKb
 hvK
 hvK
-dEz
+gYc
 mTS
 dma
 vFO
 grW
-dEz
+gYc
 bqP
 rGJ
 rGJ
@@ -94273,13 +94301,13 @@ dcc
 kKb
 hvK
 bwY
-dEz
+gYc
 mTu
 sgG
 dma
 btI
-dEz
-oTv
+gYc
+bqP
 uMr
 oUQ
 bqP
@@ -133258,7 +133286,7 @@ eTY
 eTY
 eTY
 ivK
-xSU
+tfL
 xSU
 ivK
 qNj
@@ -174402,7 +174430,7 @@ tck
 urT
 tck
 tck
-bDU
+cgj
 ils
 acs
 ils
@@ -174806,7 +174834,7 @@ tck
 tck
 gLm
 tck
-bDU
+cgj
 ils
 ils
 ils
@@ -175009,9 +175037,9 @@ jDW
 tck
 gLm
 bDU
-qbc
+cgj
 jNC
-qbc
+cgj
 bDU
 kKb
 kKb

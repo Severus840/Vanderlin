@@ -31,6 +31,8 @@
 		/datum/job/mercenary = 4,
 		/datum/job/artificer = 2,
 		/datum/job/orthodoxist = 1,
+		/datum/job/bogwitch = 1,
+		/datum/job/bog_apprentice = 1,
 	)
 	ages_adjust = list(
 		/datum/job/forestguard = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
