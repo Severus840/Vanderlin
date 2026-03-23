@@ -1135,20 +1135,6 @@
 "aKz" = (
 /turf/closed/wall/mineral/decorstone,
 /area/outdoors/basin/safe)
-"aLD" = (
-/obj/structure/bookcase,
-/obj/item/recipe_book/arcyne,
-/obj/item/recipe_book/art,
-/obj/item/recipe_book/blacksmithing,
-/obj/item/recipe_book/carpentry,
-/obj/item/recipe_book/cooking,
-/obj/item/recipe_book/engineering,
-/obj/item/recipe_book/leatherworking,
-/obj/item/recipe_book/masonry,
-/obj/item/recipe_book/sewing,
-/obj/item/recipe_book/survival,
-/turf/open/floor/ruinedwood/chevron,
-/area/indoors/town/keep/library)
 "aLE" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -3713,6 +3699,24 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/noble_manor/blue)
+"crn" = (
+/obj/structure/bookcase,
+/obj/item/recipe_book/arcyne,
+/obj/item/recipe_book/art,
+/obj/item/recipe_book/blacksmithing,
+/obj/item/recipe_book/carpentry,
+/obj/item/recipe_book/cooking,
+/obj/item/recipe_book/engineering,
+/obj/item/recipe_book/leatherworking,
+/obj/item/recipe_book/masonry,
+/obj/item/recipe_book/sewing,
+/obj/item/recipe_book/survival,
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors/town/keep/library)
 "cru" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -9465,6 +9469,11 @@
 /obj/item/reagent_containers/food/snacks/hardtack,
 /obj/item/reagent_containers/food/snacks/hardtack,
 /obj/item/reagent_containers/food/snacks/hardtack,
+/obj/item/reagent_containers/food/snacks/produce/coffeebeansroasted,
+/obj/item/reagent_containers/food/snacks/produce/coffeebeansroasted,
+/obj/item/reagent_containers/food/snacks/produce/coffeebeansroasted,
+/obj/item/reagent_containers/food/snacks/produce/coffeebeansroasted,
+/obj/item/reagent_containers/food/snacks/produce/coffeebeansroasted,
 /turf/open/floor/tile/diamond/blue,
 /area/indoors/town/keep/knight)
 "gmM" = (
@@ -10845,6 +10854,14 @@
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood,
 /area/indoors/town)
+"hcM" = (
+/obj/structure/door{
+	name = "dungeoneer's quarters"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/dungeon,
+/turf/open/floor/cobblerock,
+/area/under/town/basement)
 "hdb" = (
 /obj/structure/hotspring,
 /obj/effect/falling_sakura,
@@ -12420,6 +12437,11 @@
 /obj/structure/carpet/green,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/noble_manor/yellow)
+"igo" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/needle,
+/turf/open/floor/wood/nosmooth,
+/area/indoors/town/keep/dungeoneer)
 "igq" = (
 /obj/structure/table/vtable/v2,
 /obj/machinery/light/fueled/wallfire/candle,
@@ -16868,6 +16890,11 @@
 /obj/structure/bars,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/orphanage)
+"kYl" = (
+/obj/machinery/light/fueled/hearth,
+/obj/item/reagent_containers/glass/bucket/pot,
+/turf/open/floor/tile/diamond/blue,
+/area/indoors/town/keep/knight)
 "kYo" = (
 /obj/structure/bookcase/random{
 	pixel_y = 19;
@@ -19187,7 +19214,7 @@
 /area/indoors/town/noble_manor/blue)
 "myY" = (
 /obj/machinery/light/fueled/wallfire/candle,
-/turf/open/water/marsh,
+/turf/open/water/cleanshallow,
 /area/outdoors/basin)
 "mzd" = (
 /obj/structure/door/iron/bars{
@@ -20665,14 +20692,6 @@
 	},
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep)
-"nsz" = (
-/obj/structure/door{
-	name = "dungeoneer's quarters"
-	},
-/obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/dungeon,
-/turf/open/floor/cobblerock,
-/area/indoors/town/keep/dungeoneer)
 "nsB" = (
 /obj/structure/closet/crate/chest/wicker,
 /turf/open/floor/ruinedwood,
@@ -21520,6 +21539,13 @@
 	},
 /turf/open/floor/churchbrick,
 /area/indoors/town/church/chapel)
+"nUA" = (
+/obj/structure/table/wood{
+	icon_state = "longtable";
+	dir = 9
+	},
+/turf/open/floor/cobble,
+/area/indoors/town/keep/dungeoneer)
 "nUH" = (
 /obj/structure/chair/wood/alt{
 	dir = 4
@@ -22001,6 +22027,9 @@
 /obj/machinery/light/fueled/firebowl/standing,
 /turf/open/floor/cobblerock,
 /area/indoors/town/cell)
+"ohy" = (
+/turf/open/water/cleanshallow,
+/area/outdoors/town/keep)
 "ohD" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 4
@@ -22119,7 +22148,7 @@
 /turf/open/floor/dirt/road,
 /area/indoors/town/smithy)
 "olN" = (
-/turf/open/water/marsh,
+/turf/open/water/cleanshallow,
 /area/outdoors/basin)
 "olQ" = (
 /obj/machinery/light/fueled/wallfire/candle/lamp{
@@ -22575,9 +22604,10 @@
 /turf/open/floor/cobblerock,
 /area/indoors/town/keep/magician)
 "oBN" = (
-/obj/structure/rack/shelf/biggest,
-/obj/item/natural/bundle/cloth{
-	amount = 7
+/obj/structure/closet/crate/crafted_closet/dark,
+/obj/item/clothing/head/sack,
+/obj/item/clothing/cloak/raincloak/colored/mortus{
+	name = "cloak"
 	},
 /turf/open/floor/woodturned/nosmooth,
 /area/indoors/town/keep/dungeoneer)
@@ -23199,13 +23229,13 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/shop)
 "pbr" = (
-/obj/structure/table/wood{
-	icon_state = "longtable";
-	dir = 9
-	},
 /obj/item/reagent_containers/glass/bottle/beer/fireleaf{
 	pixel_x = -3;
 	pixel_y = 3
+	},
+/obj/structure/table/wood{
+	dir = 8;
+	icon_state = "longtable_mid"
 	},
 /turf/open/floor/cobblerock,
 /area/indoors/town/keep/dungeoneer)
@@ -23532,7 +23562,7 @@
 /obj/item/rope/chain,
 /obj/item/rope/chain,
 /obj/item/rope/chain,
-/turf/open/floor/cobblerock,
+/turf/open/floor/cobble,
 /area/indoors/town/keep/dungeoneer)
 "pnV" = (
 /obj/structure/hotspring,
@@ -26010,7 +26040,7 @@
 /area/indoors/town/dwarfin)
 "qZU" = (
 /obj/effect/falling_leaves,
-/turf/open/water/marsh,
+/turf/open/water/cleanshallow,
 /area/outdoors/basin)
 "raf" = (
 /obj/structure/bars/pipe{
@@ -26690,8 +26720,10 @@
 /turf/open/floor/naturalstone,
 /area/indoors/town/church/inquisition)
 "rBB" = (
+/obj/item/natural/bundle/cloth{
+	amount = 7
+	},
 /obj/structure/rack/shelf/biggest,
-/obj/item/needle,
 /turf/open/floor/woodturned/nosmooth,
 /area/indoors/town/keep/dungeoneer)
 "rBU" = (
@@ -35387,11 +35419,6 @@
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
 "xIW" = (
-/obj/item/clothing/cloak/raincloak/colored/mortus{
-	name = "cloak"
-	},
-/obj/item/clothing/head/sack,
-/obj/structure/closet/crate/crafted_closet/dark,
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/woodturned/nosmooth,
 /area/indoors/town/keep/dungeoneer)
@@ -136670,7 +136697,7 @@ veE
 rBB
 nhA
 thP
-thP
+ujg
 pbr
 vmV
 qls
@@ -136869,11 +136896,11 @@ dRO
 ofo
 ofo
 veE
-veE
-veE
-nsz
-veE
-veE
+igo
+nhA
+thP
+thP
+nUA
 vmV
 ctW
 gqS
@@ -137070,12 +137097,12 @@ ugX
 dRO
 dRO
 dRO
-aIS
-dRO
-bcc
-dRO
-dRO
-aIS
+mos
+mos
+mos
+hcM
+mos
+mos
 vmV
 vmV
 vmV
@@ -137272,12 +137299,12 @@ ofo
 dRO
 dRO
 dRO
+aIS
+dRO
+bcc
 dRO
 dRO
-dRO
-dRO
-dRO
-dRO
+aIS
 vmV
 wnr
 gqS
@@ -138686,12 +138713,12 @@ mos
 dRO
 dRO
 dRO
+ben
+dRO
+qPT
 dRO
 dRO
-dRO
-dRO
-dRO
-dRO
+ben
 vmV
 hrm
 gqS
@@ -138887,13 +138914,13 @@ oBd
 mos
 dRO
 dRO
-dRO
-ben
-dRO
-qPT
-dRO
-dRO
-ben
+mos
+mos
+mos
+mos
+mos
+mos
+mos
 vmV
 vmV
 vmV
@@ -139090,12 +139117,12 @@ mos
 ofo
 dRO
 epb
-epb
-epb
-epb
-epb
-epb
-epb
+dCP
+fTI
+jyn
+crn
+hsF
+hsF
 epb
 vmV
 tRp
@@ -139292,12 +139319,12 @@ ugX
 ofo
 dRO
 epb
-dCP
-fTI
-jyn
-aLD
-hsF
-hsF
+oya
+oya
+gQl
+gQl
+gQl
+gQl
 epb
 vmV
 aqp
@@ -183938,8 +183965,8 @@ qbL
 qbL
 tpw
 hiR
+ohy
 tck
-ton
 tck
 tck
 tck
@@ -184343,7 +184370,7 @@ nJJ
 hyI
 qbL
 tck
-tck
+ton
 tck
 tck
 ton
@@ -218871,7 +218898,7 @@ jdE
 jFh
 jFh
 mbE
-jFh
+kYl
 gmL
 slN
 dWf
