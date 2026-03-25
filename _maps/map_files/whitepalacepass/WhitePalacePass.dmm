@@ -2541,6 +2541,7 @@
 	pixel_x = 12;
 	pixel_y = 15
 	},
+/obj/structure/fake_machine/atm,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/shop)
 "bCC" = (
