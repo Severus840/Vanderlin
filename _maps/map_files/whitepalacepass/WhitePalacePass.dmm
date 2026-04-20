@@ -265,6 +265,15 @@
 /obj/structure/window/openclose,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/villagegarrison)
+"ahg" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/generic,
+/obj/machinery/light/fueled/wallfire/candle/lamp{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town)
 "aho" = (
 /obj/structure/hotspring/border/six,
 /turf/open/floor/grass/mixyel,
@@ -9911,6 +9920,10 @@
 /obj/structure/chair/bench/ancientlog,
 /turf/open/floor/grass/cold,
 /area/outdoors/basin)
+"ghB" = (
+/obj/item/weapon/knife/copper,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/garrison)
 "ghM" = (
 /turf/open/floor/tile/kitchen,
 /area/indoors/town/noble_manor/red)
@@ -12222,6 +12235,12 @@
 /obj/effect/landmark/start/templar,
 /turf/open/floor/church,
 /area/indoors/town/church/chapel)
+"hBT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/generic,
+/obj/machinery/light/fueled/wallfire/candle/lamp,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town)
 "hCc" = (
 /obj/structure/fluff/walldeco/customflag{
 	name = "White Palace Pass flag"
@@ -15253,11 +15272,6 @@
 	},
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep/halls/w)
-"jBi" = (
-/obj/structure/window/solid,
-/obj/structure/bars,
-/turf/open/floor/ruinedwood/darker,
-/area/indoors/town/garrison)
 "jBB" = (
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 1
@@ -18704,6 +18718,12 @@
 /obj/structure/flora/newtree/snow,
 /turf/open/floor/grass/cold,
 /area/outdoors/town/noble_manor/blue)
+"lMZ" = (
+/obj/machinery/light/fueled/torchholder{
+	dir = 8
+	},
+/turf/open/floor/cobblerock,
+/area/indoors/town)
 "lNu" = (
 /obj/structure/closet/crate/chest/neu_iron,
 /obj/item/reagent_containers/food/snacks/hardtack,
@@ -19458,6 +19478,10 @@
 	},
 /turf/open/floor/metal/barograte,
 /area/indoors/town/clocktower)
+"mov" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/garrison)
 "mow" = (
 /obj/structure/chair/bench/couchablack/r,
 /obj/machinery/light/fueled/wallfire/candle,
@@ -19804,6 +19828,10 @@
 	},
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/basin)
+"mCD" = (
+/obj/machinery/light/fueled/wallfire/candle/lamp,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town)
 "mCR" = (
 /obj/structure/door/green{
 	name = "forest garrison barracks"
@@ -22293,6 +22321,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/merc_guild)
+"olq" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/garrison)
 "olr" = (
 /obj/structure/flora/grass/bush/wall/tall/tundra{
 	pixel_x = -17;
@@ -23039,6 +23071,11 @@
 /obj/item/natural/bundle/brick,
 /turf/open/floor/dirt/road,
 /area/indoors/town/noble_manor/yellow)
+"oKT" = (
+/obj/structure/closet/crate/chest/crate,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/turned,
+/area/outdoors/river)
 "oKW" = (
 /obj/structure/closet/crate/chest/old_crate,
 /turf/open/floor/ruinedwood/turned,
@@ -26745,6 +26782,11 @@
 /obj/machinery/light/fueled/forge,
 /turf/open/floor/dirt/road,
 /area/indoors/town/smithy)
+"rfW" = (
+/obj/item/bin,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/turned,
+/area/outdoors/river)
 "rgk" = (
 /obj/structure/fluff/walldeco/vinez/blue{
 	dir = 6
@@ -34262,6 +34304,15 @@
 /obj/item/gun/ballistic/bow/long,
 /turf/open/floor/cobble,
 /area/outdoors/basin)
+"vYI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/generic,
+/obj/machinery/light/fueled/wallfire/candle/lamp{
+	pixel_y = 0;
+	pixel_x = 32
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town)
 "vZA" = (
 /turf/closed/wall/mineral/wooddark/horizontal,
 /area/indoors/town/shop)
@@ -34507,6 +34558,13 @@
 /obj/item/weapon/hammer/iron,
 /turf/open/floor/dirt/road,
 /area/indoors/town/smithy)
+"wih" = (
+/obj/machinery/light/fueled/wallfire/candle/lamp{
+	pixel_y = 0;
+	pixel_x = 32
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town)
 "wip" = (
 /obj/structure/chair/hotspring_bench/right{
 	dir = 1
@@ -34607,6 +34665,13 @@
 /obj/structure/bookcase/random,
 /turf/open/floor/tile/diamond,
 /area/under/town/basement)
+"wli" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/open/floor/cobble/snow,
+/area/outdoors/town)
 "wlt" = (
 /obj/structure/fluff/walldeco/vinez/blue{
 	dir = 6
@@ -37395,6 +37460,11 @@
 /obj/structure/fermentation_keg/random/water,
 /turf/open/floor/tile/diamond/blue,
 /area/indoors/town/keep/knight)
+"ycb" = (
+/obj/effect/decal/remains/human,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/garrison)
 "yco" = (
 /mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/cobble,
@@ -104537,7 +104607,7 @@ nJJ
 tNf
 cxH
 wrz
-kmv
+ahg
 bEf
 cxH
 tNf
@@ -105946,7 +106016,7 @@ nJJ
 cxH
 uXM
 bEf
-cDC
+vYI
 bEf
 veW
 dnR
@@ -106355,7 +106425,7 @@ wMQ
 wMQ
 wMQ
 wMQ
-dnR
+lMZ
 wMQ
 dnR
 wMQ
@@ -106962,7 +107032,7 @@ wMQ
 dnR
 wMQ
 veW
-kFS
+mCD
 kmv
 veW
 nJJ
@@ -107155,7 +107225,7 @@ nJJ
 nJJ
 nJJ
 veW
-cDC
+hBT
 uDe
 cDC
 veW
@@ -108378,7 +108448,7 @@ wMQ
 veW
 rzi
 buM
-kFS
+wih
 rzi
 veW
 nJJ
@@ -109027,7 +109097,7 @@ bwY
 bwY
 bwY
 bwY
-hvK
+wli
 kKb
 rjc
 kKb
@@ -111627,7 +111697,7 @@ frJ
 hKN
 hKN
 frJ
-nYn
+oKT
 aoz
 rtv
 uxN
@@ -112435,7 +112505,7 @@ frJ
 uxN
 hKN
 frJ
-oYx
+rfW
 aoz
 nYn
 uxN
@@ -141366,9 +141436,9 @@ eTY
 eTY
 eTY
 eTY
-jBi
+snz
 mug
-mug
+ycb
 qjs
 swW
 mug
@@ -141568,10 +141638,10 @@ eTY
 eTY
 eTY
 eTY
-jBi
-mug
+snz
+ghB
 qNj
-qNj
+olq
 swW
 tOg
 eXC
@@ -141771,7 +141841,7 @@ eTY
 eTY
 eTY
 snz
-mug
+mov
 mug
 kUz
 tek
