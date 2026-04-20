@@ -34978,6 +34978,10 @@
 "wwU" = (
 /turf/open/floor/plank,
 /area/indoors/town/keep)
+"wxa" = (
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
 "wxp" = (
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/naturalstone,
@@ -147653,7 +147657,7 @@ pXj
 oOF
 oOF
 pXj
-bEf
+nYE
 bEf
 bEf
 xds
@@ -148054,7 +148058,7 @@ pXj
 pXj
 pXj
 tNf
-oOF
+wxa
 oOF
 tNf
 pXj
@@ -148461,7 +148465,7 @@ pXj
 oOF
 oOF
 pXj
-bEf
+nYE
 bEf
 bEf
 lhv
