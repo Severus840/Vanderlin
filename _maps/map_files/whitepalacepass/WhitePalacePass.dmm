@@ -17185,6 +17185,9 @@
 	},
 /turf/open/floor/churchrough,
 /area/indoors/town/church)
+"kIE" = (
+/turf/open/water/clean,
+/area/outdoors/town/keep)
 "kIS" = (
 /obj/structure/table/wood/plain_alt,
 /obj/item/key/graveyard,
@@ -35680,10 +35683,6 @@
 	},
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/cell)
-"wPe" = (
-/obj/structure/window/solid,
-/turf/open/water/clean,
-/area/indoors/town/keep/feast)
 "wPf" = (
 /obj/item/bin/water/gross,
 /obj/structure/fluff/railing/border{
@@ -181973,7 +181972,7 @@ dlO
 xDV
 dlO
 dlO
-rds
+xKL
 wsv
 tck
 gLm
@@ -182175,7 +182174,7 @@ oYH
 mON
 aCZ
 dlO
-rds
+xKL
 tck
 gLm
 gLm
@@ -183387,7 +183386,7 @@ dlO
 dlO
 dlO
 dlO
-wPe
+xKL
 tck
 gLm
 gLm
@@ -183589,7 +183588,7 @@ oRZ
 mlI
 dlO
 dlO
-wPe
+xKL
 wsv
 tck
 gLm
@@ -186820,7 +186819,7 @@ nJJ
 qbL
 fLA
 eSb
-eSb
+kIE
 eSb
 tck
 qDi
