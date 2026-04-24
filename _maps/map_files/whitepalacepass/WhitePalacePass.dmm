@@ -13711,8 +13711,8 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
 "ixW" = (
-/obj/structure/closet/dirthole/closed/loot,
 /obj/structure/gravemarker,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt/road,
 /area/indoors/town/church)
 "ixZ" = (
@@ -16259,9 +16259,9 @@
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/soilsons)
 "kia" = (
-/obj/structure/closet/dirthole/closed/loot,
 /obj/structure/gravemarker,
 /obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt/road,
 /area/indoors/town/church)
 "kii" = (
@@ -31639,11 +31639,11 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/clinic_large/apothecary)
 "ulA" = (
-/obj/structure/closet/dirthole/closed/loot,
 /obj/structure/gravemarker,
 /obj/effect/decal/cleanable/dirt/cobweb{
 	dir = 8
 	},
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt/road,
 /area/indoors/town/church)
 "ulC" = (
